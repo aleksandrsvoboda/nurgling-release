@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.343",
-  "published": "2026-09-21T16:15:42Z",
-  "gitRev": "0e3ac1d7a9464ebeba7ec23236878fdc61cdab67",
+  "version": "2.103.344",
+  "published": "2026-09-21T18:50:57Z",
+  "gitRev": "c4e4a2e14fe7ec4dca0db9a628a49acf8360dce9",
   "updater": "1.1.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.344",
+      "t": "Merge pull request #389 from aleksandrsvoboda/fix/plugin-linkage-errors"
+    },
     {
       "v": "2.103.343",
       "t": "Merge pull request #388 from aleksandrsvoboda/fix/lock-and-linux-renderer"
@@ -165,8 +169,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "d935bc882771d07e2ab7c84b1d1c7ea4c2c5f383c675979d8aec845200efa966",
-      "size": 39070665
+      "sha256": "07f8decd5a332f88b93009b233e31f61908566dfaf9d59580fec76e15eb08c31",
+      "size": 39070686
     },
     {
       "path": "haven-config.properties",
@@ -238,7 +242,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "340f16d0b9efac415a7d7acc270b154253dba6e9360a694d65c19c7360a5d6f4",
+      "sha256": "4874a04817a8b6e0072e4c6faefdf5e3950cf8af0f6f2b84870c1fbe3b45f7ab",
       "size": 21555432
     },
     {
@@ -301,7 +305,7 @@
     },
     {
       "path": "ver",
-      "sha256": "c596c507fade6cdc4ed5c05fcb77a7bc62bb8af0cbe5197bc8b58913bbf408d4",
+      "sha256": "4fb46981ee51f52d7fc820c33495c39a40e49f5e845f953d1b3d099a546769de",
       "size": 3378,
       "apply": "last"
     }
