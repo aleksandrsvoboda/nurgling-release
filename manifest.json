@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.341",
-  "published": "2026-09-21T13:10:11Z",
-  "gitRev": "2401c6c3498bf4bb569d128fab35362ad775c7e7",
+  "version": "2.103.342",
+  "published": "2026-09-21T13:17:05Z",
+  "gitRev": "3e66fa74468222b8814dc269e7df921c73b754e0",
   "updater": "1.0.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.342",
+      "t": "Merge pull request #387 from aleksandrsvoboda/fix/promote-verify-path"
+    },
     {
       "v": "2.103.341",
       "t": "Merge pull request #386 from aleksandrsvoboda/feat/cross-platform-updater"
@@ -150,7 +154,7 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "139da70e8fcdb428530df2280f7aea095c36661c49604da674f991dfd573822d",
+      "sha256": "325fdc977dfd6309c93c8124ef0c4df6a0b21ce5cd2ee21371af714c3e34d454",
       "size": 39070667
     },
     {
@@ -222,7 +226,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "e2e1a6d162a474c99a0db356d220b36a180621627b7004c6fc396fb27f82c1f3",
+      "sha256": "bcebb68e08ed1cd0359ac2c922ae2274a6b16d48f0d137be22b35065505b4aeb",
       "size": 21555432
     },
     {
@@ -285,7 +289,7 @@
     },
     {
       "path": "ver",
-      "sha256": "1a8651f1156b908f2a28ef8ed16cc167bb7d6ba77fdcdd5db9a8ea6f0878199c",
+      "sha256": "797633821af00dcda9dab1b8f5319428bf3b8fcc550443b1cd7eae58e2b6a289",
       "size": 3378,
       "apply": "last"
     }
