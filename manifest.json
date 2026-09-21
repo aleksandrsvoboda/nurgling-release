@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.342",
-  "published": "2026-09-21T13:17:05Z",
-  "gitRev": "3e66fa74468222b8814dc269e7df921c73b754e0",
-  "updater": "1.0.0",
+  "version": "2.103.343",
+  "published": "2026-09-21T16:15:42Z",
+  "gitRev": "0e3ac1d7a9464ebeba7ec23236878fdc61cdab67",
+  "updater": "1.1.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.343",
+      "t": "Merge pull request #388 from aleksandrsvoboda/fix/lock-and-linux-renderer"
+    },
     {
       "v": "2.103.342",
       "t": "Merge pull request #387 from aleksandrsvoboda/fix/promote-verify-path"
@@ -22,7 +26,7 @@
     "os": {
       "windows": ["-Dsun.java2d.win.uiScaleX=1.0", "-Dsun.java2d.win.uiScaleY=1.0"],
       "macos": ["-Xdock:name=Nurgling", "-Dapple.awt.application.name=Nurgling"],
-      "linux": ["-Dhaven.toolkit=lwjgl"]
+      "linux": []
     },
     "heap": {
       "min": "1024m",
@@ -61,6 +65,13 @@
     }
   },
   "files": [
+    {
+      "path": "haven-config.properties",
+      "sha256": "1deb376e8b297c328ebad2d03444c5cf3febea820b7e42952f1d9075ca8038a2",
+      "size": 466,
+      "os": ["linux"],
+      "src": "platform/linux/haven-config.properties"
+    },
     {
       "path": "gluegen-rt-natives-macosx-universal.jar",
       "sha256": "3dbd5d054f108c3f8c0c07281e6e3494b85b89b0d8b3f0fbef4bf6c41ca254ec",
@@ -154,13 +165,14 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "325fdc977dfd6309c93c8124ef0c4df6a0b21ce5cd2ee21371af714c3e34d454",
-      "size": 39070667
+      "sha256": "d935bc882771d07e2ab7c84b1d1c7ea4c2c5f383c675979d8aec845200efa966",
+      "size": 39070665
     },
     {
       "path": "haven-config.properties",
       "sha256": "8f7578ee3a4771cb5da97afcfb3d0e8c14fb9d058691e83025c21b4564d045b3",
-      "size": 443
+      "size": 443,
+      "os": ["windows", "macos"]
     },
     {
       "path": "jogl-all-natives-linux-aarch64.jar",
@@ -226,12 +238,12 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "bcebb68e08ed1cd0359ac2c922ae2274a6b16d48f0d137be22b35065505b4aeb",
+      "sha256": "340f16d0b9efac415a7d7acc270b154253dba6e9360a694d65c19c7360a5d6f4",
       "size": 21555432
     },
     {
       "path": "nurgling-updater.jar",
-      "sha256": "27a24bd0772ed2ddab3ade7413c5efed12878edcfebee43cb08e986cd83fcbc5",
+      "sha256": "5940b28226a7459f38c0023178b034975884915f92c1bb6f50da53153130fc04",
       "size": 11500,
       "apply": "deferred"
     },
@@ -283,16 +295,49 @@
     },
     {
       "path": "updater/core.jar",
-      "sha256": "1f89493678482fcfc9fb2cd58ad1471d5afd1a743970dcef5bca35cf330d4b19",
-      "size": 2125020,
+      "sha256": "cc2e76cfbf736f650581bc637c13e2db0ced9b5a8601e3fb75d8ce4c1233d70b",
+      "size": 2216701,
       "apply": "deferred"
     },
     {
       "path": "ver",
-      "sha256": "797633821af00dcda9dab1b8f5319428bf3b8fcc550443b1cd7eae58e2b6a289",
+      "sha256": "c596c507fade6cdc4ed5c05fcb77a7bc62bb8af0cbe5197bc8b58913bbf408d4",
       "size": 3378,
       "apply": "last"
     }
   ],
-  "obsolete": []
+  "obsolete": [],
+  "apps": {
+    "scheduler": {
+      "name": "HnH Scheduler",
+      "version": "1.6.4",
+      "repo": "aleksandrsvoboda/hnh-scheduler",
+      "platforms": {
+        "windows-x64": {
+          "kind": "nsis",
+          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.4/HnH.Scheduler.Setup.exe",
+          "sha256": "68ac99ecfc9729b3fd3978f1a415a6f310a5a14b59243114132b6db9ca8b90f4",
+          "size": 74097636
+        },
+        "macos-x64": {
+          "kind": "dmg",
+          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.4/HnH.Scheduler.dmg",
+          "sha256": "98a5544c604dab966cb36743b24808e126b80ec2d36aa7e556e6fd29566cae5a",
+          "size": 99391647
+        },
+        "macos-arm64": {
+          "kind": "dmg",
+          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.4/HnH.Scheduler.dmg",
+          "sha256": "98a5544c604dab966cb36743b24808e126b80ec2d36aa7e556e6fd29566cae5a",
+          "size": 99391647
+        },
+        "linux-x64": {
+          "kind": "appimage",
+          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.4/hnh-scheduler_1.6.4_x86_64.AppImage",
+          "sha256": "66545d5e6a336a95bc3a16d177b3a8b3f76f67b3a3a3dbee962857a6b87f3188",
+          "size": 104077196
+        }
+      }
+    }
+  }
 }
