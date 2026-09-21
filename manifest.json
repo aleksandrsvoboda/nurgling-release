@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.344",
-  "published": "2026-09-21T18:50:57Z",
+  "version": "2.103.345",
+  "published": "2026-09-21T19:07:56Z",
   "gitRev": "c4e4a2e14fe7ec4dca0db9a628a49acf8360dce9",
-  "updater": "1.1.0",
+  "updater": "1.2.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.345",
+      "t": "Merge pull request #389 from aleksandrsvoboda/fix/plugin-linkage-errors"
+    },
     {
       "v": "2.103.344",
       "t": "Merge pull request #389 from aleksandrsvoboda/fix/plugin-linkage-errors"
@@ -169,7 +173,7 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "07f8decd5a332f88b93009b233e31f61908566dfaf9d59580fec76e15eb08c31",
+      "sha256": "efab6714bd9debe32ea44c2a760dd110778febdac3cc3d36dd1b424743b81700",
       "size": 39070686
     },
     {
@@ -242,13 +246,13 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "4874a04817a8b6e0072e4c6faefdf5e3950cf8af0f6f2b84870c1fbe3b45f7ab",
+      "sha256": "e3a77f07d089784a270ede2a712daf8d982f36ccd9e2dfb9a193e715ca70302f",
       "size": 21555432
     },
     {
       "path": "nurgling-updater.jar",
-      "sha256": "5940b28226a7459f38c0023178b034975884915f92c1bb6f50da53153130fc04",
-      "size": 11500,
+      "sha256": "87ba7caede8170434b04b24be85613154ef5f2043949a8cbc228b61f685a370f",
+      "size": 11501,
       "apply": "deferred"
     },
     {
@@ -299,13 +303,13 @@
     },
     {
       "path": "updater/core.jar",
-      "sha256": "cc2e76cfbf736f650581bc637c13e2db0ced9b5a8601e3fb75d8ce4c1233d70b",
-      "size": 2216701,
+      "sha256": "5292a7783aa475d5a2698e9b5f1c5afdfa3aeece2929d83489e1d9e9507b606f",
+      "size": 2274587,
       "apply": "deferred"
     },
     {
       "path": "ver",
-      "sha256": "4fb46981ee51f52d7fc820c33495c39a40e49f5e845f953d1b3d099a546769de",
+      "sha256": "80c10566525110584498fc9bec32afd87ed0841be6f35055330a0027b21e71ad",
       "size": 3378,
       "apply": "last"
     }
