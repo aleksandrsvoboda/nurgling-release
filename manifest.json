@@ -1,0 +1,294 @@
+{
+  "schema": 1,
+  "version": "2.103.341",
+  "published": "2026-09-21T13:10:11Z",
+  "gitRev": "2401c6c3498bf4bb569d128fab35362ad775c7e7",
+  "updater": "1.0.0",
+  "minUpdater": "1.0.0",
+  "notes": [
+    {
+      "v": "2.103.341",
+      "t": "Merge pull request #386 from aleksandrsvoboda/feat/cross-platform-updater"
+    }
+  ],
+  "launch": {
+    "mainJar": "hafen.jar",
+    "minJava": 17,
+    "jvm": ["-Xss8m", "-Dsun.java2d.uiScale.enabled=false", "--add-exports=java.desktop/sun.awt=ALL-UNNAMED"],
+    "os": {
+      "windows": ["-Dsun.java2d.win.uiScaleX=1.0", "-Dsun.java2d.win.uiScaleY=1.0"],
+      "macos": ["-Xdock:name=Nurgling", "-Dapple.awt.application.name=Nurgling"],
+      "linux": ["-Dhaven.toolkit=lwjgl"]
+    },
+    "heap": {
+      "min": "1024m",
+      "max": "4096m"
+    }
+  },
+  "runtime": {
+    "vendor": "temurin",
+    "version": "21.0.12.1+1",
+    "platforms": {
+      "windows-x64": {
+        "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_x64_windows_hotspot_21.0.12.1_1.zip",
+        "sha256": "d35f31e712f0fcf6ac5a093edc90204fbff22f720ba3950bd09d331d5e621636",
+        "size": 48999141
+      },
+      "macos-arm64": {
+        "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.12.1_1.tar.gz",
+        "sha256": "dec50fc6f9fcd4fe3ae8cabf5a5fa68f6afc48841f7698e468e9aa5d54beed84",
+        "size": 48144965
+      },
+      "macos-x64": {
+        "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_x64_mac_hotspot_21.0.12.1_1.tar.gz",
+        "sha256": "6717ec641fd9ce0bb209ca083ee23b42202ac68cb6fcc5753496e0e4a0f41989",
+        "size": 42131876
+      },
+      "linux-x64": {
+        "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_x64_linux_hotspot_21.0.12.1_1.tar.gz",
+        "sha256": "2413149700df0f7d440500a84a8f764c535f21e5a5e87d38328b64eec2c5b500",
+        "size": 52059408
+      },
+      "linux-arm64": {
+        "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.12.1_1.tar.gz",
+        "sha256": "14be1f35ebdbd1f6e8d57eb911a3ffb74d6d9aa255abc5daf2b1302002cf2cf2",
+        "size": 51149460
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "gluegen-rt-natives-macosx-universal.jar",
+      "sha256": "3dbd5d054f108c3f8c0c07281e6e3494b85b89b0d8b3f0fbef4bf6c41ca254ec",
+      "size": 9433,
+      "os": ["macos"],
+      "src": "platform/macos/gluegen-rt-natives-macosx-universal.jar"
+    },
+    {
+      "path": "gluegen-rt.jar",
+      "sha256": "3620c18536a8671fcb1c595d7448e9d31226b824117af6a4c6d45c657f4dabe3",
+      "size": 387897,
+      "os": ["macos"],
+      "src": "platform/macos/gluegen-rt.jar"
+    },
+    {
+      "path": "jogl-all-natives-macosx-universal.jar",
+      "sha256": "032e56167443a80f9f4477fbeef255e59988c6cd5237a151b948bde4bcb7c80c",
+      "size": 463991,
+      "os": ["macos"],
+      "src": "platform/macos/jogl-all-natives-macosx-universal.jar"
+    },
+    {
+      "path": "jogl-all.jar",
+      "sha256": "245717cceabca264a210a899f8839d47bd127f50f80892ead2277dd89cbcd301",
+      "size": 3741453,
+      "os": ["macos"],
+      "src": "platform/macos/jogl-all.jar"
+    },
+    {
+      "path": "Nurgling.bat",
+      "sha256": "9632f7376d9897ae25c071ff4ce8683809d1ee1469a6fa836863596056032147",
+      "size": 1437
+    },
+    {
+      "path": "Nurgling.command",
+      "sha256": "d3dbd07206da98e23f8b67874e25202e15a1a41f7320b1057798142bc0b43a1d",
+      "size": 163,
+      "exec": true
+    },
+    {
+      "path": "builtin-res.jar",
+      "sha256": "bc7913867bb2beabdc1fedce83f2725483bdfb588a89ab74b928a3bcf2537da8",
+      "size": 12714756
+    },
+    {
+      "path": "gluegen-rt-natives-linux-aarch64.jar",
+      "sha256": "80212da01efa00b56573dca0f22adec1e26670eaf58d6183367c9c9d5b16b8b1",
+      "size": 3750,
+      "os": ["linux"]
+    },
+    {
+      "path": "gluegen-rt-natives-linux-amd64.jar",
+      "sha256": "062b6cd9a1cddb3e38b63c824d4aeab1067319e9bd908ac18439abf3cd795b69",
+      "size": 4345,
+      "os": ["linux"]
+    },
+    {
+      "path": "gluegen-rt-natives-linux-armv6hf.jar",
+      "sha256": "2c99b500b72b912bb7ba33f0c45b6ad2f1f37b1d19106296c4c6a8f6d25aece2",
+      "size": 3512,
+      "os": ["linux"]
+    },
+    {
+      "path": "gluegen-rt-natives-linux-i586.jar",
+      "sha256": "77aac24b47d9b0df2d9be750c9c57e73d5cd425e371757167dfa1559ca3b7b5b",
+      "size": 4496,
+      "os": ["linux"]
+    },
+    {
+      "path": "gluegen-rt-natives-windows-amd64.jar",
+      "sha256": "dd2a4bceb583290575ee3d0ff4e90dff2b9d9c5c10f2f5981680dbeae0a6ea31",
+      "size": 8709,
+      "os": ["windows"]
+    },
+    {
+      "path": "gluegen-rt-natives-windows-i586.jar",
+      "sha256": "985eeb02eb0152297cc72b596c4a7ad883242f4f1def4e35e0e7cc49f5f551f9",
+      "size": 7536,
+      "os": ["windows"]
+    },
+    {
+      "path": "gluegen-rt.jar",
+      "sha256": "1a196212a1dd07b708d5039805a040f00b2b3b975ad332009ac5fc8b4d2b418f",
+      "size": 360964,
+      "os": ["windows", "linux"]
+    },
+    {
+      "path": "hafen-res.jar",
+      "sha256": "9be265e7ca5ff0c1361bd2f1a4ce33e07fe41993ef584fce5ce24924bb314605",
+      "size": 39681258
+    },
+    {
+      "path": "hafen.jar",
+      "sha256": "139da70e8fcdb428530df2280f7aea095c36661c49604da674f991dfd573822d",
+      "size": 39070667
+    },
+    {
+      "path": "haven-config.properties",
+      "sha256": "8f7578ee3a4771cb5da97afcfb3d0e8c14fb9d058691e83025c21b4564d045b3",
+      "size": 443
+    },
+    {
+      "path": "jogl-all-natives-linux-aarch64.jar",
+      "sha256": "994dfe10ecb77e1c8efd677b840ea7bd01664669724ac23aa82c6dbfb5beab6b",
+      "size": 255353,
+      "os": ["linux"]
+    },
+    {
+      "path": "jogl-all-natives-linux-amd64.jar",
+      "sha256": "595df3e5afa85877947faf2574ca9aea96414750c32c79040a952a2165fcfe1e",
+      "size": 244529,
+      "os": ["linux"]
+    },
+    {
+      "path": "jogl-all-natives-linux-armv6hf.jar",
+      "sha256": "2d9b92f3afb1c894a81f017ad6f09269f2a431d2ebddc9072685b5a567a02498",
+      "size": 204440,
+      "os": ["linux"]
+    },
+    {
+      "path": "jogl-all-natives-linux-i586.jar",
+      "sha256": "781992c3f35e610481edacdcc13f87f4eacb6c08605fda05695c1ca90bf7c956",
+      "size": 264440,
+      "os": ["linux"]
+    },
+    {
+      "path": "jogl-all-natives-windows-amd64.jar",
+      "sha256": "47466cdc925dbb18e5e6222fa6c0b3c99233fd7996f71a341cebc4d525fe4dc1",
+      "size": 227088,
+      "os": ["windows"]
+    },
+    {
+      "path": "jogl-all-natives-windows-i586.jar",
+      "sha256": "3cf5d9f4ae33eef98762e49ac4592549b3dcf2c265653fcb44912742ca648458",
+      "size": 198933,
+      "os": ["windows"]
+    },
+    {
+      "path": "jogl-all.jar",
+      "sha256": "69a1139f2546d78cb5bc195bb3397a91071ea5481851229825f7b9c3b6583c64",
+      "size": 3568895,
+      "os": ["windows", "linux"]
+    },
+    {
+      "path": "json-java.jar",
+      "sha256": "7004007a9fd87fe1d86f673b472c0372e5bc50bacb724c029a6112d7c4b4a640",
+      "size": 73447
+    },
+    {
+      "path": "lwjgl-awt.jar",
+      "sha256": "b5803970dbde63797ad91774c6e81d610123e131ba0660e789082b7f0435b52a",
+      "size": 62833
+    },
+    {
+      "path": "lwjgl-fat.jar",
+      "sha256": "946648a2ab0df3e400faa4851d4043f08cc5ec4f976f7d3b3fb965b895acc936",
+      "size": 2148455
+    },
+    {
+      "path": "lwjgl-opengl-fat.jar",
+      "sha256": "525c58f51bd91563f0a2dc5aacce8dcf8ca27e73002d364034c37174c6e02710",
+      "size": 1738587
+    },
+    {
+      "path": "nurgling-res.jar",
+      "sha256": "e2e1a6d162a474c99a0db356d220b36a180621627b7004c6fc396fb27f82c1f3",
+      "size": 21555432
+    },
+    {
+      "path": "nurgling-updater.jar",
+      "sha256": "27a24bd0772ed2ddab3ade7413c5efed12878edcfebee43cb08e986cd83fcbc5",
+      "size": 11500,
+      "apply": "deferred"
+    },
+    {
+      "path": "nurgling.sh",
+      "sha256": "3a6f61d6a756fe33ecf9f5bef4fbbbd3e71174ef1172b972322a928a51f42ef9",
+      "size": 1322,
+      "exec": true
+    },
+    {
+      "path": "nurgling_launcher.jar",
+      "sha256": "36bcf3d20bafef89e1b01a95cdf302bcbb8fb55040f09cd1e9e5612a820c9b4c",
+      "size": 603510
+    },
+    {
+      "path": "postgresql-42.7.5.jar",
+      "sha256": "69020b3bd20984543e817393f2e6c01a890ef2e37a77dd11d6d8508181d079ab",
+      "size": 1087908
+    },
+    {
+      "path": "run.bat",
+      "sha256": "ab47406156301f7861bf57ce3d85caebd8ae91bf13625b8dc4c95b298b48b9df",
+      "size": 197
+    },
+    {
+      "path": "run8.bat",
+      "sha256": "88af13061f45134113e0e25bd8067defcbea48ebf571be7af2d8a6cb340490e5",
+      "size": 28
+    },
+    {
+      "path": "run_updater.bat",
+      "sha256": "2371c5b8dd0bf6b6e08c113ed7fe1efcb84673b19047fed83d39650810af4de4",
+      "size": 306
+    },
+    {
+      "path": "run_updater_latest.bat",
+      "sha256": "57a82db8cd21f791a8604ab7a4a85d73eeb8c755e0b5ff3d99941ec3d68b4855",
+      "size": 307
+    },
+    {
+      "path": "run_updater_stable.bat",
+      "sha256": "34bb73924b684f3a34b355cf98743542b3403472a10e617e8578ea5440f5ddad",
+      "size": 307
+    },
+    {
+      "path": "sqlite-jdbc-3.49.1.0.jar",
+      "sha256": "5c8609d2ca341deb8c6f71778974b5ba4995c7d32d7c7c89d9392a3e72c39291",
+      "size": 14317659
+    },
+    {
+      "path": "updater/core.jar",
+      "sha256": "1f89493678482fcfc9fb2cd58ad1471d5afd1a743970dcef5bca35cf330d4b19",
+      "size": 2125020,
+      "apply": "deferred"
+    },
+    {
+      "path": "ver",
+      "sha256": "1a8651f1156b908f2a28ef8ed16cc167bb7d6ba77fdcdd5db9a8ea6f0878199c",
+      "size": 3378,
+      "apply": "last"
+    }
+  ],
+  "obsolete": []
+}
