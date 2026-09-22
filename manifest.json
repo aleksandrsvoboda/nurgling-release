@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.346",
-  "published": "2026-09-22T00:30:19Z",
-  "gitRev": "8d0651cf27b4c5ac6c8d478ad4d181fbd2364bb3",
+  "version": "2.103.347",
+  "published": "2026-09-22T03:20:22Z",
+  "gitRev": "af966add4f60bce234796c27ac151004651ae612",
   "updater": "1.2.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.347",
+      "t": "Merge pull request #391 from aleksandrsvoboda/fix/stacking-brain"
+    },
     {
       "v": "2.103.346",
       "t": "Merge pull request #390 from aleksandrsvoboda/fix/cattle-roster-fix"
@@ -177,8 +181,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "8443357251f90e1c8a33ab3430141c02c13c33bffc46cb52a8e1efc2f99e6216",
-      "size": 39070749
+      "sha256": "14ff53fe76ce065bfe38842ba1fde286ba644ae6336c5c8f4d1783e1d2c7ef05",
+      "size": 39070818
     },
     {
       "path": "haven-config.properties",
@@ -250,7 +254,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "9e6090569a076636ca1a25e0dd9e28b78886861b1f1466e3293ae4f00d65d9c6",
+      "sha256": "c422f167f7ddc103299cc0bd7bba0316fa4c0cfcb68cb3054a2d3216c6250742",
       "size": 21555432
     },
     {
@@ -313,7 +317,7 @@
     },
     {
       "path": "ver",
-      "sha256": "6ef158db70b816be2a4676572eb2a1f0ab16d826d6dd33e7dd6d90e244659e78",
+      "sha256": "826dbd0468e5da60d6dc20ddf49604f94a07cbf97bbd9df1d09e78cf393e1d07",
       "size": 3378,
       "apply": "last"
     }
