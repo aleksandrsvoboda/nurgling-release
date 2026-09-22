@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.345",
-  "published": "2026-09-21T19:07:56Z",
-  "gitRev": "c4e4a2e14fe7ec4dca0db9a628a49acf8360dce9",
+  "version": "2.103.346",
+  "published": "2026-09-22T00:30:19Z",
+  "gitRev": "8d0651cf27b4c5ac6c8d478ad4d181fbd2364bb3",
   "updater": "1.2.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.346",
+      "t": "Merge pull request #390 from aleksandrsvoboda/fix/cattle-roster-fix"
+    },
     {
       "v": "2.103.345",
       "t": "Merge pull request #389 from aleksandrsvoboda/fix/plugin-linkage-errors"
@@ -173,8 +177,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "efab6714bd9debe32ea44c2a760dd110778febdac3cc3d36dd1b424743b81700",
-      "size": 39070686
+      "sha256": "8443357251f90e1c8a33ab3430141c02c13c33bffc46cb52a8e1efc2f99e6216",
+      "size": 39070749
     },
     {
       "path": "haven-config.properties",
@@ -246,7 +250,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "e3a77f07d089784a270ede2a712daf8d982f36ccd9e2dfb9a193e715ca70302f",
+      "sha256": "9e6090569a076636ca1a25e0dd9e28b78886861b1f1466e3293ae4f00d65d9c6",
       "size": 21555432
     },
     {
@@ -309,7 +313,7 @@
     },
     {
       "path": "ver",
-      "sha256": "80c10566525110584498fc9bec32afd87ed0841be6f35055330a0027b21e71ad",
+      "sha256": "6ef158db70b816be2a4676572eb2a1f0ab16d826d6dd33e7dd6d90e244659e78",
       "size": 3378,
       "apply": "last"
     }
