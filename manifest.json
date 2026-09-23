@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.348",
-  "published": "2026-09-22T03:48:55Z",
-  "gitRev": "5811d212739e3761053d9b39812bb75c36ef4ddb",
+  "version": "2.103.349",
+  "published": "2026-09-23T00:29:56Z",
+  "gitRev": "f8e9f7d67b710671651249e622ed04135daa261c",
   "updater": "1.2.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.349",
+      "t": "fix stacking"
+    },
     {
       "v": "2.103.348",
       "t": "Merge pull request #392 from aleksandrsvoboda/feat/lock-decal"
@@ -185,8 +189,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "bd4d5ea51a45ebc22f6955956f84c7a4f1c6edb2cd007725d7ace14b0fb4a591",
-      "size": 39073785
+      "sha256": "92cbe5541c2d42e1b7cdd0bdd8720655e8fe98697b752ed77c7b7afad69a69e9",
+      "size": 39073814
     },
     {
       "path": "haven-config.properties",
@@ -258,7 +262,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "e4b933d1268024a0f5d6496a5594f17a4e76b8b866cea00c395709b58037f174",
+      "sha256": "b2b9fb956ce1e19b2512c4db7f3ca63316d3a94e724ca3d73450150302bdd8ba",
       "size": 21555432
     },
     {
@@ -321,7 +325,7 @@
     },
     {
       "path": "ver",
-      "sha256": "85b0c0b4264e0637ce20cc899c3067f5fab539bde76edc472fc7ef5f006c2be5",
+      "sha256": "9f68088329b5b4c35588c4f343f3d4d85942cff18a856dc59b532bdb2417b6c3",
       "size": 3378,
       "apply": "last"
     }
