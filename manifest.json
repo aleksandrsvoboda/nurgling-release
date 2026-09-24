@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.352",
-  "published": "2026-09-24T02:36:02Z",
-  "gitRev": "c0ce022e91586036d3849fa5418695d0376a80fa",
+  "version": "2.103.353",
+  "published": "2026-09-24T02:39:15Z",
+  "gitRev": "563dc0c1d2b16c4f98e3577365e8d5e81654564b",
   "updater": "1.2.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.353",
+      "t": "Merge pull request #394 from aleksandrsvoboda/feat/cheese-rate-bot"
+    },
     {
       "v": "2.103.352",
       "t": "Merge pull request #396 from aleksandrsvoboda/feat/cave-angler-aggro-radius"
@@ -201,8 +205,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "373d19c24d8cf42139a9ae3397032f7690562d5564c9405ceebd9e2501f4bce2",
-      "size": 39073905
+      "sha256": "14ab7774a34fb9bca166e589684a83b8c3fedd75cb2bfb5d7da78e251b013f7d",
+      "size": 39153812
     },
     {
       "path": "haven-config.properties",
@@ -274,8 +278,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "58fde62dde971822658b13c17b311a666c547ac4ca094b20c4268f4a5b7e8eb7",
-      "size": 21555432
+      "sha256": "2d43155ea706968a82cd50db50e089dd9e605a590d6c08fc221bb4e3aeaa5bca",
+      "size": 21562418
     },
     {
       "path": "nurgling-updater.jar",
@@ -337,7 +341,7 @@
     },
     {
       "path": "ver",
-      "sha256": "5e89781f846db30b6855bcc1bd0487aec92ea83c010051056cbd9079c2c75646",
+      "sha256": "71569aadcbb99356ff768b94331efcc417544ced0383f9941c27766f14619f97",
       "size": 3378,
       "apply": "last"
     }
