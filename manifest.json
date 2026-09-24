@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.353",
-  "published": "2026-09-24T02:39:15Z",
+  "version": "2.103.354",
+  "published": "2026-09-24T03:13:28Z",
   "gitRev": "563dc0c1d2b16c4f98e3577365e8d5e81654564b",
-  "updater": "1.2.0",
+  "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.354",
+      "t": "Merge pull request #394 from aleksandrsvoboda/feat/cheese-rate-bot"
+    },
     {
       "v": "2.103.353",
       "t": "Merge pull request #394 from aleksandrsvoboda/feat/cheese-rate-bot"
@@ -205,7 +209,7 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "14ab7774a34fb9bca166e589684a83b8c3fedd75cb2bfb5d7da78e251b013f7d",
+      "sha256": "c36fba0d74ace1511843eebf9731f4184b9deb3d49882450086ec575e1db9bf6",
       "size": 39153812
     },
     {
@@ -278,12 +282,12 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "2d43155ea706968a82cd50db50e089dd9e605a590d6c08fc221bb4e3aeaa5bca",
+      "sha256": "da066d7a5b3a8d0cc195559633bf6ba8e292dc183ef2894b1066c43ffb5873ff",
       "size": 21562418
     },
     {
       "path": "nurgling-updater.jar",
-      "sha256": "87ba7caede8170434b04b24be85613154ef5f2043949a8cbc228b61f685a370f",
+      "sha256": "0cd31e68e76415c61e1fd14c78b1a2b029fc89000a12f98b15240081f5020674",
       "size": 11501,
       "apply": "deferred"
     },
@@ -335,13 +339,13 @@
     },
     {
       "path": "updater/core.jar",
-      "sha256": "5292a7783aa475d5a2698e9b5f1c5afdfa3aeece2929d83489e1d9e9507b606f",
-      "size": 2274587,
+      "sha256": "816849d7108456707827752250fc1e7d237ba4fc6fd953ab55b8e0de2603c5cd",
+      "size": 2274805,
       "apply": "deferred"
     },
     {
       "path": "ver",
-      "sha256": "71569aadcbb99356ff768b94331efcc417544ced0383f9941c27766f14619f97",
+      "sha256": "d7acb8c97689e84513e6ace05aa463b45da03fdafecf4b41d087e9c4c8e461f1",
       "size": 3378,
       "apply": "last"
     }
@@ -350,32 +354,32 @@
   "apps": {
     "scheduler": {
       "name": "HnH Scheduler",
-      "version": "1.6.4",
+      "version": "1.6.5",
       "repo": "aleksandrsvoboda/hnh-scheduler",
       "platforms": {
         "windows-x64": {
           "kind": "nsis",
-          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.4/HnH.Scheduler.Setup.exe",
-          "sha256": "68ac99ecfc9729b3fd3978f1a415a6f310a5a14b59243114132b6db9ca8b90f4",
-          "size": 74097636
+          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.5/HnH.Scheduler.Setup.exe",
+          "sha256": "1640cce1a7c9d1040156ad2d97b5cc63aab65e21e896a43ffeaea4506af6100d",
+          "size": 74097924
         },
         "macos-x64": {
           "kind": "dmg",
-          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.4/HnH.Scheduler.dmg",
-          "sha256": "98a5544c604dab966cb36743b24808e126b80ec2d36aa7e556e6fd29566cae5a",
-          "size": 99391647
+          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.5/HnH.Scheduler.dmg",
+          "sha256": "20bd3b63debc4b24d239e0ea1d76fe252d977ab85a3836a68df52dc5c6566636",
+          "size": 99406668
         },
         "macos-arm64": {
           "kind": "dmg",
-          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.4/HnH.Scheduler.dmg",
-          "sha256": "98a5544c604dab966cb36743b24808e126b80ec2d36aa7e556e6fd29566cae5a",
-          "size": 99391647
+          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.5/HnH.Scheduler.dmg",
+          "sha256": "20bd3b63debc4b24d239e0ea1d76fe252d977ab85a3836a68df52dc5c6566636",
+          "size": 99406668
         },
         "linux-x64": {
           "kind": "appimage",
-          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.4/hnh-scheduler_1.6.4_x86_64.AppImage",
-          "sha256": "66545d5e6a336a95bc3a16d177b3a8b3f76f67b3a3a3dbee962857a6b87f3188",
-          "size": 104077196
+          "url": "https://github.com/aleksandrsvoboda/hnh-scheduler/releases/download/v1.6.5/hnh-scheduler_1.6.5_x86_64.AppImage",
+          "sha256": "7f3c9926d3f8e9900892a077e9a47d41fe6db2f5537096476944af28ac06073a",
+          "size": 104081825
         }
       }
     }
