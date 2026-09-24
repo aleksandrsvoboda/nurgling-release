@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.350",
-  "published": "2026-09-23T01:25:33Z",
-  "gitRev": "bec67c05235d61f813ee6ebaecc97bdc44272dca",
+  "version": "2.103.351",
+  "published": "2026-09-24T02:27:21Z",
+  "gitRev": "b09f57a2ca7ccb3521c344de4dee2028970b9b00",
   "updater": "1.2.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.351",
+      "t": "Merge pull request #395 from aleksandrsvoboda/feat/more-stack-supporting"
+    },
     {
       "v": "2.103.350",
       "t": "Merge pull request #393 from aleksandrsvoboda/fix/more-stack-fixes"
@@ -193,8 +197,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "54633af1c1788f763b9c068eba54c73df494d254dea49398843b3bfcbba01b91",
-      "size": 39073892
+      "sha256": "6b87b226cd7f4a5455bdb325a17596a9276e0004d6f1ab1fe4da7cc90e0a7c86",
+      "size": 39073872
     },
     {
       "path": "haven-config.properties",
@@ -266,7 +270,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "335ca8618015492eb47584da68086f5c89aae4f6e30559324bb100867e89cef7",
+      "sha256": "f4cfa66c797f31d888e2100f6853603164c89d38e3aa57cc64f4d01776be720f",
       "size": 21555432
     },
     {
@@ -329,7 +333,7 @@
     },
     {
       "path": "ver",
-      "sha256": "160ace0c1dd73a7ad15a5e562cf20813d3294fcfe8d1367642544e9613c7a20d",
+      "sha256": "e2a306b8980635fc15707a82ad967d0284ba91923f16384801a507d68863bf74",
       "size": 3378,
       "apply": "last"
     }
