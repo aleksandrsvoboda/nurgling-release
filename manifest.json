@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.356",
-  "published": "2026-09-25T00:40:24Z",
-  "gitRev": "f49c3e45e1f93b92bd8633ba534c7e92c7d91826",
+  "version": "2.103.357",
+  "published": "2026-09-25T02:47:45Z",
+  "gitRev": "7476ae6c66dd295b1cad176593e6cd07ee983028",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.357",
+      "t": "Fix icon"
+    },
     {
       "v": "2.103.356",
       "t": "Merge pull request #399 from aleksandrsvoboda/feat/todo-list"
@@ -217,7 +221,7 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "0404b90a5c8714e6d8ccaf3cb52af7aa341cd35c4e3743f36291e739311582a8",
+      "sha256": "c66b20e8af59d7bf8afc7322aa0bf62d939559317cf0f524fe59e16e0345b532",
       "size": 39253995
     },
     {
@@ -290,7 +294,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "b09b00fee1399f8a4aabd2489f59104126475cc76a222ce73eb6a3d62db6f4aa",
+      "sha256": "1ef7888a5ca6463014d47983c49004d4bbe72333fd4eaba78ee81ce2bab79084",
       "size": 21582769
     },
     {
@@ -353,7 +357,7 @@
     },
     {
       "path": "ver",
-      "sha256": "db1fa2f25bfba9bd4955e2050557778b71d8ff2889d4f0791b1b31e4508b6853",
+      "sha256": "09ee7f98cdc3c0f622a18c081a623d4b5be5c713861db3b8cf47f0ee5058f0f4",
       "size": 3378,
       "apply": "last"
     }
