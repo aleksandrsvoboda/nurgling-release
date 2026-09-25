@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.357",
-  "published": "2026-09-25T02:47:45Z",
-  "gitRev": "7476ae6c66dd295b1cad176593e6cd07ee983028",
+  "version": "2.103.358",
+  "published": "2026-09-25T03:07:10Z",
+  "gitRev": "d96a314176139e5fdde3528fc432e36eeb19bbe0",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.358",
+      "t": "Merge pull request #400 from aleksandrsvoboda/feat/cattle-roster-numbers"
+    },
     {
       "v": "2.103.357",
       "t": "Fix icon"
@@ -221,8 +225,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "c66b20e8af59d7bf8afc7322aa0bf62d939559317cf0f524fe59e16e0345b532",
-      "size": 39253995
+      "sha256": "230bfa77d1267b4df135c18577a0d9efe15696790350664c540f8c7bc5a2ceb2",
+      "size": 39254341
     },
     {
       "path": "haven-config.properties",
@@ -294,7 +298,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "1ef7888a5ca6463014d47983c49004d4bbe72333fd4eaba78ee81ce2bab79084",
+      "sha256": "0ec8636dc187a031dd3e36595f18238ffa0d57c2918a66927a5b14d609cb9dd7",
       "size": 21582769
     },
     {
@@ -357,7 +361,7 @@
     },
     {
       "path": "ver",
-      "sha256": "09ee7f98cdc3c0f622a18c081a623d4b5be5c713861db3b8cf47f0ee5058f0f4",
+      "sha256": "7b913184084a84f8135d4f77c7f9b476790f748565582563c7207b42c65cd99a",
       "size": 3378,
       "apply": "last"
     }
