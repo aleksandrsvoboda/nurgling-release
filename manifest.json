@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.359",
-  "published": "2026-09-25T04:08:44Z",
-  "gitRev": "cd6723e792b9390e407f6e7252adae95e59721e1",
+  "version": "2.103.360",
+  "published": "2026-09-25T13:25:27Z",
+  "gitRev": "f15fd4da02f623c4281779fe231f3a5bf146a766",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.360",
+      "t": "sound"
+    },
     {
       "v": "2.103.359",
       "t": "Merge pull request #401 from aleksandrsvoboda/feat/curio-ghost-sound"
@@ -229,7 +233,7 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "362e4aa3bfa0c7857cacb3f79c35cfc4d711b89089e0823e470073b92b7deff3",
+      "sha256": "e8dc95aa998fdb736b86f50346b1fdd91b6c689fafea6d1456a690ce54bc71d7",
       "size": 39261175
     },
     {
@@ -302,8 +306,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "1996e07228442086acd18ac61b73e326794a1f8636e2ac87cdee5a07a34d023f",
-      "size": 21582769
+      "sha256": "ac33848197cad0208d1a2b2b9bc6985c74b7d57667ba13bceb21ebac386dcb1e",
+      "size": 21610419
     },
     {
       "path": "nurgling-updater.jar",
@@ -365,7 +369,7 @@
     },
     {
       "path": "ver",
-      "sha256": "af0fc857a5a696347987aa5794bd21f964412d127233e52eb1afc91fb0bf6ea6",
+      "sha256": "a8d6a61c9bdb413257eabbda6c6f31a849a65836cb21bf1387a0689bb1bd6718",
       "size": 3378,
       "apply": "last"
     }
