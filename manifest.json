@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.355",
-  "published": "2026-09-24T19:41:01Z",
-  "gitRev": "2c44110d11b8039230296ce2415be518106e0d9b",
+  "version": "2.103.356",
+  "published": "2026-09-25T00:40:24Z",
+  "gitRev": "f49c3e45e1f93b92bd8633ba534c7e92c7d91826",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.356",
+      "t": "Merge pull request #399 from aleksandrsvoboda/feat/todo-list"
+    },
     {
       "v": "2.103.355",
       "t": "Merge pull request #398 from aleksandrsvoboda/fix/discord-notification"
@@ -213,8 +217,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "94b76614fdf3c732d62bdfc9de5b07b1d94213b02d7e6594c568891410961852",
-      "size": 39158480
+      "sha256": "0404b90a5c8714e6d8ccaf3cb52af7aa341cd35c4e3743f36291e739311582a8",
+      "size": 39253995
     },
     {
       "path": "haven-config.properties",
@@ -286,8 +290,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "ae7e554decc16c1aac14ed5e9c146b82dc5805496d846ce438c445db4fb2822c",
-      "size": 21562418
+      "sha256": "b09b00fee1399f8a4aabd2489f59104126475cc76a222ce73eb6a3d62db6f4aa",
+      "size": 21582769
     },
     {
       "path": "nurgling-updater.jar",
@@ -349,7 +353,7 @@
     },
     {
       "path": "ver",
-      "sha256": "5122e2115db5176368d33cb4c6c7bf265d868569190cd012ac456aaa2e42d940",
+      "sha256": "db1fa2f25bfba9bd4955e2050557778b71d8ff2889d4f0791b1b31e4508b6853",
       "size": 3378,
       "apply": "last"
     }
