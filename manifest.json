@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.360",
-  "published": "2026-09-25T13:25:27Z",
-  "gitRev": "f15fd4da02f623c4281779fe231f3a5bf146a766",
+  "version": "2.103.361",
+  "published": "2026-09-26T04:03:21Z",
+  "gitRev": "06c745ba3810e662c0d95f679d3ee37a682c5b6e",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.361",
+      "t": "Fixes to conveyor cheese bot UI"
+    },
     {
       "v": "2.103.360",
       "t": "sound"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.342",
       "t": "Merge pull request #387 from aleksandrsvoboda/fix/promote-verify-path"
-    },
-    {
-      "v": "2.103.341",
-      "t": "Merge pull request #386 from aleksandrsvoboda/feat/cross-platform-updater"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "e8dc95aa998fdb736b86f50346b1fdd91b6c689fafea6d1456a690ce54bc71d7",
-      "size": 39261175
+      "sha256": "e6eecd2e128e00ecfb6c7f23874222748159ca1a1ebdafd8f533e1abfc20c2a8",
+      "size": 39264609
     },
     {
       "path": "haven-config.properties",
@@ -306,7 +306,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "ac33848197cad0208d1a2b2b9bc6985c74b7d57667ba13bceb21ebac386dcb1e",
+      "sha256": "1c013cff7c6f1eed100102f1f490ef57f11b0470c5e1459f85caaba22fd2774b",
       "size": 21610419
     },
     {
@@ -369,7 +369,7 @@
     },
     {
       "path": "ver",
-      "sha256": "a8d6a61c9bdb413257eabbda6c6f31a849a65836cb21bf1387a0689bb1bd6718",
+      "sha256": "4955615f42d8a9a5649c5214d4b8934f1eccba9bcb004f4084b372abd554108b",
       "size": 3378,
       "apply": "last"
     }
