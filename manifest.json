@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.363",
-  "published": "2026-09-28T03:33:43Z",
-  "gitRev": "9692503864535c42957a9010c9a386392b83be10",
+  "version": "2.103.364",
+  "published": "2026-09-28T18:27:30Z",
+  "gitRev": "d11d0f1d74d38434556047f930631d2b8054ff3e",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.364",
+      "t": "Merge pull request #405 from aleksandrsvoboda/fix/remove-beginner-quests"
+    },
     {
       "v": "2.103.363",
       "t": "Merge pull request #403 from aleksandrsvoboda/feat/cheese-calculator-curds"
@@ -80,10 +84,6 @@
     },
     {
       "v": "2.103.345",
-      "t": "Merge pull request #389 from aleksandrsvoboda/fix/plugin-linkage-errors"
-    },
-    {
-      "v": "2.103.344",
       "t": "Merge pull request #389 from aleksandrsvoboda/fix/plugin-linkage-errors"
     }
   ],
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "ef02a6b069dee66295bb0d316b3109a341f10a8ff1a4b47515ba5c2b41daa4bb",
-      "size": 39311008
+      "sha256": "ad186bcaac0f0971fb538933121fb1cbc7098e89448693b01b2408b5d9759aac",
+      "size": 39311638
     },
     {
       "path": "haven-config.properties",
@@ -306,7 +306,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "8c208ee9c3e127c8ea8e261b75f0b15c8bdd85283a3b53c06228887aac9c9bc6",
+      "sha256": "2705c17ceee39a1598c1b61f37b387c8b95a2f0aafaba7740506bb42fa2ab8cc",
       "size": 21611346
     },
     {
@@ -369,7 +369,7 @@
     },
     {
       "path": "ver",
-      "sha256": "0bfc08269569c45ad543c88f7beb9a63377d2911cf09384c6d7cd49f06466517",
+      "sha256": "336ae23f9bfed651381550877905e098274ba28274c5ed8fcef66fab71cf4503",
       "size": 3378,
       "apply": "last"
     }
