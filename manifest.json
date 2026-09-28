@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.365",
-  "published": "2026-09-28T21:11:01Z",
-  "gitRev": "667d3db81fcc7ed77c0e304951f2e1ed0a7be936",
+  "version": "2.103.366",
+  "published": "2026-09-28T22:51:55Z",
+  "gitRev": "30fe48f22ab6f71f58739ed479d01003c6bc704a",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.366",
+      "t": "Merge pull request #407 from aleksandrsvoboda/feat/ruler-expand"
+    },
     {
       "v": "2.103.365",
       "t": "Merge pull request #406 from aleksandrsvoboda/feat/cluster-stones"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.347",
       "t": "Merge pull request #391 from aleksandrsvoboda/fix/stacking-brain"
-    },
-    {
-      "v": "2.103.346",
-      "t": "Merge pull request #390 from aleksandrsvoboda/fix/cattle-roster-fix"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "0a828bdf3dd6e1b500c93e3cc6cac2a3b6964f5c94982e12de9f05e5f2a830b9",
-      "size": 39320408
+      "sha256": "e9c85fa05bf5619dd6ae59480cbb075a1acc2a6ae9dc2618458d47d5d84b3f10",
+      "size": 39325896
     },
     {
       "path": "haven-config.properties",
@@ -306,7 +306,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "dfcba607a7f86798625aff598acfe3e055e47a12e6703e612be82c4df70ee037",
+      "sha256": "3a9fcfc2402d0aed46b515ff4c465f9425a1aade907dae0df00c26262410e378",
       "size": 21611346
     },
     {
@@ -369,7 +369,7 @@
     },
     {
       "path": "ver",
-      "sha256": "da9a005beecfadb9908aec12050aa725bf673cc8a8e6dfec0b07721782146d12",
+      "sha256": "f5af7f3d866c925f7edfea42d3b64047ae1f0b96169835d68609d85dddaa14c8",
       "size": 3378,
       "apply": "last"
     }
