@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.361",
-  "published": "2026-09-26T04:03:21Z",
-  "gitRev": "06c745ba3810e662c0d95f679d3ee37a682c5b6e",
+  "version": "2.103.362",
+  "published": "2026-09-28T03:07:10Z",
+  "gitRev": "d0f440109ab526d218483274afc96c821f571414",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.362",
+      "t": "Merge pull request #402 from aleksandrsvoboda/feat/quest-sync"
+    },
     {
       "v": "2.103.361",
       "t": "Fixes to conveyor cheese bot UI"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.343",
       "t": "Merge pull request #388 from aleksandrsvoboda/fix/lock-and-linux-renderer"
-    },
-    {
-      "v": "2.103.342",
-      "t": "Merge pull request #387 from aleksandrsvoboda/fix/promote-verify-path"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "e6eecd2e128e00ecfb6c7f23874222748159ca1a1ebdafd8f533e1abfc20c2a8",
-      "size": 39264609
+      "sha256": "1e22bb18da5f484c100e13b5f145614227a2745bd15461f237ca800336dd0513",
+      "size": 39305313
     },
     {
       "path": "haven-config.properties",
@@ -306,8 +306,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "1c013cff7c6f1eed100102f1f490ef57f11b0470c5e1459f85caaba22fd2774b",
-      "size": 21610419
+      "sha256": "50be408fa19fb246239845299d0cfddb014ce7c50fda50ee8d61d6238897eee9",
+      "size": 21611346
     },
     {
       "path": "nurgling-updater.jar",
@@ -369,7 +369,7 @@
     },
     {
       "path": "ver",
-      "sha256": "4955615f42d8a9a5649c5214d4b8934f1eccba9bcb004f4084b372abd554108b",
+      "sha256": "124e437965a454c4b0e9defb76e030ab84e90d58dfd4856c67479323bf692d7e",
       "size": 3378,
       "apply": "last"
     }
