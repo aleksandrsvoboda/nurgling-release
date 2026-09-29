@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.367",
-  "published": "2026-09-29T15:13:55Z",
-  "gitRev": "01e41ab5d9c6a61c2460185148fcb5c831c81f12",
+  "version": "2.103.368",
+  "published": "2026-09-29T16:36:09Z",
+  "gitRev": "5a3ec5074d06ed4872a37decd5d1b7f60b397b5b",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.368",
+      "t": "Merge pull request #409 from aleksandrsvoboda/feat/vulkan"
+    },
     {
       "v": "2.103.367",
       "t": "Merge pull request #410 from aleksandrsvoboda/perf/async-shader-compile"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.349",
       "t": "fix stacking"
-    },
-    {
-      "v": "2.103.348",
-      "t": "Merge pull request #392 from aleksandrsvoboda/feat/lock-decal"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "ed12a027fedca0d10835ad40820c670110155c599d687e871713a98a5be73b20",
-      "size": 39337913
+      "sha256": "a289f689998b0a4dcdb7d52d1ce84df5f3c13cddadea40974ca7df708ed4983e",
+      "size": 39617212
     },
     {
       "path": "haven-config.properties",
@@ -305,8 +305,43 @@
       "size": 1738587
     },
     {
+      "path": "lwjgl-shaderc-3.4.1-natives-linux.jar",
+      "sha256": "207a09044daa8bb6fed7ff8057411b22d8cc86f3e86939b03428b573e621e21c",
+      "size": 3726987
+    },
+    {
+      "path": "lwjgl-shaderc-3.4.1-natives-windows.jar",
+      "sha256": "d1449f6e4969797230545ec77c2f7478862379e586b35530c3d3651c926cc9ca",
+      "size": 2448578
+    },
+    {
+      "path": "lwjgl-shaderc-3.4.1.jar",
+      "sha256": "72293c0d58aa07205f67233efed3769111e8312c73bd8e1f4c13a44ab255f27f",
+      "size": 153051
+    },
+    {
+      "path": "lwjgl-vma-3.4.1-natives-linux.jar",
+      "sha256": "4f83a80bc03ad749aa4c9ad7d39d136753e7e862624e7e0ee4ab7b914848815f",
+      "size": 62513
+    },
+    {
+      "path": "lwjgl-vma-3.4.1-natives-windows.jar",
+      "sha256": "b79a4f0679fa5902fafb345792314e400dfdcf04b4c15df700363c448c27ba15",
+      "size": 128495
+    },
+    {
+      "path": "lwjgl-vma-3.4.1.jar",
+      "sha256": "d6a9677b5d487c97b874c18cb9c726197e9a8773f6a1c031ea9f5950b8c0b3c2",
+      "size": 109209
+    },
+    {
+      "path": "lwjgl-vulkan-3.4.1.jar",
+      "sha256": "7f39be7c1e7b14b47d18ec5e23dd25240d2e41c090393524615d760203bf14a6",
+      "size": 8356700
+    },
+    {
       "path": "nurgling-res.jar",
-      "sha256": "f298c59c40b3b48d31a2fe507d82221a3ceeaa9f4a3adb85f01fa78908705cd8",
+      "sha256": "da19a92d4efc687c0ce8464e78300a311dcc505f1fff090816fd41090a16202a",
       "size": 21611346
     },
     {
@@ -369,8 +404,8 @@
     },
     {
       "path": "ver",
-      "sha256": "c2c9e2cbf1f501e0f107ee52dd956ac723bfcb8be95bef2f160c35aa8485472c",
-      "size": 3378,
+      "sha256": "4e769695b2262ba6e9482bba34bb590c0c6a82522e644e557fe641c79c8fef08",
+      "size": 4048,
       "apply": "last"
     }
   ],
