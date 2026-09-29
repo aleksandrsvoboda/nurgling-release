@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.366",
-  "published": "2026-09-28T22:51:55Z",
-  "gitRev": "30fe48f22ab6f71f58739ed479d01003c6bc704a",
+  "version": "2.103.367",
+  "published": "2026-09-29T15:13:55Z",
+  "gitRev": "01e41ab5d9c6a61c2460185148fcb5c831c81f12",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.367",
+      "t": "Merge pull request #410 from aleksandrsvoboda/perf/async-shader-compile"
+    },
     {
       "v": "2.103.366",
       "t": "Merge pull request #407 from aleksandrsvoboda/feat/ruler-expand"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.348",
       "t": "Merge pull request #392 from aleksandrsvoboda/feat/lock-decal"
-    },
-    {
-      "v": "2.103.347",
-      "t": "Merge pull request #391 from aleksandrsvoboda/fix/stacking-brain"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "e9c85fa05bf5619dd6ae59480cbb075a1acc2a6ae9dc2618458d47d5d84b3f10",
-      "size": 39325896
+      "sha256": "ed12a027fedca0d10835ad40820c670110155c599d687e871713a98a5be73b20",
+      "size": 39337913
     },
     {
       "path": "haven-config.properties",
@@ -306,7 +306,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "3a9fcfc2402d0aed46b515ff4c465f9425a1aade907dae0df00c26262410e378",
+      "sha256": "f298c59c40b3b48d31a2fe507d82221a3ceeaa9f4a3adb85f01fa78908705cd8",
       "size": 21611346
     },
     {
@@ -369,7 +369,7 @@
     },
     {
       "path": "ver",
-      "sha256": "f5af7f3d866c925f7edfea42d3b64047ae1f0b96169835d68609d85dddaa14c8",
+      "sha256": "c2c9e2cbf1f501e0f107ee52dd956ac723bfcb8be95bef2f160c35aa8485472c",
       "size": 3378,
       "apply": "last"
     }
