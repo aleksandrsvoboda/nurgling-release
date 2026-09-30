@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.369",
-  "published": "2026-09-29T17:50:52Z",
-  "gitRev": "d965330ef0bad121ad95d610e6433656274a5f2a",
+  "version": "2.103.370",
+  "published": "2026-09-30T16:35:47Z",
+  "gitRev": "6e0dfe4e53c93a9138428a6f4b204b5399097b00",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.370",
+      "t": "Merge pull request #412 from aleksandrsvoboda/fix/vulkan-fixes"
+    },
     {
       "v": "2.103.369",
       "t": "Merge pull request #411 from aleksandrsvoboda/feat/more-fx"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.351",
       "t": "Merge pull request #395 from aleksandrsvoboda/feat/more-stack-supporting"
-    },
-    {
-      "v": "2.103.350",
-      "t": "Merge pull request #393 from aleksandrsvoboda/fix/more-stack-fixes"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "51b330228da6897f5b4843318d9a19f28eb21968af84af40c1853d942d82622f",
-      "size": 39664592
+      "sha256": "6161c2e3a5389a4a0cee150e8f40f3ce66c8e7684f29a6b529f039026243118a",
+      "size": 39708587
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "74c6b4e4e5ddc9a9d69dc3eb12516995553f72d03365a0aae3719991fd6ee898",
+      "sha256": "310087b5b5237c154e7aa8aaa0911ac009c2e32e47dfc771b7c7cb4dadaa3894",
       "size": 21611346
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "fd3cf79ddb227e4252c076bb0547749d0dbfacd24ce535c92c77c4e71504ef86",
+      "sha256": "2cc9e60e1ea2a280648d18b3fa32ec51cc19757759197d552afa0bfef94ce5dd",
       "size": 4048,
       "apply": "last"
     }
