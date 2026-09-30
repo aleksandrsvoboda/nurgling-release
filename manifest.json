@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.370",
-  "published": "2026-09-30T16:35:47Z",
-  "gitRev": "6e0dfe4e53c93a9138428a6f4b204b5399097b00",
+  "version": "2.103.371",
+  "published": "2026-09-30T18:13:17Z",
+  "gitRev": "c9cfe4b6bbc96e0492380582de5e1876c4817396",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.371",
+      "t": "Merge pull request #413 from aleksandrsvoboda/fix/flicker"
+    },
     {
       "v": "2.103.370",
       "t": "Merge pull request #412 from aleksandrsvoboda/fix/vulkan-fixes"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.352",
       "t": "Merge pull request #396 from aleksandrsvoboda/feat/cave-angler-aggro-radius"
-    },
-    {
-      "v": "2.103.351",
-      "t": "Merge pull request #395 from aleksandrsvoboda/feat/more-stack-supporting"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "6161c2e3a5389a4a0cee150e8f40f3ce66c8e7684f29a6b529f039026243118a",
-      "size": 39708587
+      "sha256": "652a87da1612b3b553852ebfe05e95bcc57cf10aefd73fe9526184054de06719",
+      "size": 39709081
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "310087b5b5237c154e7aa8aaa0911ac009c2e32e47dfc771b7c7cb4dadaa3894",
+      "sha256": "85d775b37076bbdb6f6a3fd100ce24f1e8c65321a738201a90b894b9f73e7bf5",
       "size": 21611346
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "2cc9e60e1ea2a280648d18b3fa32ec51cc19757759197d552afa0bfef94ce5dd",
+      "sha256": "3a7e3cc83a4b2d4b9d7ae78ed630a3643b09730e1ec09b47f48605b7cc09a2f1",
       "size": 4048,
       "apply": "last"
     }
