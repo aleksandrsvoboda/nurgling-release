@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.372",
-  "published": "2026-09-30T18:35:15Z",
-  "gitRev": "30aa01ce9168085e48f60ee9a486da99a6ef7d59",
+  "version": "2.103.373",
+  "published": "2026-09-30T20:25:14Z",
+  "gitRev": "8f41e4393f383cfcd9f55cd32871640a644fe2e8",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.373",
+      "t": "more fixes"
+    },
     {
       "v": "2.103.372",
       "t": "Freeze fix"
@@ -80,10 +84,6 @@
     },
     {
       "v": "2.103.354",
-      "t": "Merge pull request #394 from aleksandrsvoboda/feat/cheese-rate-bot"
-    },
-    {
-      "v": "2.103.353",
       "t": "Merge pull request #394 from aleksandrsvoboda/feat/cheese-rate-bot"
     }
   ],
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "42f3641fe33f648960f11148647abff4e733d478151b01a5097f430ee53c372c",
-      "size": 39708875
+      "sha256": "732fd8c0ce0011b76682b39728e2c96cff2c6dd2b30b16817a663dd28fe31e76",
+      "size": 39709388
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "c16dcda370c0ae6be6afe2713b746ab89e897198eb73ff079b8220da6bd368a0",
+      "sha256": "1bcdddac77d69df4f13d8246cdf4e62666b631387b4d44fa1c3eb91d6476cef3",
       "size": 21611346
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "2c0fab6d991dac187e14032bb88b919c6af939752ef43c3a8c3d08df985ebce0",
+      "sha256": "5ac51e0b74f74a123f53b67714ecec38d3f24f37f586c292bb539f6d2cac7b71",
       "size": 4048,
       "apply": "last"
     }
