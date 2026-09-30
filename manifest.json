@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.373",
-  "published": "2026-09-30T20:25:14Z",
-  "gitRev": "8f41e4393f383cfcd9f55cd32871640a644fe2e8",
+  "version": "2.103.374",
+  "published": "2026-09-30T22:36:46Z",
+  "gitRev": "47278a902dfb1d8daca81fd86e57b6d3b4640bee",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.374",
+      "t": "fixes"
+    },
     {
       "v": "2.103.373",
       "t": "more fixes"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.355",
       "t": "Merge pull request #398 from aleksandrsvoboda/fix/discord-notification"
-    },
-    {
-      "v": "2.103.354",
-      "t": "Merge pull request #394 from aleksandrsvoboda/feat/cheese-rate-bot"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "732fd8c0ce0011b76682b39728e2c96cff2c6dd2b30b16817a663dd28fe31e76",
-      "size": 39709388
+      "sha256": "93c890493f2e4758be9e96f547b60c1ba6d709e38e38614d25a9b3c45495462b",
+      "size": 39709656
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "1bcdddac77d69df4f13d8246cdf4e62666b631387b4d44fa1c3eb91d6476cef3",
+      "sha256": "c661f365c5f2c50bbd3a76de9c60ea9314a2beab6a5c1475707ccbbc7f5a3a56",
       "size": 21611346
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "5ac51e0b74f74a123f53b67714ecec38d3f24f37f586c292bb539f6d2cac7b71",
+      "sha256": "a2ba4d3b5df1c0bd4196c7e347b92010394a352e57a2958c2779bfff750cac98",
       "size": 4048,
       "apply": "last"
     }
