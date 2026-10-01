@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.379",
-  "published": "2026-10-01T20:49:27Z",
-  "gitRev": "93fc4db2874222b6103cd76eec69e06d5f1e6d5a",
+  "version": "2.103.380",
+  "published": "2026-10-01T21:25:56Z",
+  "gitRev": "35685c0d06c6644ea31b16c1a86c0bde7a23360d",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.380",
+      "t": "Icon"
+    },
     {
       "v": "2.103.379",
       "t": "Merge pull request #417 from aleksandrsvoboda/feat/forageables-recording"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.361",
       "t": "Fixes to conveyor cheese bot UI"
-    },
-    {
-      "v": "2.103.360",
-      "t": "sound"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "b89e476874c16799ce3da89fd31e6c9a3ece87825e44a1292bf1d59eece84551",
-      "size": 39869409
+      "sha256": "9eb70762598ac83743a79ff9ff374fc8a26463fe1dcaf9d81c3090bd1846df61",
+      "size": 39869410
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "edca044b45f52f9ce608daafc9473166118972ff96979406a115c4a0a355ba2b",
-      "size": 21639306
+      "sha256": "8ce2f07b2f076a89592fc18cce8a638489ed79a7ba7841bd64537f20079f8075",
+      "size": 21650447
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "16d373b09a7926c547fb757e66389d6fc3151ffba35604f38eda340645c76160",
+      "sha256": "98d363d4fa215d60dcfc9274c9e65d7fb8215fa2df519807f9e5027392d00d42",
       "size": 4048,
       "apply": "last"
     }
