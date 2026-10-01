@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.378",
-  "published": "2026-10-01T04:07:20Z",
-  "gitRev": "0b37d02b629e587a09772c366702714eb07d5ba2",
+  "version": "2.103.379",
+  "published": "2026-10-01T20:49:27Z",
+  "gitRev": "93fc4db2874222b6103cd76eec69e06d5f1e6d5a",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.379",
+      "t": "Merge pull request #417 from aleksandrsvoboda/feat/forageables-recording"
+    },
     {
       "v": "2.103.378",
       "t": "Merge pull request #416 from aleksandrsvoboda/feat/treeplanter-fix"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.360",
       "t": "sound"
-    },
-    {
-      "v": "2.103.359",
-      "t": "Merge pull request #401 from aleksandrsvoboda/feat/curio-ghost-sound"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "4ea5c165cfa7928d22e50e9197dc1a8b5240a02a816d99e7d35a138d02f03e0a",
-      "size": 39810276
+      "sha256": "b89e476874c16799ce3da89fd31e6c9a3ece87825e44a1292bf1d59eece84551",
+      "size": 39869409
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "acbda710c9e6f376a7fdc8b1be01df86c57dc4c0e84566d916b2230fc4f50eb1",
+      "sha256": "edca044b45f52f9ce608daafc9473166118972ff96979406a115c4a0a355ba2b",
       "size": 21639306
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "0adbb187385915179267dec97f836b08970b76d1ef517ebb8ad8214541389dc5",
+      "sha256": "16d373b09a7926c547fb757e66389d6fc3151ffba35604f38eda340645c76160",
       "size": 4048,
       "apply": "last"
     }
