@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.375",
-  "published": "2026-09-30T22:55:17Z",
-  "gitRev": "6f3ae054082fd38c72142bdd81301411319dacb8",
+  "version": "2.103.376",
+  "published": "2026-10-01T03:42:24Z",
+  "gitRev": "b4bce38996cbe7250553c675e2c818eecfb223ab",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.376",
+      "t": "Merge pull request #414 from aleksandrsvoboda/feat/re-work-timers"
+    },
     {
       "v": "2.103.375",
       "t": "Merge pull request #404 from alexandrelimassantana/feat/unbox-as-buffer"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.357",
       "t": "Fix icon"
-    },
-    {
-      "v": "2.103.356",
-      "t": "Merge pull request #399 from aleksandrsvoboda/feat/todo-list"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "8ba2a66c9a66d7dcf9697dd28397220e9f6fcb17c432af1410730500c8593a7f",
-      "size": 39709942
+      "sha256": "c6d439a21db4a0f921abd35c7b9f13196b8fa14b77ddf9e4d324a5303a77d1be",
+      "size": 39809388
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "79759811ffdb1c22deacb8d205ceecb3df1b98c7d5687403c6f98ae1dc113a35",
-      "size": 21611346
+      "sha256": "d1d5d23656a76ec456693e9314bbcc7726ada17bf537cc30d6c24d173d9149be",
+      "size": 21638434
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "60494bed6b52f2b3179843ac2fc3aa9f664bccf55a8acafdf6f9ee5067f260a1",
+      "sha256": "dd8a9d5aa53df02af7ac1c6b440b4a2fd950ed03074d147cbf26868d4f96f6f2",
       "size": 4048,
       "apply": "last"
     }
