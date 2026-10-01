@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.377",
-  "published": "2026-10-01T03:50:05Z",
-  "gitRev": "190604231a40f762f6446ae3ae26e4d217c937ca",
+  "version": "2.103.378",
+  "published": "2026-10-01T04:07:20Z",
+  "gitRev": "0b37d02b629e587a09772c366702714eb07d5ba2",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.378",
+      "t": "Merge pull request #416 from aleksandrsvoboda/feat/treeplanter-fix"
+    },
     {
       "v": "2.103.377",
       "t": "Merge pull request #415 from aleksandrsvoboda/feat/more-stack-sizes"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.359",
       "t": "Merge pull request #401 from aleksandrsvoboda/feat/curio-ghost-sound"
-    },
-    {
-      "v": "2.103.358",
-      "t": "Merge pull request #400 from aleksandrsvoboda/feat/cattle-roster-numbers"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "91240d52e5f7a2bb9a927a07ac8f2c3f11d11d30c5099c0c451a978efacda109",
-      "size": 39809475
+      "sha256": "4ea5c165cfa7928d22e50e9197dc1a8b5240a02a816d99e7d35a138d02f03e0a",
+      "size": 39810276
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "76af544de49055ad21a3dc67537d4b4b5f146658153c03e974fc37ff630c5f3c",
+      "sha256": "acbda710c9e6f376a7fdc8b1be01df86c57dc4c0e84566d916b2230fc4f50eb1",
       "size": 21639306
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "7228d22482a6564059ac77dfefcfbb2cbdbc13e6620c78973b94fc5e3743252d",
+      "sha256": "0adbb187385915179267dec97f836b08970b76d1ef517ebb8ad8214541389dc5",
       "size": 4048,
       "apply": "last"
     }
