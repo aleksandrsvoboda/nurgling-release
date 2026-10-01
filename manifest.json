@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.376",
-  "published": "2026-10-01T03:42:24Z",
-  "gitRev": "b4bce38996cbe7250553c675e2c818eecfb223ab",
+  "version": "2.103.377",
+  "published": "2026-10-01T03:50:05Z",
+  "gitRev": "190604231a40f762f6446ae3ae26e4d217c937ca",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.377",
+      "t": "Merge pull request #415 from aleksandrsvoboda/feat/more-stack-sizes"
+    },
     {
       "v": "2.103.376",
       "t": "Merge pull request #414 from aleksandrsvoboda/feat/re-work-timers"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.358",
       "t": "Merge pull request #400 from aleksandrsvoboda/feat/cattle-roster-numbers"
-    },
-    {
-      "v": "2.103.357",
-      "t": "Fix icon"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "c6d439a21db4a0f921abd35c7b9f13196b8fa14b77ddf9e4d324a5303a77d1be",
-      "size": 39809388
+      "sha256": "91240d52e5f7a2bb9a927a07ac8f2c3f11d11d30c5099c0c451a978efacda109",
+      "size": 39809475
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "d1d5d23656a76ec456693e9314bbcc7726ada17bf537cc30d6c24d173d9149be",
-      "size": 21638434
+      "sha256": "76af544de49055ad21a3dc67537d4b4b5f146658153c03e974fc37ff630c5f3c",
+      "size": 21639306
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "dd8a9d5aa53df02af7ac1c6b440b4a2fd950ed03074d147cbf26868d4f96f6f2",
+      "sha256": "7228d22482a6564059ac77dfefcfbb2cbdbc13e6620c78973b94fc5e3743252d",
       "size": 4048,
       "apply": "last"
     }
