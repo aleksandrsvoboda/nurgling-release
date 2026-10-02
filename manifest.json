@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.381",
-  "published": "2026-10-02T12:37:04Z",
-  "gitRev": "e7f4835120e92639ae418de24e57d602961c1ec9",
+  "version": "2.103.382",
+  "published": "2026-10-02T14:47:42Z",
+  "gitRev": "fd35a89705e07b98b493b56993d862a810a09fbe",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.382",
+      "t": "fix/tooltip"
+    },
     {
       "v": "2.103.381",
       "t": "Merge pull request #418 from aleksandrsvoboda/feat/carrier-bot-distance"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.363",
       "t": "Merge pull request #403 from aleksandrsvoboda/feat/cheese-calculator-curds"
-    },
-    {
-      "v": "2.103.362",
-      "t": "Merge pull request #402 from aleksandrsvoboda/feat/quest-sync"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "f644e1fd2e1d7fafce6da73676728d62433d9e485867b15e80f9db81a5776888",
-      "size": 39870395
+      "sha256": "d73725622203b27128ef24bc74c0f47461ee7976bec1eee111679fcc712b040b",
+      "size": 39870399
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "896cfd5491b6342ef504450286266956b1b38f56a5ac878c0f9a1eb5aa906774",
+      "sha256": "28c0a366453e29550b8f87c3040c1345e64fa8e897cf9dbb781dec79bd8f0d15",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "1b19a78272ecf13ea549d43b1ad43d063f76efc81dc97aa2f5db7dc2ef3667cf",
+      "sha256": "518e4a99864a50da6cf0805be700ce7c46908561548990ab0deeb24c61c696cc",
       "size": 4048,
       "apply": "last"
     }
