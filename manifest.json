@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.380",
-  "published": "2026-10-01T21:25:56Z",
-  "gitRev": "35685c0d06c6644ea31b16c1a86c0bde7a23360d",
+  "version": "2.103.381",
+  "published": "2026-10-02T12:37:04Z",
+  "gitRev": "e7f4835120e92639ae418de24e57d602961c1ec9",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.381",
+      "t": "Merge pull request #418 from aleksandrsvoboda/feat/carrier-bot-distance"
+    },
     {
       "v": "2.103.380",
       "t": "Icon"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.362",
       "t": "Merge pull request #402 from aleksandrsvoboda/feat/quest-sync"
-    },
-    {
-      "v": "2.103.361",
-      "t": "Fixes to conveyor cheese bot UI"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "9eb70762598ac83743a79ff9ff374fc8a26463fe1dcaf9d81c3090bd1846df61",
-      "size": 39869410
+      "sha256": "f644e1fd2e1d7fafce6da73676728d62433d9e485867b15e80f9db81a5776888",
+      "size": 39870395
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "8ce2f07b2f076a89592fc18cce8a638489ed79a7ba7841bd64537f20079f8075",
+      "sha256": "896cfd5491b6342ef504450286266956b1b38f56a5ac878c0f9a1eb5aa906774",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "98d363d4fa215d60dcfc9274c9e65d7fb8215fa2df519807f9e5027392d00d42",
+      "sha256": "1b19a78272ecf13ea549d43b1ad43d063f76efc81dc97aa2f5db7dc2ef3667cf",
       "size": 4048,
       "apply": "last"
     }
