@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.382",
-  "published": "2026-10-02T14:47:42Z",
-  "gitRev": "fd35a89705e07b98b493b56993d862a810a09fbe",
+  "version": "2.103.383",
+  "published": "2026-10-05T21:09:43Z",
+  "gitRev": "17338c1660c2d14dd6d97aeabb522502cf18da0e",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.383",
+      "t": "Merge pull request #419 from aleksandrsvoboda/friend-import-2026-10-04"
+    },
     {
       "v": "2.103.382",
       "t": "fix/tooltip"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.364",
       "t": "Merge pull request #405 from aleksandrsvoboda/fix/remove-beginner-quests"
-    },
-    {
-      "v": "2.103.363",
-      "t": "Merge pull request #403 from aleksandrsvoboda/feat/cheese-calculator-curds"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "d73725622203b27128ef24bc74c0f47461ee7976bec1eee111679fcc712b040b",
-      "size": 39870399
+      "sha256": "34958259b6ac169f24e262d23501c92d4a33a634a0230e60f4d2e199e7452554",
+      "size": 98145306
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "28c0a366453e29550b8f87c3040c1345e64fa8e897cf9dbb781dec79bd8f0d15",
+      "sha256": "713c2b6778aeab4798cb0944a99d4a17e69e6bb385def6cbcb1fb08977cf94aa",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "518e4a99864a50da6cf0805be700ce7c46908561548990ab0deeb24c61c696cc",
+      "sha256": "3610867a09c9290a04b716912339ab8f10157f48e21527cfd113cc1abb9f3794",
       "size": 4048,
       "apply": "last"
     }
