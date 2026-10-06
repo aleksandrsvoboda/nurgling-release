@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.383",
-  "published": "2026-10-05T21:09:43Z",
-  "gitRev": "17338c1660c2d14dd6d97aeabb522502cf18da0e",
+  "version": "2.103.384",
+  "published": "2026-10-06T12:55:41Z",
+  "gitRev": "7f5d54e7150ca4e98ea51798e0d3fb6ab6498795",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.384",
+      "t": "Merge pull request #420 from aleksandrsvoboda/revert/ui-style"
+    },
     {
       "v": "2.103.383",
       "t": "Merge pull request #419 from aleksandrsvoboda/friend-import-2026-10-04"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.365",
       "t": "Merge pull request #406 from aleksandrsvoboda/feat/cluster-stones"
-    },
-    {
-      "v": "2.103.364",
-      "t": "Merge pull request #405 from aleksandrsvoboda/fix/remove-beginner-quests"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "34958259b6ac169f24e262d23501c92d4a33a634a0230e60f4d2e199e7452554",
-      "size": 98145306
+      "sha256": "ebb11f91748a0fb9a51b7e1ef0e6736c0e20c8c2b3e71a560bc81cfc28231b23",
+      "size": 84646653
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "713c2b6778aeab4798cb0944a99d4a17e69e6bb385def6cbcb1fb08977cf94aa",
+      "sha256": "c1cd0674183b3f541cb9ffd401601e463b2b4bdf6bcc66c191a08a0a60add112",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "3610867a09c9290a04b716912339ab8f10157f48e21527cfd113cc1abb9f3794",
+      "sha256": "4adb0a3e5a923b24c5a4b0deae4807afac23615f111e78e38be84e180d782e9e",
       "size": 4048,
       "apply": "last"
     }
