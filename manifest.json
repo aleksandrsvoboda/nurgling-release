@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.384",
-  "published": "2026-10-06T12:55:41Z",
-  "gitRev": "7f5d54e7150ca4e98ea51798e0d3fb6ab6498795",
+  "version": "2.103.385",
+  "published": "2026-10-07T00:57:11Z",
+  "gitRev": "991292fc7fb1ec3bba2e8a21a6574d829fac2e57",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.385",
+      "t": "Merge pull request #421 from aleksandrsvoboda/feat/ui-improvements-katodiy"
+    },
     {
       "v": "2.103.384",
       "t": "Merge pull request #420 from aleksandrsvoboda/revert/ui-style"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.366",
       "t": "Merge pull request #407 from aleksandrsvoboda/feat/ruler-expand"
-    },
-    {
-      "v": "2.103.365",
-      "t": "Merge pull request #406 from aleksandrsvoboda/feat/cluster-stones"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "ebb11f91748a0fb9a51b7e1ef0e6736c0e20c8c2b3e71a560bc81cfc28231b23",
-      "size": 84646653
+      "sha256": "c0f82b0cc1f3b3069411fb1b58d390ec210348a10156a8246e899781e523ffdb",
+      "size": 87328614
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "c1cd0674183b3f541cb9ffd401601e463b2b4bdf6bcc66c191a08a0a60add112",
+      "sha256": "244b7d3c0f6f6f33a2b3c21b952e3bac322c1bc4caba5c8ba042d84d09ce57a7",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "4adb0a3e5a923b24c5a4b0deae4807afac23615f111e78e38be84e180d782e9e",
+      "sha256": "f0e92e33bd0a58400fe91c91a3218d189b250d228ab46d2ffe529e1545b05d0d",
       "size": 4048,
       "apply": "last"
     }
