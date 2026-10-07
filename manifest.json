@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.385",
-  "published": "2026-10-07T00:57:11Z",
-  "gitRev": "991292fc7fb1ec3bba2e8a21a6574d829fac2e57",
+  "version": "2.103.386",
+  "published": "2026-10-07T02:20:10Z",
+  "gitRev": "7ceafd3e88c66bc85878fa0950c62d5032f048b1",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.386",
+      "t": "Merge pull request #422 from aleksandrsvoboda/fix/skating"
+    },
     {
       "v": "2.103.385",
       "t": "Merge pull request #421 from aleksandrsvoboda/feat/ui-improvements-katodiy"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.367",
       "t": "Merge pull request #410 from aleksandrsvoboda/perf/async-shader-compile"
-    },
-    {
-      "v": "2.103.366",
-      "t": "Merge pull request #407 from aleksandrsvoboda/feat/ruler-expand"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "c0f82b0cc1f3b3069411fb1b58d390ec210348a10156a8246e899781e523ffdb",
-      "size": 87328614
+      "sha256": "cb162a001e716fc8a28587e219e7b0af7bf54cf5ed187a5b97b9c28b0669bbea",
+      "size": 87328853
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "244b7d3c0f6f6f33a2b3c21b952e3bac322c1bc4caba5c8ba042d84d09ce57a7",
+      "sha256": "b8cb333eccfba75e39c9b84dfec8050213dd7d27b4f670034642ec31644bd012",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "f0e92e33bd0a58400fe91c91a3218d189b250d228ab46d2ffe529e1545b05d0d",
+      "sha256": "e89870be40988cb98195fb82997bc9f991ddce0f120f1727ab4d2654f984d10e",
       "size": 4048,
       "apply": "last"
     }
