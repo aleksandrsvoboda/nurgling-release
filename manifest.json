@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.387",
-  "published": "2026-10-07T04:38:49Z",
-  "gitRev": "66ad49c72bc92bd703dc92ca8f1826b4d273fda3",
+  "version": "2.103.388",
+  "published": "2026-10-07T18:29:44Z",
+  "gitRev": "a31b437f47191a7b06d96a3ba79e51d6df66310d",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.388",
+      "t": "fix tunneler"
+    },
     {
       "v": "2.103.387",
       "t": "Merge pull request #423 from aleksandrsvoboda/feat/tunnel-frames"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.369",
       "t": "Merge pull request #411 from aleksandrsvoboda/feat/more-fx"
-    },
-    {
-      "v": "2.103.368",
-      "t": "Merge pull request #409 from aleksandrsvoboda/feat/vulkan"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "e34352f8007ac42e2df516ea18201d07876231f92047a11b9b46be063c773b63",
-      "size": 87349357
+      "sha256": "97cdc00c14db4bdd5b3ba0800652bef768ca7034148a0799f1bbc60c75c10da1",
+      "size": 87349403
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "748bf65108c306aec4daf82ac0dc47aef781b777a5726742a41e56ca61ea94bd",
+      "sha256": "4fca374bdf2130b3265a96ffbda0aa1cb15aba7a001f30bf3aa0b66187147498",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "f18673fa7c849a3a74b1af3f335c7bdc02ec07453b4c2f0cf89c426cb75a3b6e",
+      "sha256": "afd51161dd09c6e3a55d2cce5c41647c71e751df6015a5299a7bf16154fd2b80",
       "size": 4048,
       "apply": "last"
     }
