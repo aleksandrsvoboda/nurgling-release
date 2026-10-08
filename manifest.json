@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.388",
-  "published": "2026-10-07T18:29:44Z",
-  "gitRev": "a31b437f47191a7b06d96a3ba79e51d6df66310d",
+  "version": "2.103.389",
+  "published": "2026-10-08T22:54:37Z",
+  "gitRev": "d652c60f9cde06761e151cf2b86e7fbf9468a8d8",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.389",
+      "t": "Merge pull request #424 from aleksandrsvoboda/feat/stored-stockpiles-barrels-to-db"
+    },
     {
       "v": "2.103.388",
       "t": "fix tunneler"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.370",
       "t": "Merge pull request #412 from aleksandrsvoboda/fix/vulkan-fixes"
-    },
-    {
-      "v": "2.103.369",
-      "t": "Merge pull request #411 from aleksandrsvoboda/feat/more-fx"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "97cdc00c14db4bdd5b3ba0800652bef768ca7034148a0799f1bbc60c75c10da1",
-      "size": 87349403
+      "sha256": "12e250ac5a565a68c3d6f9c3a1d35a55efbad6fe873476154ffdc6191bb56aad",
+      "size": 87368572
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "4fca374bdf2130b3265a96ffbda0aa1cb15aba7a001f30bf3aa0b66187147498",
+      "sha256": "0ea4b2402175475141464f4878a823d92bf05bd7ae46066b2c618aa16be0cc7e",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "afd51161dd09c6e3a55d2cce5c41647c71e751df6015a5299a7bf16154fd2b80",
+      "sha256": "e5374c40c6326d71805114833980ab532f133d6c8916553055adccce9b0996fe",
       "size": 4048,
       "apply": "last"
     }
