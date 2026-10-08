@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.389",
-  "published": "2026-10-08T22:54:37Z",
-  "gitRev": "d652c60f9cde06761e151cf2b86e7fbf9468a8d8",
+  "version": "2.103.390",
+  "published": "2026-10-08T23:09:09Z",
+  "gitRev": "a056a7965ab6334c3c6e18689f228ba32195dcca",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.390",
+      "t": "Bring back storage items icon"
+    },
     {
       "v": "2.103.389",
       "t": "Merge pull request #424 from aleksandrsvoboda/feat/stored-stockpiles-barrels-to-db"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.371",
       "t": "Merge pull request #413 from aleksandrsvoboda/fix/flicker"
-    },
-    {
-      "v": "2.103.370",
-      "t": "Merge pull request #412 from aleksandrsvoboda/fix/vulkan-fixes"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "12e250ac5a565a68c3d6f9c3a1d35a55efbad6fe873476154ffdc6191bb56aad",
-      "size": 87368572
+      "sha256": "b1ca9e277d11c803f7222d4b0b6f59c0e2a8f3f2149b53796bc5e7a410efa4ff",
+      "size": 88357468
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "0ea4b2402175475141464f4878a823d92bf05bd7ae46066b2c618aa16be0cc7e",
+      "sha256": "9725015611dd8bda8ad73108ba021283a5435e17e9041b25e35f7390f703091d",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "e5374c40c6326d71805114833980ab532f133d6c8916553055adccce9b0996fe",
+      "sha256": "e14e62af25459382b4b920f4aab208c62cf22c5c8e9e4082f66a0dd567f83943",
       "size": 4048,
       "apply": "last"
     }
