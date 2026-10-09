@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.398",
-  "published": "2026-10-09T18:14:01Z",
-  "gitRev": "00cc490ce99399e467d70e96ef68fe6174b24c83",
+  "version": "2.103.399",
+  "published": "2026-10-09T19:26:41Z",
+  "gitRev": "f5f4bc90ef536c4c0b084d8382f053794e84910b",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.399",
+      "t": "Fix fps"
+    },
     {
       "v": "2.103.398",
       "t": "icon"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.380",
       "t": "Icon"
-    },
-    {
-      "v": "2.103.379",
-      "t": "Merge pull request #417 from aleksandrsvoboda/feat/forageables-recording"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "382fc6c44f1ef65f0f98b95beaed34a681bf4ea257bc98bfa73b3f33df54fe26",
-      "size": 88438634
+      "sha256": "52075db2a8f019bced70311c48b6a09b546c55b26112d7f8078054877df46640",
+      "size": 88438711
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "7d59191baf040b5b3a00c33e681c9b7c44dc87657b7b868e480060b263bd3e00",
+      "sha256": "3f878fca2eb7f3c0d16ec4ca3cca9c5a49706d795b55ca2fd36578c8b425cf89",
       "size": 21652158
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "a6bfa89f742a128420ac57ca5ae70d45b36b39db4dcac77783143fc561ccb392",
+      "sha256": "064a5991a174118ac1de87b630ac43378c4166284699f9062c142b5f6a3d61fe",
       "size": 4048,
       "apply": "last"
     }
