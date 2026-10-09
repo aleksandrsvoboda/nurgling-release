@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.390",
-  "published": "2026-10-08T23:09:09Z",
-  "gitRev": "a056a7965ab6334c3c6e18689f228ba32195dcca",
+  "version": "2.103.391",
+  "published": "2026-10-09T00:46:25Z",
+  "gitRev": "2714e70845bab469ee5eb8235eb6d4dbab918d09",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.391",
+      "t": "Fix button"
+    },
     {
       "v": "2.103.390",
       "t": "Bring back storage items icon"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.372",
       "t": "Freeze fix"
-    },
-    {
-      "v": "2.103.371",
-      "t": "Merge pull request #413 from aleksandrsvoboda/fix/flicker"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "b1ca9e277d11c803f7222d4b0b6f59c0e2a8f3f2149b53796bc5e7a410efa4ff",
-      "size": 88357468
+      "sha256": "5e099c259c7676746d0e17041a1309bb7cb2b680a7fde9bc8fc500d6d70de552",
+      "size": 88357498
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "9725015611dd8bda8ad73108ba021283a5435e17e9041b25e35f7390f703091d",
+      "sha256": "0c88ca06e27244eec69dda6451edb01260b59fb4714a8dd36b6ecdd936cd0915",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "e14e62af25459382b4b920f4aab208c62cf22c5c8e9e4082f66a0dd567f83943",
+      "sha256": "f19fed191d1baca5cf15ea8314c9761bb3ad0ba37c004fcf66b0fb783dc17a2f",
       "size": 4048,
       "apply": "last"
     }
