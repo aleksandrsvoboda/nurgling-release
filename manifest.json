@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.396",
-  "published": "2026-10-09T16:22:23Z",
-  "gitRev": "881db2f17a0fe21ea45bce4e7a330f12dfee0a5a",
+  "version": "2.103.397",
+  "published": "2026-10-09T17:43:35Z",
+  "gitRev": "7736bbff951f40acd2ce14929cdaba8c23dab36d",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.397",
+      "t": "Merge pull request #426 from aleksandrsvoboda/feat/carry-items"
+    },
     {
       "v": "2.103.396",
       "t": "Fix tunnerl"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.378",
       "t": "Merge pull request #416 from aleksandrsvoboda/feat/treeplanter-fix"
-    },
-    {
-      "v": "2.103.377",
-      "t": "Merge pull request #415 from aleksandrsvoboda/feat/more-stack-sizes"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "aa4e931b815df207e5a14f4d27006a156fed689e54972504524b002e2152eaa7",
-      "size": 88406790
+      "sha256": "b2a08a8ba1c6ac7339736d2bcafbf1ff48e8a7d45e0da0bd6e9ed54bc8e4fff9",
+      "size": 88438633
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "683a0f901d5495a5da9079ae091a2c3b08d0f75ef08251f20dae735411687833",
+      "sha256": "93fbfe65277ddf12fb6bdeb6b728769f43c494d94c5d2e5ca1807cea1e870d0a",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "8811586dde132fe42075caeebd8b5507c489692d4e7425ee55a9e41557f9ce1b",
+      "sha256": "71a6f5f63611786948f52f21e6cb49649f88e9eae03215ea0b33c906e20a56c2",
       "size": 4048,
       "apply": "last"
     }
