@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.393",
-  "published": "2026-10-09T03:31:27Z",
-  "gitRev": "2057a5c94f357b68b3d6afcf5cf1f0700ba92caf",
+  "version": "2.103.394",
+  "published": "2026-10-09T03:50:29Z",
+  "gitRev": "fe7336598fb6519ce1d2d87289c3ff5815127607",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.394",
+      "t": "Fixes to storage"
+    },
     {
       "v": "2.103.393",
       "t": "Fixes"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.375",
       "t": "Merge pull request #404 from alexandrelimassantana/feat/unbox-as-buffer"
-    },
-    {
-      "v": "2.103.374",
-      "t": "fixes"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "ceade7d32bd1ad5e74c8168f769cf3b2bc47374d77209942db1171477b1bff38",
-      "size": 88402076
+      "sha256": "90da22e6c77ae7aa68a3014b9d07ec6b14b28db5c83ad89fb6575a1e04ee7d5d",
+      "size": 88406633
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "4c7693c04b3339624edcd27aa623069c8d861ea2bd67ed565c36630f08e4da7e",
+      "sha256": "4fecea5ea0b0a50a5d28c428bc4b688a866fb0dc6d3ebad7224ebbed32d41384",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "b1ffd03574e2ea72fd00793ce13c4816ad18a06f1eb652cf5d73b745f5dd7e4c",
+      "sha256": "b660477372ae43d446d4818461a557889b91b438cea2c1e091ae0e1831ff0b08",
       "size": 4048,
       "apply": "last"
     }
