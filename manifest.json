@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.397",
-  "published": "2026-10-09T17:43:35Z",
-  "gitRev": "7736bbff951f40acd2ce14929cdaba8c23dab36d",
+  "version": "2.103.398",
+  "published": "2026-10-09T18:14:01Z",
+  "gitRev": "00cc490ce99399e467d70e96ef68fe6174b24c83",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.398",
+      "t": "icon"
+    },
     {
       "v": "2.103.397",
       "t": "Merge pull request #426 from aleksandrsvoboda/feat/carry-items"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.379",
       "t": "Merge pull request #417 from aleksandrsvoboda/feat/forageables-recording"
-    },
-    {
-      "v": "2.103.378",
-      "t": "Merge pull request #416 from aleksandrsvoboda/feat/treeplanter-fix"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "b2a08a8ba1c6ac7339736d2bcafbf1ff48e8a7d45e0da0bd6e9ed54bc8e4fff9",
-      "size": 88438633
+      "sha256": "382fc6c44f1ef65f0f98b95beaed34a681bf4ea257bc98bfa73b3f33df54fe26",
+      "size": 88438634
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "93fbfe65277ddf12fb6bdeb6b728769f43c494d94c5d2e5ca1807cea1e870d0a",
-      "size": 21650447
+      "sha256": "7d59191baf040b5b3a00c33e681c9b7c44dc87657b7b868e480060b263bd3e00",
+      "size": 21652158
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "71a6f5f63611786948f52f21e6cb49649f88e9eae03215ea0b33c906e20a56c2",
+      "sha256": "a6bfa89f742a128420ac57ca5ae70d45b36b39db4dcac77783143fc561ccb392",
       "size": 4048,
       "apply": "last"
     }
