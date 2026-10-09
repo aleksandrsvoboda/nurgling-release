@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.391",
-  "published": "2026-10-09T00:46:25Z",
-  "gitRev": "2714e70845bab469ee5eb8235eb6d4dbab918d09",
+  "version": "2.103.392",
+  "published": "2026-10-09T01:27:06Z",
+  "gitRev": "332b1c13427e1150334fc23fa92956bc4a5857a4",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.392",
+      "t": "Merge pull request #425 from aleksandrsvoboda/feat/storage-stash-tabs"
+    },
     {
       "v": "2.103.391",
       "t": "Fix button"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.373",
       "t": "more fixes"
-    },
-    {
-      "v": "2.103.372",
-      "t": "Freeze fix"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "5e099c259c7676746d0e17041a1309bb7cb2b680a7fde9bc8fc500d6d70de552",
-      "size": 88357498
+      "sha256": "b160c52e882980e34a5c8127290d9ed2bf83b576ab4d813fa2ab55901f0d8ff8",
+      "size": 88401951
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "0c88ca06e27244eec69dda6451edb01260b59fb4714a8dd36b6ecdd936cd0915",
+      "sha256": "c4b4d707e079a2ad34af81483a0ae126589ab8f061950fb055bf8a9a050123fc",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "f19fed191d1baca5cf15ea8314c9761bb3ad0ba37c004fcf66b0fb783dc17a2f",
+      "sha256": "11a6cdf2fa25615087374fab1667c5c930b97a336a81f46eb66a607df7efb460",
       "size": 4048,
       "apply": "last"
     }
