@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.395",
-  "published": "2026-10-09T16:04:09Z",
-  "gitRev": "2b470494aa236c47c8537f33784e8bb41e768e1b",
+  "version": "2.103.396",
+  "published": "2026-10-09T16:22:23Z",
+  "gitRev": "881db2f17a0fe21ea45bce4e7a330f12dfee0a5a",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.396",
+      "t": "Fix tunnerl"
+    },
     {
       "v": "2.103.395",
       "t": "Batter, wine in autocrafting"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.377",
       "t": "Merge pull request #415 from aleksandrsvoboda/feat/more-stack-sizes"
-    },
-    {
-      "v": "2.103.376",
-      "t": "Merge pull request #414 from aleksandrsvoboda/feat/re-work-timers"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "49e2f791094cc205fec43a72a71d116509d3ad232f7a1c44093b5df9851296c8",
-      "size": 88406718
+      "sha256": "aa4e931b815df207e5a14f4d27006a156fed689e54972504524b002e2152eaa7",
+      "size": 88406790
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "2b30c062de4288a8133046a0a6d73387e3dcc46f3551df3089ebb6f84a0ab253",
+      "sha256": "683a0f901d5495a5da9079ae091a2c3b08d0f75ef08251f20dae735411687833",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "e146e1bca0ce2ac069ba4173a9aca94b83b6eec65c50ab74af4eb507259c7b23",
+      "sha256": "8811586dde132fe42075caeebd8b5507c489692d4e7425ee55a9e41557f9ce1b",
       "size": 4048,
       "apply": "last"
     }
