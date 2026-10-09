@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.394",
-  "published": "2026-10-09T03:50:29Z",
-  "gitRev": "fe7336598fb6519ce1d2d87289c3ff5815127607",
+  "version": "2.103.395",
+  "published": "2026-10-09T16:04:09Z",
+  "gitRev": "2b470494aa236c47c8537f33784e8bb41e768e1b",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.395",
+      "t": "Batter, wine in autocrafting"
+    },
     {
       "v": "2.103.394",
       "t": "Fixes to storage"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.376",
       "t": "Merge pull request #414 from aleksandrsvoboda/feat/re-work-timers"
-    },
-    {
-      "v": "2.103.375",
-      "t": "Merge pull request #404 from alexandrelimassantana/feat/unbox-as-buffer"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "90da22e6c77ae7aa68a3014b9d07ec6b14b28db5c83ad89fb6575a1e04ee7d5d",
-      "size": 88406633
+      "sha256": "49e2f791094cc205fec43a72a71d116509d3ad232f7a1c44093b5df9851296c8",
+      "size": 88406718
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "4fecea5ea0b0a50a5d28c428bc4b688a866fb0dc6d3ebad7224ebbed32d41384",
+      "sha256": "2b30c062de4288a8133046a0a6d73387e3dcc46f3551df3089ebb6f84a0ab253",
       "size": 21650447
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "b660477372ae43d446d4818461a557889b91b438cea2c1e091ae0e1831ff0b08",
+      "sha256": "e146e1bca0ce2ac069ba4173a9aca94b83b6eec65c50ab74af4eb507259c7b23",
       "size": 4048,
       "apply": "last"
     }
