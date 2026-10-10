@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.400",
-  "published": "2026-10-10T03:17:02Z",
-  "gitRev": "bf5ad149613ee39042237f4a5a8b4199cf20dba9",
+  "version": "2.103.401",
+  "published": "2026-10-10T04:10:38Z",
+  "gitRev": "084ae1c0856bb025c881b95efd3d031e5b1f48a8",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.401",
+      "t": "Fixes"
+    },
     {
       "v": "2.103.400",
       "t": "Merge pull request #427 from aleksandrsvoboda/feat/swill-collector"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.382",
       "t": "fix/tooltip"
-    },
-    {
-      "v": "2.103.381",
-      "t": "Merge pull request #418 from aleksandrsvoboda/feat/carrier-bot-distance"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "c1ea0f078d9088e22d39d4b2e7b14ca774c066798e6c41bfd442a8f36590d6d5",
-      "size": 88460364
+      "sha256": "060023353f0e460a1db8109755b885d4f5f086f5ddfee3c2471e370510ef4f8e",
+      "size": 88461223
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "ad9906fcc6533122a69134cc2bf888404ce20c93f04bd59164dfc09c8e58cc03",
+      "sha256": "2b2af1a65eb7fbf84a67e492db638ebef11513ebd02cabf2c7d42246409383ac",
       "size": 21665024
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "4fd955a71f4dc6921d2fe842972fee5580ee80568307738d595fbb22209be3d4",
+      "sha256": "d031b8da5ebae0f1b85b56639a7420f939af4cd700a80d083539cdd6800b70b9",
       "size": 4048,
       "apply": "last"
     }
