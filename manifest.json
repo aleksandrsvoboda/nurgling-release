@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.401",
-  "published": "2026-10-10T04:10:38Z",
-  "gitRev": "084ae1c0856bb025c881b95efd3d031e5b1f48a8",
+  "version": "2.103.402",
+  "published": "2026-10-10T05:59:23Z",
+  "gitRev": "ae658a521f6985e49daa2ff4d27d938c068ddd59",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.402",
+      "t": "Merge pull request #429 from aleksandrsvoboda/feat/zoned-leaf-collector"
+    },
     {
       "v": "2.103.401",
       "t": "Fixes"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.383",
       "t": "Merge pull request #419 from aleksandrsvoboda/friend-import-2026-10-04"
-    },
-    {
-      "v": "2.103.382",
-      "t": "fix/tooltip"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "060023353f0e460a1db8109755b885d4f5f086f5ddfee3c2471e370510ef4f8e",
-      "size": 88461223
+      "sha256": "8d2b3c84fc17bf7b854f42a7fe4caea29e27037af59b6b82a0b8c0a6e7431685",
+      "size": 88469651
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "2b2af1a65eb7fbf84a67e492db638ebef11513ebd02cabf2c7d42246409383ac",
-      "size": 21665024
+      "sha256": "323f01cf6c17eca304922f026ccccd87df22b3da8d083b778e417cc64b3cb084",
+      "size": 21676899
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "d031b8da5ebae0f1b85b56639a7420f939af4cd700a80d083539cdd6800b70b9",
+      "sha256": "df69be7014347bde8c2e2f386e11fbba9ac91aeaaa270a8a83b30b6cc15cd87c",
       "size": 4048,
       "apply": "last"
     }
