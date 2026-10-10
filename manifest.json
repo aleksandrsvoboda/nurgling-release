@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "version": "2.103.400",
-  "published": "2026-10-10T03:14:44Z",
-  "gitRev": "9de40e082edc6a2f4000cb79896bd33fe1da04cc",
+  "published": "2026-10-10T03:17:02Z",
+  "gitRev": "bf5ad149613ee39042237f4a5a8b4199cf20dba9",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
     {
       "v": "2.103.400",
-      "t": "Merge pull request #428 from aleksandrsvoboda/feat/storage-items-village-specific"
+      "t": "Merge pull request #427 from aleksandrsvoboda/feat/swill-collector"
     },
     {
       "v": "2.103.399",
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "0a07727b38d691b2fe37b2f4892a0c8e56f28b80f2d0c45e917c2d72c6394a81",
-      "size": 88443446
+      "sha256": "c1ea0f078d9088e22d39d4b2e7b14ca774c066798e6c41bfd442a8f36590d6d5",
+      "size": 88460364
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "76452ecc5bac8a6356333cffb6cfed332b77629d6693e211214734c655292706",
-      "size": 21652158
+      "sha256": "ad9906fcc6533122a69134cc2bf888404ce20c93f04bd59164dfc09c8e58cc03",
+      "size": 21665024
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "c48045f09e0c1a776fcbef1c3c51b4273a42d3e98a8dbf960efd107240887fdb",
+      "sha256": "4fd955a71f4dc6921d2fe842972fee5580ee80568307738d595fbb22209be3d4",
       "size": 4048,
       "apply": "last"
     }
