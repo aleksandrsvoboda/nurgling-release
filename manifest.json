@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.399",
-  "published": "2026-10-09T19:26:41Z",
-  "gitRev": "f5f4bc90ef536c4c0b084d8382f053794e84910b",
+  "version": "2.103.400",
+  "published": "2026-10-10T03:14:44Z",
+  "gitRev": "9de40e082edc6a2f4000cb79896bd33fe1da04cc",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.400",
+      "t": "Merge pull request #428 from aleksandrsvoboda/feat/storage-items-village-specific"
+    },
     {
       "v": "2.103.399",
       "t": "Fix fps"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.381",
       "t": "Merge pull request #418 from aleksandrsvoboda/feat/carrier-bot-distance"
-    },
-    {
-      "v": "2.103.380",
-      "t": "Icon"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "52075db2a8f019bced70311c48b6a09b546c55b26112d7f8078054877df46640",
-      "size": 88438711
+      "sha256": "0a07727b38d691b2fe37b2f4892a0c8e56f28b80f2d0c45e917c2d72c6394a81",
+      "size": 88443446
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "3f878fca2eb7f3c0d16ec4ca3cca9c5a49706d795b55ca2fd36578c8b425cf89",
+      "sha256": "76452ecc5bac8a6356333cffb6cfed332b77629d6693e211214734c655292706",
       "size": 21652158
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "064a5991a174118ac1de87b630ac43378c4166284699f9062c142b5f6a3d61fe",
+      "sha256": "c48045f09e0c1a776fcbef1c3c51b4273a42d3e98a8dbf960efd107240887fdb",
       "size": 4048,
       "apply": "last"
     }
