@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.405",
-  "published": "2026-10-12T18:01:00Z",
-  "gitRev": "d9199656f98b224ad56e88c30f97fb99b60ccb01",
+  "version": "2.103.406",
+  "published": "2026-10-12T20:22:39Z",
+  "gitRev": "12b1ccbb8791ec6271af38248ac55fa160e686a5",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.406",
+      "t": "Merge pull request #432 from aleksandrsvoboda/feat/folder-organization-areas"
+    },
     {
       "v": "2.103.405",
       "t": "Merge pull request #431 from aleksandrsvoboda/feat/smokering-smokeship-bot"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.387",
       "t": "Merge pull request #423 from aleksandrsvoboda/feat/tunnel-frames"
-    },
-    {
-      "v": "2.103.386",
-      "t": "Merge pull request #422 from aleksandrsvoboda/fix/skating"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "9655f56e44b1d8df4b44971670df218010339c3983f3eac854e177f59cfa4845",
-      "size": 88537740
+      "sha256": "10739e813e9bf2c1ff8342654aad04edd39ba1568047af9208fac5e7062e5ce3",
+      "size": 88564436
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "8b3756b13a87d7f1fa66d0cae1cce0ac572b3dd80a5002bd2bf100b6835acadd",
+      "sha256": "42a2a39d600717822626cd01204e7b960f21669f880dd219ab97b77d2f8864fe",
       "size": 21683562
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "08344f1fd78b0b58099eca8cec905ecbc0bd8251d75b87e3a2f07a1bb2ceba78",
+      "sha256": "4afb6a3deb1e7679714ba3b1a2489e2c26a87576c8790d9d2817403be436e204",
       "size": 4048,
       "apply": "last"
     }
