@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.406",
-  "published": "2026-10-12T20:22:39Z",
-  "gitRev": "12b1ccbb8791ec6271af38248ac55fa160e686a5",
+  "version": "2.103.407",
+  "published": "2026-10-12T23:00:10Z",
+  "gitRev": "f684022c0feaf97d1dbf98478d17b6c488f27b27",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.407",
+      "t": "Merge pull request #433 from aleksandrsvoboda/feat/area-presets"
+    },
     {
       "v": "2.103.406",
       "t": "Merge pull request #432 from aleksandrsvoboda/feat/folder-organization-areas"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.388",
       "t": "fix tunneler"
-    },
-    {
-      "v": "2.103.387",
-      "t": "Merge pull request #423 from aleksandrsvoboda/feat/tunnel-frames"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "10739e813e9bf2c1ff8342654aad04edd39ba1568047af9208fac5e7062e5ce3",
-      "size": 88564436
+      "sha256": "d043b1c4c1cf9161115dcb40f228ce661ac9f9fffcc54d9d755e8852eefb12d6",
+      "size": 88672221
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "42a2a39d600717822626cd01204e7b960f21669f880dd219ab97b77d2f8864fe",
+      "sha256": "03addf8e45a97a4a4a02d0237ac1c4618f53ca488391f1c602b46f7fb63aa7e5",
       "size": 21683562
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "4afb6a3deb1e7679714ba3b1a2489e2c26a87576c8790d9d2817403be436e204",
+      "sha256": "4701662a5c4c3b2caf6d32405b1d650ebeac3ec6d440b9a9c12e1c5e1c19b0c1",
       "size": 4048,
       "apply": "last"
     }
