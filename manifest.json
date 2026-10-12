@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.404",
-  "published": "2026-10-12T14:58:17Z",
-  "gitRev": "9a66833190fb95f7ff48d6d5a28f656a1ba02866",
+  "version": "2.103.405",
+  "published": "2026-10-12T18:01:00Z",
+  "gitRev": "d9199656f98b224ad56e88c30f97fb99b60ccb01",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.405",
+      "t": "Merge pull request #431 from aleksandrsvoboda/feat/smokering-smokeship-bot"
+    },
     {
       "v": "2.103.404",
       "t": "Fixes"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.386",
       "t": "Merge pull request #422 from aleksandrsvoboda/fix/skating"
-    },
-    {
-      "v": "2.103.385",
-      "t": "Merge pull request #421 from aleksandrsvoboda/feat/ui-improvements-katodiy"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "2975707c9a360b2beac5c4ba2568b1f904899e08388fb2e3fd8b41ab9534aded",
-      "size": 88514576
+      "sha256": "9655f56e44b1d8df4b44971670df218010339c3983f3eac854e177f59cfa4845",
+      "size": 88537740
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "a5a8016c7fe09b88e7cd4e0baa333210d6d2ea27374b602b3787817808b94ad0",
-      "size": 21676899
+      "sha256": "8b3756b13a87d7f1fa66d0cae1cce0ac572b3dd80a5002bd2bf100b6835acadd",
+      "size": 21683562
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "62495183e7023fac8c3ec63016de19713e580d5ccf2888a017bc2902bebd61b0",
+      "sha256": "08344f1fd78b0b58099eca8cec905ecbc0bd8251d75b87e3a2f07a1bb2ceba78",
       "size": 4048,
       "apply": "last"
     }
