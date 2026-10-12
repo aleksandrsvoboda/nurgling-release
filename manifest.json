@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.402",
-  "published": "2026-10-10T05:59:23Z",
-  "gitRev": "ae658a521f6985e49daa2ff4d27d938c068ddd59",
+  "version": "2.103.403",
+  "published": "2026-10-12T04:03:49Z",
+  "gitRev": "a780a556d502a757d4edce9e89f16deff7120462",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.403",
+      "t": "Merge pull request #430 from aleksandrsvoboda/feature/texture-upscale"
+    },
     {
       "v": "2.103.402",
       "t": "Merge pull request #429 from aleksandrsvoboda/feat/zoned-leaf-collector"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.384",
       "t": "Merge pull request #420 from aleksandrsvoboda/revert/ui-style"
-    },
-    {
-      "v": "2.103.383",
-      "t": "Merge pull request #419 from aleksandrsvoboda/friend-import-2026-10-04"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "8d2b3c84fc17bf7b854f42a7fe4caea29e27037af59b6b82a0b8c0a6e7431685",
-      "size": 88469651
+      "sha256": "5eeae5652a2a398d872790818f7774974f76d1f9cb355733198ff4e76b1beaa5",
+      "size": 88513317
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "323f01cf6c17eca304922f026ccccd87df22b3da8d083b778e417cc64b3cb084",
+      "sha256": "058a5018a16df1e8a94f27020739f00accda7c0ebb0234366ddbb0fe160aa03b",
       "size": 21676899
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "df69be7014347bde8c2e2f386e11fbba9ac91aeaaa270a8a83b30b6cc15cd87c",
+      "sha256": "8c45d4e59fdc4714bb3c8976fc0f9e32504c12cc45306c2e6ca03f7b51b5b24a",
       "size": 4048,
       "apply": "last"
     }
