@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.403",
-  "published": "2026-10-12T04:03:49Z",
-  "gitRev": "a780a556d502a757d4edce9e89f16deff7120462",
+  "version": "2.103.404",
+  "published": "2026-10-12T14:58:17Z",
+  "gitRev": "9a66833190fb95f7ff48d6d5a28f656a1ba02866",
   "updater": "1.2.1",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.404",
+      "t": "Fixes"
+    },
     {
       "v": "2.103.403",
       "t": "Merge pull request #430 from aleksandrsvoboda/feature/texture-upscale"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.385",
       "t": "Merge pull request #421 from aleksandrsvoboda/feat/ui-improvements-katodiy"
-    },
-    {
-      "v": "2.103.384",
-      "t": "Merge pull request #420 from aleksandrsvoboda/revert/ui-style"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "5eeae5652a2a398d872790818f7774974f76d1f9cb355733198ff4e76b1beaa5",
-      "size": 88513317
+      "sha256": "2975707c9a360b2beac5c4ba2568b1f904899e08388fb2e3fd8b41ab9534aded",
+      "size": 88514576
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "058a5018a16df1e8a94f27020739f00accda7c0ebb0234366ddbb0fe160aa03b",
+      "sha256": "a5a8016c7fe09b88e7cd4e0baa333210d6d2ea27374b602b3787817808b94ad0",
       "size": 21676899
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "8c45d4e59fdc4714bb3c8976fc0f9e32504c12cc45306c2e6ca03f7b51b5b24a",
+      "sha256": "62495183e7023fac8c3ec63016de19713e580d5ccf2888a017bc2902bebd61b0",
       "size": 4048,
       "apply": "last"
     }
