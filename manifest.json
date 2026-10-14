@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.409",
-  "published": "2026-10-13T19:37:38Z",
-  "gitRev": "b6adb3be72b6da0d18eb78e51dfd4e9675914f34",
+  "version": "2.103.410",
+  "published": "2026-10-14T01:04:16Z",
+  "gitRev": "e795bb259a2dca327fe3d3e514c5935228a4c3bc",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.410",
+      "t": "Fixes"
+    },
     {
       "v": "2.103.409",
       "t": "Merge pull request #434 from aleksandrsvoboda/feat/architect-app-entry"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.391",
       "t": "Fix button"
-    },
-    {
-      "v": "2.103.390",
-      "t": "Bring back storage items icon"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "b0cbdc8b57215a72101fc80be574c586f8bf1f6179be97ef67e17c4b86f705f7",
-      "size": 88713314
+      "sha256": "4362c86e42fe6aae942b63c48b522ef211c7fe2276f322435b555f53a4376a0a",
+      "size": 88678947
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "4ce294ea44324ed8c9ccf9063e6e7637338e2fd59ae88fc8f34e8d0e3608f374",
+      "sha256": "04aaf66663d2a08ffa4c81e8a0d64ce6372c46bea26378eeffe4f3846ad8fd3c",
       "size": 21683562
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "aa7c03e45b918be176fdeef52c6e7cf963a4dd4e7ce9998c8f8dc5ad2b3dce28",
+      "sha256": "920ece8a698cbd59f3f926714e0002c1f0a51cca0b93ce6e192c1abe061b75d6",
       "size": 4048,
       "apply": "last"
     }
