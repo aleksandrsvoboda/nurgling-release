@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.411",
-  "published": "2026-10-16T00:09:30Z",
-  "gitRev": "2af4e4e534b3fb0ec55b43b971bf0190b76dec87",
+  "version": "2.103.412",
+  "published": "2026-10-16T02:33:54Z",
+  "gitRev": "0560c1b8731d5861fab8409940306266add893f6",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.412",
+      "t": "Merge pull request #436 from aleksandrsvoboda/fix/leveler-stability"
+    },
     {
       "v": "2.103.411",
       "t": "Merge pull request #435 from aleksandrsvoboda/feat/blueprint-builder"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.393",
       "t": "Fixes"
-    },
-    {
-      "v": "2.103.392",
-      "t": "Merge pull request #425 from aleksandrsvoboda/feat/storage-stash-tabs"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "cf2d04088fb6efa05071af004d2a82c763d0c7416223a12b62b0022e2a13271c",
-      "size": 88751115
+      "sha256": "f956f61e4e7d43bbdda3803e292459aefd4db9fd9a957ff38297f226dde573f0",
+      "size": 88752175
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "d99284c15bec1700e3da0024e543fb682a97367f7d9fb8f8429944df348a731a",
+      "sha256": "cdfabb47f8df0350995825b77f33f0e5c58c422bfe770884fb1c4ba06452f414",
       "size": 21685471
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "56c96278fa69e2fcb571d02368742b8bd4082d7b31f771b8094c11dea017f46a",
+      "sha256": "cc7a45eeb59b9abc6f91edb9bd841bddc99dcce1169f43421533580a5ee16021",
       "size": 4048,
       "apply": "last"
     }
