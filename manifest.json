@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.417",
-  "published": "2026-10-20T20:09:04Z",
-  "gitRev": "a891d821cb7950d194d5c239109c5c2b01411450",
+  "version": "2.103.418",
+  "published": "2026-10-20T20:20:37Z",
+  "gitRev": "383844fe8bea714785f2033c84d40887a28ecf9c",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.418",
+      "t": "Merge pull request #446 from aleksandrsvoboda/feat/variation-panel-close-button"
+    },
     {
       "v": "2.103.417",
       "t": "Merge pull request #445 from aleksandrsvoboda/feat/butter-milk-types"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.399",
       "t": "Fix fps"
-    },
-    {
-      "v": "2.103.398",
-      "t": "icon"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "bc0717be3637933bfb05bd34dbaaa7468aca3f003aa5b9c4b4a0ca430d870628",
-      "size": 88800519
+      "sha256": "19c3ec34c4522716415b418ba17d7dad720a99d000a7ffea9faefb3499a946d5",
+      "size": 88800603
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "4f1322435ba2710779d137c51211a9a634ade7688c9beaeb299cfa9060f65891",
+      "sha256": "423bc2115c9fa6fe57ff279765a542a5a870c08e131486f9e92b44f32e91b8d1",
       "size": 21667099
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "d3a7f050e47ed54fc34b43bd1759a84bce04d79981e0f53d9401918cda123362",
+      "sha256": "67670bf619cd54309162919fd040f91611a69b16b5b8da9602c8071248c9b4ff",
       "size": 4048,
       "apply": "last"
     }
