@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.414",
-  "published": "2026-10-20T16:28:13Z",
-  "gitRev": "69b8140b25b62d7b434c4c2fc27bf19254090a51",
+  "version": "2.103.415",
+  "published": "2026-10-20T18:24:45Z",
+  "gitRev": "13727534b962b347c58094cb5795718f6d0a49ba",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.415",
+      "t": "Merge pull request #443 from aleksandrsvoboda/feat/autocraft-storage-items"
+    },
     {
       "v": "2.103.414",
       "t": "Merge pull request #442 from aleksandrsvoboda/fix/more-stack-items"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.396",
       "t": "Fix tunnerl"
-    },
-    {
-      "v": "2.103.395",
-      "t": "Batter, wine in autocrafting"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "fc878e5ac22731dda2cb5460408b24a46a81aeb5a98c02c3d5fc776b9fb65ba5",
-      "size": 88760607
+      "sha256": "9c117065056510562554823385ed76ab795b48c34eb76bc71b95e7c11d87f51b",
+      "size": 88781939
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "32bffd5a2cde5fa315df15f5d78d3de209b522690dfb7c34e22da3162ad3316f",
-      "size": 21685471
+      "sha256": "11692eb04afc550522fa26ba2d6388c1da37ba59ada417f00125c13a703d8ea1",
+      "size": 21667099
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "4f4d7d55f039fa70b83e434ad5b4a0a9c70c6ca22f8f7d7c694e1d0676659830",
+      "sha256": "8e264e8acc4864d3c91583a41933545a9991a912a551352a283f2fad1bf70e7e",
       "size": 4048,
       "apply": "last"
     }
