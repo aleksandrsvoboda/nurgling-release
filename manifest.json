@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.418",
-  "published": "2026-10-20T20:20:37Z",
-  "gitRev": "383844fe8bea714785f2033c84d40887a28ecf9c",
+  "version": "2.103.419",
+  "published": "2026-10-20T20:37:11Z",
+  "gitRev": "f583783beb187db5961d25dc31543b21fdd4f653",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.419",
+      "t": "Merge pull request #447 from aleksandrsvoboda/feat/add-diagonals"
+    },
     {
       "v": "2.103.418",
       "t": "Merge pull request #446 from aleksandrsvoboda/feat/variation-panel-close-button"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.400",
       "t": "Merge pull request #427 from aleksandrsvoboda/feat/swill-collector"
-    },
-    {
-      "v": "2.103.399",
-      "t": "Fix fps"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "19c3ec34c4522716415b418ba17d7dad720a99d000a7ffea9faefb3499a946d5",
-      "size": 88800603
+      "sha256": "a308dc7ca4a1ac7a44fd7f50902a92eb38d83dc1c8eb046ec4a1bea98bf23f24",
+      "size": 88802198
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "423bc2115c9fa6fe57ff279765a542a5a870c08e131486f9e92b44f32e91b8d1",
+      "sha256": "1e1ecd696297e1a9848353ccd0710df056b282d1c77b61646ec8491fea06fee0",
       "size": 21667099
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "67670bf619cd54309162919fd040f91611a69b16b5b8da9602c8071248c9b4ff",
+      "sha256": "94c6bcd8f369fae1042804c7b0befa27e3f0b2274d9786d452a98474c1b8cf79",
       "size": 4048,
       "apply": "last"
     }
