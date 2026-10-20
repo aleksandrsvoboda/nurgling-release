@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.416",
-  "published": "2026-10-20T19:13:29Z",
-  "gitRev": "2ac3f5f4ccd575d2c93a893f62bc2ed52929a5b0",
+  "version": "2.103.417",
+  "published": "2026-10-20T20:09:04Z",
+  "gitRev": "a891d821cb7950d194d5c239109c5c2b01411450",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.417",
+      "t": "Merge pull request #445 from aleksandrsvoboda/feat/butter-milk-types"
+    },
     {
       "v": "2.103.416",
       "t": "Merge pull request #444 from aleksandrsvoboda/feat/autocraft-ingredients"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.398",
       "t": "icon"
-    },
-    {
-      "v": "2.103.397",
-      "t": "Merge pull request #426 from aleksandrsvoboda/feat/carry-items"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "42ad6cdcc06469e257ce16796b12e26ffcad39fa3db9b0c4c5fcda1d380b5bfb",
-      "size": 88789541
+      "sha256": "bc0717be3637933bfb05bd34dbaaa7468aca3f003aa5b9c4b4a0ca430d870628",
+      "size": 88800519
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "4e03d0cd9222adf7cb40b563d294e2eeb0f4e4879ee6a4c9fcfd6cba68fa539c",
+      "sha256": "4f1322435ba2710779d137c51211a9a634ade7688c9beaeb299cfa9060f65891",
       "size": 21667099
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "06e7d37e915f5c64ce66b3652e7cac3b6d531c58d8a912a91c5b4a2ff7b5fd1f",
+      "sha256": "d3a7f050e47ed54fc34b43bd1759a84bce04d79981e0f53d9401918cda123362",
       "size": 4048,
       "apply": "last"
     }
