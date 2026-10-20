@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.415",
-  "published": "2026-10-20T18:24:45Z",
-  "gitRev": "13727534b962b347c58094cb5795718f6d0a49ba",
+  "version": "2.103.416",
+  "published": "2026-10-20T19:13:29Z",
+  "gitRev": "2ac3f5f4ccd575d2c93a893f62bc2ed52929a5b0",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.416",
+      "t": "Merge pull request #444 from aleksandrsvoboda/feat/autocraft-ingredients"
+    },
     {
       "v": "2.103.415",
       "t": "Merge pull request #443 from aleksandrsvoboda/feat/autocraft-storage-items"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.397",
       "t": "Merge pull request #426 from aleksandrsvoboda/feat/carry-items"
-    },
-    {
-      "v": "2.103.396",
-      "t": "Fix tunnerl"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "9c117065056510562554823385ed76ab795b48c34eb76bc71b95e7c11d87f51b",
-      "size": 88781939
+      "sha256": "42ad6cdcc06469e257ce16796b12e26ffcad39fa3db9b0c4c5fcda1d380b5bfb",
+      "size": 88789541
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "11692eb04afc550522fa26ba2d6388c1da37ba59ada417f00125c13a703d8ea1",
+      "sha256": "4e03d0cd9222adf7cb40b563d294e2eeb0f4e4879ee6a4c9fcfd6cba68fa539c",
       "size": 21667099
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "8e264e8acc4864d3c91583a41933545a9991a912a551352a283f2fad1bf70e7e",
+      "sha256": "06e7d37e915f5c64ce66b3652e7cac3b6d531c58d8a912a91c5b4a2ff7b5fd1f",
       "size": 4048,
       "apply": "last"
     }
