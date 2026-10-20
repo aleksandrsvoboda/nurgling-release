@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.413",
-  "published": "2026-10-16T02:36:28Z",
-  "gitRev": "09a003b62a06da05c69e6543e37932c193e5fed8",
+  "version": "2.103.414",
+  "published": "2026-10-20T16:28:13Z",
+  "gitRev": "69b8140b25b62d7b434c4c2fc27bf19254090a51",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.414",
+      "t": "Merge pull request #442 from aleksandrsvoboda/fix/more-stack-items"
+    },
     {
       "v": "2.103.413",
       "t": "Merge pull request #437 from aleksandrsvoboda/feat/presets-from-world"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.395",
       "t": "Batter, wine in autocrafting"
-    },
-    {
-      "v": "2.103.394",
-      "t": "Fixes to storage"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "32177bf3344dbaebd8b9772d9a810ec2bb31b76392480f6bb5f487729932c116",
-      "size": 88760489
+      "sha256": "fc878e5ac22731dda2cb5460408b24a46a81aeb5a98c02c3d5fc776b9fb65ba5",
+      "size": 88760607
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "cfb88c41636a54f927aec0e5084bb499e0af02c5acac280b01a78e480df83d51",
+      "sha256": "32bffd5a2cde5fa315df15f5d78d3de209b522690dfb7c34e22da3162ad3316f",
       "size": 21685471
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "1fe077efa693ea7829decbef561c09bde91b07e3dadabf38a17d351fefe6b4b3",
+      "sha256": "4f4d7d55f039fa70b83e434ad5b4a0a9c70c6ca22f8f7d7c694e1d0676659830",
       "size": 4048,
       "apply": "last"
     }
