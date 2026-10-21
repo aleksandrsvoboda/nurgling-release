@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.422",
-  "published": "2026-10-21T00:31:12Z",
-  "gitRev": "a4aaee4353906f27862d11882d7039c8f66c3a6d",
+  "version": "2.103.423",
+  "published": "2026-10-21T03:04:25Z",
+  "gitRev": "938747a34849876b1c5d8aa03e507f8e8f894deb",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.423",
+      "t": "Merge pull request #452 from aleksandrsvoboda/feat/LP-gatherer"
+    },
     {
       "v": "2.103.422",
       "t": "Merge pull request #450 from aleksandrsvoboda/feat/cheese-conveyor-priority"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.404",
       "t": "Fixes"
-    },
-    {
-      "v": "2.103.403",
-      "t": "Merge pull request #430 from aleksandrsvoboda/feature/texture-upscale"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "cef0c88c1020849e36f8297a49d76f3ef371672fd2c42ba83869b900595c0e4c",
-      "size": 88886845
+      "sha256": "c9a65c3baead9546bf0fe5aa9d14630fcf8f7174a6e7638759d3679077bf7ad2",
+      "size": 88905708
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "34725d4b3de4d3a8818597cf03e9e674b616aa5844cffc19dd381027df44eb50",
-      "size": 21671657
+      "sha256": "17c92ddd34483bf140059dbc98658c1ed13334638f87b1dbedd6ebd574cbd3c9",
+      "size": 21673678
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "f3188e6597cf4267ba85fbdf7371974ad2e031564bd1f976f5c962f75bedc409",
+      "sha256": "36b4f7010acb7e0778ccc975a3e1e1d9cad27dde71be4ea78d21a1149083ca29",
       "size": 4048,
       "apply": "last"
     }
