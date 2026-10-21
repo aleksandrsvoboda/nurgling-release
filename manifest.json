@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.423",
-  "published": "2026-10-21T03:04:25Z",
-  "gitRev": "938747a34849876b1c5d8aa03e507f8e8f894deb",
+  "version": "2.103.424",
+  "published": "2026-10-21T03:46:44Z",
+  "gitRev": "c858fbffc7e7d8ab0ed480ce6489d5fd08b82d54",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.424",
+      "t": "Merge pull request #438 from alexodnodvorcev/fix/qualityfields"
+    },
     {
       "v": "2.103.423",
       "t": "Merge pull request #452 from aleksandrsvoboda/feat/LP-gatherer"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.405",
       "t": "Merge pull request #431 from aleksandrsvoboda/feat/smokering-smokeship-bot"
-    },
-    {
-      "v": "2.103.404",
-      "t": "Fixes"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "c9a65c3baead9546bf0fe5aa9d14630fcf8f7174a6e7638759d3679077bf7ad2",
-      "size": 88905708
+      "sha256": "a149bb4d409c7a0f8384225208d8af04eebc5b77907c5d876b847e3707a6391f",
+      "size": 88906567
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "17c92ddd34483bf140059dbc98658c1ed13334638f87b1dbedd6ebd574cbd3c9",
+      "sha256": "f3e034e861aafcb1a80f8e37ff7e59b7dfbdac66d726083619b8988b2dc5a370",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "36b4f7010acb7e0778ccc975a3e1e1d9cad27dde71be4ea78d21a1149083ca29",
+      "sha256": "a63ffa4943f87f75c06ed09af137f80cd30c45e92fb8eb38c37455b0ad1a2c64",
       "size": 4048,
       "apply": "last"
     }
