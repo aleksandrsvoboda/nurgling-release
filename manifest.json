@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.421",
-  "published": "2026-10-21T00:05:19Z",
-  "gitRev": "e27733f48d1fd519cd47bf347e64f231b3e4407d",
+  "version": "2.103.422",
+  "published": "2026-10-21T00:31:12Z",
+  "gitRev": "a4aaee4353906f27862d11882d7039c8f66c3a6d",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.422",
+      "t": "Merge pull request #450 from aleksandrsvoboda/feat/cheese-conveyor-priority"
+    },
     {
       "v": "2.103.421",
       "t": "Merge pull request #449 from aleksandrsvoboda/feat/drinker-bot"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.403",
       "t": "Merge pull request #430 from aleksandrsvoboda/feature/texture-upscale"
-    },
-    {
-      "v": "2.103.402",
-      "t": "Merge pull request #429 from aleksandrsvoboda/feat/zoned-leaf-collector"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "5f594f3d03930fbcb282b3399776b31f7c22551ba3f31763b06da1807c962779",
-      "size": 88883945
+      "sha256": "cef0c88c1020849e36f8297a49d76f3ef371672fd2c42ba83869b900595c0e4c",
+      "size": 88886845
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "0727c4a313982f036f870476f3f8bc2b186d8489cec14d4cb977cf4f9cc53950",
+      "sha256": "34725d4b3de4d3a8818597cf03e9e674b616aa5844cffc19dd381027df44eb50",
       "size": 21671657
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "f502936dcb208dc02385622958490f82d66c419bdb80bd91d87b0598d3a451dc",
+      "sha256": "f3188e6597cf4267ba85fbdf7371974ad2e031564bd1f976f5c962f75bedc409",
       "size": 4048,
       "apply": "last"
     }
