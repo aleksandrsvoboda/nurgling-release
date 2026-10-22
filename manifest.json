@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.427",
-  "published": "2026-10-22T02:46:21Z",
-  "gitRev": "18a80fa60542a7c66c7d535f57de78faacb2d41d",
+  "version": "2.103.428",
+  "published": "2026-10-22T04:30:53Z",
+  "gitRev": "43a121826e6d861befa1a97e83669fb3091a1599",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.428",
+      "t": "Merge pull request #454 from aleksandrsvoboda/feat/roads-in-tunneler"
+    },
     {
       "v": "2.103.427",
       "t": "Merge pull request #453 from aleksandrsvoboda/fix/tunnel-frame-north-west"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.409",
       "t": "Merge pull request #434 from aleksandrsvoboda/feat/architect-app-entry"
-    },
-    {
-      "v": "2.103.408",
-      "t": "Blueprint presets"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "f01ab0185444dd45ff50b67bf81c93063846a2a87ff66c874a15d85b1b52afd4",
-      "size": 88930420
+      "sha256": "0bdeb021b468975ba1e96594dd41776f277e671f425d075c2180c9b9d9217783",
+      "size": 88961467
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "67a0a0e0334471cb43003886d19565051e5312da1f069b49e13070cae9621104",
+      "sha256": "613dee2d49ee0ea94ed409fe97d66726d0d37821487dbcbd4ce7fd070bb5f397",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "d9f8d6b70777c52700afbfa498711c60623d28a995d0af97788a561852ee50c2",
+      "sha256": "615fcdee8960958e89c76363ff92e6bdc7a5a644526672883a20e29b2652fcf2",
       "size": 4048,
       "apply": "last"
     }
