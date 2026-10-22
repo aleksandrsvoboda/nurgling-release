@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.426",
-  "published": "2026-10-21T03:57:17Z",
-  "gitRev": "0da7fa51a5d43469a31197a325a093546f396e82",
+  "version": "2.103.427",
+  "published": "2026-10-22T02:46:21Z",
+  "gitRev": "18a80fa60542a7c66c7d535f57de78faacb2d41d",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.427",
+      "t": "Merge pull request #453 from aleksandrsvoboda/fix/tunnel-frame-north-west"
+    },
     {
       "v": "2.103.426",
       "t": "Merge pull request #451 from aleksandrsvoboda/feat/autocraft-variations"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.408",
       "t": "Blueprint presets"
-    },
-    {
-      "v": "2.103.407",
-      "t": "Merge pull request #433 from aleksandrsvoboda/feat/area-presets"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "c63b0e84498fcfa54c8cf6bec3af2826f58d34014e4214bd9c31159e4c9911eb",
-      "size": 88930429
+      "sha256": "f01ab0185444dd45ff50b67bf81c93063846a2a87ff66c874a15d85b1b52afd4",
+      "size": 88930420
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "2a0dfdc7406ba023c10e38cad9ac46491f0c145b7c01f38009725ac7c4db6215",
+      "sha256": "67a0a0e0334471cb43003886d19565051e5312da1f069b49e13070cae9621104",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "741fdcfa692f9330144d4458936d25ee1269c3ee78663893b444529e2e35a9e1",
+      "sha256": "d9f8d6b70777c52700afbfa498711c60623d28a995d0af97788a561852ee50c2",
       "size": 4048,
       "apply": "last"
     }
