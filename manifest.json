@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.429",
-  "published": "2026-10-22T13:56:08Z",
-  "gitRev": "03398276ac0412248a8af0d201b73b1348f0eeb9",
+  "version": "2.103.430",
+  "published": "2026-10-22T14:49:22Z",
+  "gitRev": "ca7ba0a919aa21c619edbcb7e7d46c9bb3ba9da7",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.430",
+      "t": "Merge pull request #456 from aleksandrsvoboda/feat/tags-on-milestones"
+    },
     {
       "v": "2.103.429",
       "t": "Merge pull request #455 from aleksandrsvoboda/feat/tunneler-bot-fixes"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.411",
       "t": "Merge pull request #435 from aleksandrsvoboda/feat/blueprint-builder"
-    },
-    {
-      "v": "2.103.410",
-      "t": "Fixes"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "acdfca94a9d215c642d4052773fe82706ef361c50fa7add7f96521323fd5f465",
-      "size": 88966869
+      "sha256": "f4642dda300df8f6a7893ec30723dcb49d7de9f20f8affcceedbfa35a4114a35",
+      "size": 88976095
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "8e0d6e40bec4b303de8024fef28b3f46012f58b5c1bacdfce083f6655de1914b",
+      "sha256": "2fd609dadc971fe0be526efa732d9cd8e02ac96e79185110497b5a9036dd7534",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "ee7560519521319a89180064c160c13305d68eec5a52e0a127b3f67ce3f7ca49",
+      "sha256": "f6aa44bdaa7c63c9b12c78214bc7ffc27d23d669831912d4ae71fe1410a81286",
       "size": 4048,
       "apply": "last"
     }
