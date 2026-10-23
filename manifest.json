@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.437",
-  "published": "2026-10-23T03:21:51Z",
-  "gitRev": "95e4d0a72d4c60cb482a91a8f573e30beca4cc99",
+  "version": "2.103.438",
+  "published": "2026-10-23T15:08:18Z",
+  "gitRev": "e78e771ecc28c277968ded1c682058cbcbe06569",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.438",
+      "t": "Merge pull request #462 from aleksandrsvoboda/feat/session-mute"
+    },
     {
       "v": "2.103.437",
       "t": "Merge pull request #461 from aleksandrsvoboda/feat/plugin-map-hooks"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.419",
       "t": "Merge pull request #447 from aleksandrsvoboda/feat/add-diagonals"
-    },
-    {
-      "v": "2.103.418",
-      "t": "Merge pull request #446 from aleksandrsvoboda/feat/variation-panel-close-button"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "6c9d14529c6d8c18708f6edaa59c734fe5b8b6000e0c31bcc75303a13edbc6a0",
-      "size": 88987697
+      "sha256": "473b5ae0e563025bcc2287c084146774613d53708dbf72c99e84b730df3abae5",
+      "size": 88991680
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "bcbe31d97c40ca5f0c72e52d4ff99f773139efec867e386bfda118855214288f",
+      "sha256": "20c809b0ebe8bb6729cc1a0b86b8476db74ddc66f99298d093eff16bf2091409",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "0197d24003169789c0f8f9f0818efa0db6857dbb44c5c8d9c97708c669d39803",
+      "sha256": "81ec971622feef44a671c7922472939f46273f1ccef277a12f3f2a3e1c4dd596",
       "size": 4048,
       "apply": "last"
     }
