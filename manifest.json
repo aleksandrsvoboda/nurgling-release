@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.438",
-  "published": "2026-10-23T15:08:18Z",
-  "gitRev": "e78e771ecc28c277968ded1c682058cbcbe06569",
+  "version": "2.103.439",
+  "published": "2026-10-25T02:56:46Z",
+  "gitRev": "0fa53897197eed3bdd3471e189add2bef130e140",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.439",
+      "t": "Q farmer fix"
+    },
     {
       "v": "2.103.438",
       "t": "Merge pull request #462 from aleksandrsvoboda/feat/session-mute"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.420",
       "t": "Merge pull request #448 from aleksandrsvoboda/feat/herd-visualizer"
-    },
-    {
-      "v": "2.103.419",
-      "t": "Merge pull request #447 from aleksandrsvoboda/feat/add-diagonals"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "473b5ae0e563025bcc2287c084146774613d53708dbf72c99e84b730df3abae5",
-      "size": 88991680
+      "sha256": "39309b845250108ca64d70455aa4f429d27d74ae31a68809f6600011f9a9c308",
+      "size": 88993175
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "20c809b0ebe8bb6729cc1a0b86b8476db74ddc66f99298d093eff16bf2091409",
+      "sha256": "1b6ce1e0ee913fe0f4b2789461da73001358148a15edcd5de96625bd053fb0c1",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "81ec971622feef44a671c7922472939f46273f1ccef277a12f3f2a3e1c4dd596",
+      "sha256": "440e5d864dcf3c6463844b7ec25ad353c1c86c3da897725cf3c461fcb89e91c0",
       "size": 4048,
       "apply": "last"
     }
