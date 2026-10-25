@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.441",
-  "published": "2026-10-25T03:36:47Z",
-  "gitRev": "38ad697212ca548c037f99a18487e1674442a6ff",
+  "version": "2.103.442",
+  "published": "2026-10-25T16:46:56Z",
+  "gitRev": "08a9b793b37fb72463f40a9d6a9f9c7155f6cfe5",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.442",
+      "t": "Merge pull request #463 from aleksandrsvoboda/fix/smelter-return-to-smelters"
+    },
     {
       "v": "2.103.441",
       "t": "Multiple troughs"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.423",
       "t": "Merge pull request #452 from aleksandrsvoboda/feat/LP-gatherer"
-    },
-    {
-      "v": "2.103.422",
-      "t": "Merge pull request #450 from aleksandrsvoboda/feat/cheese-conveyor-priority"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "058e32cae0d94f66837ca4090b104f76826d10ad48626180a226c470ca435d6b",
-      "size": 88996196
+      "sha256": "a368970cdad31eb7ceaffd3613ecb873224df9979ad21a5f1b3b9cee8dffc028",
+      "size": 88996193
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "6cbd79b329545c082e8e857ef2e1153ab0adb7b5f1f8f342d397090877035b1f",
+      "sha256": "85ad08709f18b1d41679940d11ce72487602454eea3067ae205342a0e673aca6",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "842f4d04aaac050d7fad9806845aef3de0d397f00904d5e4ea5afe466f36cd14",
+      "sha256": "57859fa049ea77a4b5002c92095449e0534af43e0f35edd8a6a1a0eb522037d0",
       "size": 4048,
       "apply": "last"
     }
