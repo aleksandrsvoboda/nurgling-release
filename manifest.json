@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.442",
-  "published": "2026-10-25T16:46:56Z",
-  "gitRev": "08a9b793b37fb72463f40a9d6a9f9c7155f6cfe5",
+  "version": "2.103.443",
+  "published": "2026-10-28T18:20:25Z",
+  "gitRev": "60ac4a918295c80ca7409f3070268c09fc6c2f1c",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.443",
+      "t": "Merge pull request #464 from aleksandrsvoboda/perf/decoupled-render"
+    },
     {
       "v": "2.103.442",
       "t": "Merge pull request #463 from aleksandrsvoboda/fix/smelter-return-to-smelters"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.424",
       "t": "Merge pull request #438 from alexodnodvorcev/fix/qualityfields"
-    },
-    {
-      "v": "2.103.423",
-      "t": "Merge pull request #452 from aleksandrsvoboda/feat/LP-gatherer"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "a368970cdad31eb7ceaffd3613ecb873224df9979ad21a5f1b3b9cee8dffc028",
-      "size": 88996193
+      "sha256": "21dce45e7e3dbb7d2f5d317e53b60025fe098df721445bf09a83bc6aaf969388",
+      "size": 89078918
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "85ad08709f18b1d41679940d11ce72487602454eea3067ae205342a0e673aca6",
+      "sha256": "ef5430d4b2eae84d9e6b2477c3ca1447e2fb9d648666de650d65e66bf644efcf",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "57859fa049ea77a4b5002c92095449e0534af43e0f35edd8a6a1a0eb522037d0",
+      "sha256": "0b7b7f2b048c57e94c8c77a6f2781f2bc94f9793c49041005ea6147109391f46",
       "size": 4048,
       "apply": "last"
     }
