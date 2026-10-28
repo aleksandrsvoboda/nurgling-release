@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.443",
-  "published": "2026-10-28T18:20:25Z",
-  "gitRev": "60ac4a918295c80ca7409f3070268c09fc6c2f1c",
+  "version": "2.103.444",
+  "published": "2026-10-28T19:33:45Z",
+  "gitRev": "96d95fe38760eecf30026e15e79477357e30d762",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.444",
+      "t": "Frame bridge: honour the FPS limit"
+    },
     {
       "v": "2.103.443",
       "t": "Merge pull request #464 from aleksandrsvoboda/perf/decoupled-render"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.425",
       "t": "Fix seeding"
-    },
-    {
-      "v": "2.103.424",
-      "t": "Merge pull request #438 from alexodnodvorcev/fix/qualityfields"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "21dce45e7e3dbb7d2f5d317e53b60025fe098df721445bf09a83bc6aaf969388",
-      "size": 89078918
+      "sha256": "f557b3528c1720bd16cfef379053df3d3887897f4715012e294b314fd7d02aae",
+      "size": 89079301
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "ef5430d4b2eae84d9e6b2477c3ca1447e2fb9d648666de650d65e66bf644efcf",
+      "sha256": "b37a4c6a5f02f6a6990204f51dd3e9c68138604ab79e8defe5f03d16be7ff208",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "0b7b7f2b048c57e94c8c77a6f2781f2bc94f9793c49041005ea6147109391f46",
+      "sha256": "143b143f290427c39bdf7758c07f870283f41a5e26bd72302c485d22beb26cea",
       "size": 4048,
       "apply": "last"
     }
