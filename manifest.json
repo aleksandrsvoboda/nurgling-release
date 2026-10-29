@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.448",
-  "published": "2026-10-29T18:02:28Z",
-  "gitRev": "418494d73f55287a080722d991e7219343c78a0f",
+  "version": "2.103.449",
+  "published": "2026-10-29T20:20:46Z",
+  "gitRev": "146085580149751bc701cd3a2094cc1139331f3e",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.449",
+      "t": "Merge pull request #465 from aleksandrsvoboda/fix/shared-mapfile"
+    },
     {
       "v": "2.103.448",
       "t": "Deferred draw list: apply every state change each frame"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.430",
       "t": "Merge pull request #456 from aleksandrsvoboda/feat/tags-on-milestones"
-    },
-    {
-      "v": "2.103.429",
-      "t": "Merge pull request #455 from aleksandrsvoboda/feat/tunneler-bot-fixes"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "57fc179d39def9a65762492a9b1b6d0cb329153bab2ec607f830d5bb2cc5d267",
-      "size": 89084181
+      "sha256": "7940d362f6d91420b11623fa8e2200bc7f7ccd5e2a3f26bc9f7686bef5f4854c",
+      "size": 89084410
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "2f39028685c80dddaa2383a3a5833ab112450efe629ce76e8232fc29851d9b37",
+      "sha256": "4ea45cb94061fdbd122d9f16d03a010a43521fe1be0a8869244e563cad932c54",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "c6476098b5f1c3871467e5bd425906bfc240ce9dfd7fa7756c6253b16a23623b",
+      "sha256": "75d9a0014f65c34959d53ce88f161bf009b3bb9a7c4b0787a7c4e9c2b6497e14",
       "size": 4048,
       "apply": "last"
     }
