@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.444",
-  "published": "2026-10-28T19:33:45Z",
-  "gitRev": "96d95fe38760eecf30026e15e79477357e30d762",
+  "version": "2.103.445",
+  "published": "2026-10-29T00:27:38Z",
+  "gitRev": "48d9947eaf324f4bf2329bd10bd36d31aba92a15",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.445",
+      "t": "Frame bridge: wait for the GPU before sharing frames"
+    },
     {
       "v": "2.103.444",
       "t": "Frame bridge: honour the FPS limit"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.426",
       "t": "Merge pull request #451 from aleksandrsvoboda/feat/autocraft-variations"
-    },
-    {
-      "v": "2.103.425",
-      "t": "Fix seeding"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "f557b3528c1720bd16cfef379053df3d3887897f4715012e294b314fd7d02aae",
-      "size": 89079301
+      "sha256": "f0c83139388c78a1c59f0d592018b32630e15388a4280d228e1f50d4ad8353a6",
+      "size": 89081189
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "b37a4c6a5f02f6a6990204f51dd3e9c68138604ab79e8defe5f03d16be7ff208",
+      "sha256": "b9a2806e5ce338e91725e7cf861a733280074b96b1f7524077cac3c8e503ada6",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "143b143f290427c39bdf7758c07f870283f41a5e26bd72302c485d22beb26cea",
+      "sha256": "e24a2d0b02186eeda4c4b24a45a236d44e5d0aa3d3add70d69ddabfabc8f5655",
       "size": 4048,
       "apply": "last"
     }
