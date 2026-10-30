@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.450",
-  "published": "2026-10-29T22:01:24Z",
-  "gitRev": "a44ff19f0b80d11d91f8b70bd2c5535af9dffac9",
+  "version": "2.103.451",
+  "published": "2026-10-30T16:11:03Z",
+  "gitRev": "ee40f058bb1e2ff4ff2bc2f065b67931d669ce84",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.451",
+      "t": "Merge pull request #467 from aleksandrsvoboda/feature/login-online-badge"
+    },
     {
       "v": "2.103.450",
       "t": "Merge pull request #466 from aleksandrsvoboda/feature/autodrink-threshold"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.432",
       "t": "Merge pull request #458 from aleksandrsvoboda/fix/storage-items"
-    },
-    {
-      "v": "2.103.431",
-      "t": "Merge pull request #457 from aleksandrsvoboda/feat/tunneler-ore-stop"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "42e659ec1007c1b5b01a540a5cfa617cab512ed920e875687415aeb9fca0044b",
-      "size": 89085766
+      "sha256": "f08644b73dc3d30f4107ceb49daa7cb924e63c67033165caaa5a0bc3ef96afae",
+      "size": 89087330
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "8a42bdb7aa94ab79d6baa0f6a19ce1aa4a323d326a9d91c98d0a46c3a28f9d12",
+      "sha256": "f4ddb265c64d7a3a12ee04435206f58852140aea0ab3a74be4b0e759107290c7",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "ee7485f4fc3aa2afbfeb69afffcc0ecabc0f2663b43dead89a20bdbb1f0e1d4c",
+      "sha256": "ac72c4cad6b38d09ebc0f3d013507b7c097d00f31a6dd81647398694baa1826d",
       "size": 4048,
       "apply": "last"
     }
