@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.451",
-  "published": "2026-10-30T16:11:03Z",
-  "gitRev": "ee40f058bb1e2ff4ff2bc2f065b67931d669ce84",
+  "version": "2.103.452",
+  "published": "2026-10-30T19:27:37Z",
+  "gitRev": "2ce51342ec9d9d92503f77f2c66f150b3d25135e",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.452",
+      "t": "Merge pull request #468 from aleksandrsvoboda/fix/areamover-dest-full-success"
+    },
     {
       "v": "2.103.451",
       "t": "Merge pull request #467 from aleksandrsvoboda/feature/login-online-badge"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.433",
       "t": "Merge pull request #459 from aleksandrsvoboda/feat/pathfinding-through-tunnels"
-    },
-    {
-      "v": "2.103.432",
-      "t": "Merge pull request #458 from aleksandrsvoboda/fix/storage-items"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "f08644b73dc3d30f4107ceb49daa7cb924e63c67033165caaa5a0bc3ef96afae",
-      "size": 89087330
+      "sha256": "3a1f72d1974a47877e1b6902dc7d85739db712796f7015bcca6038d7131bf128",
+      "size": 89087435
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "f4ddb265c64d7a3a12ee04435206f58852140aea0ab3a74be4b0e759107290c7",
+      "sha256": "3f9f89caf197d6f75132e40875012c5516ebeb42038072fa76e162c86342fd06",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "ac72c4cad6b38d09ebc0f3d013507b7c097d00f31a6dd81647398694baa1826d",
+      "sha256": "24f7f505eb6c965cc8890d205abb924d7f89a210428388235992428cf2ce215f",
       "size": 4048,
       "apply": "last"
     }
