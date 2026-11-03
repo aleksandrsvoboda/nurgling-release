@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.457",
-  "published": "2026-11-03T17:48:38Z",
-  "gitRev": "cac19f3f5f19c41718f1e2509b289aa93f03df19",
+  "version": "2.103.458",
+  "published": "2026-11-03T18:19:43Z",
+  "gitRev": "3470b09268876a6575416418ae105cc612ec1df0",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.458",
+      "t": "Keep auto-drink and the auto-mapper alive across a logout to the character list"
+    },
     {
       "v": "2.103.457",
       "t": "Quest tracker: let plugins add toolbar buttons"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.439",
       "t": "Q farmer fix"
-    },
-    {
-      "v": "2.103.438",
-      "t": "Merge pull request #462 from aleksandrsvoboda/feat/session-mute"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "1fc969677e0db5cc559f38bc360d42e481525328c647058cb159ab406ef0d370",
-      "size": 89089606
+      "sha256": "9c7a0f7f34e8ef7cac17a5d19b28a065f08096afad100e13c38a4ace6e3aa55a",
+      "size": 89090050
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "0659500d238c10cc45702a5532115831c6262c685c28d1d61678d12ed0b765bb",
+      "sha256": "fee435333faf1a4717a2031ce0feb56b6fe777e2612cc77cdbdd8095679d0b04",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "b0205537984cc7a36020692d06236624899d2b872ce57e15593ad497dd40bfdf",
+      "sha256": "7ba6c1f8f8a0d41ee4a562eaf06c8653cf159390d378396e5d00dce79157fec3",
       "size": 4048,
       "apply": "last"
     }
