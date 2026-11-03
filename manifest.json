@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.459",
-  "published": "2026-11-03T20:39:57Z",
-  "gitRev": "1757892243de57212d811e72bb83f3ed10053eba",
+  "version": "2.103.460",
+  "published": "2026-11-03T21:29:23Z",
+  "gitRev": "9baf661d7a5434f17dad17a53c7c19c96688db2c",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.460",
+      "t": "Merge pull request #472 from aleksandrsvoboda/feat/rotate-bot-menu-and-history"
+    },
     {
       "v": "2.103.459",
       "t": "Merge pull request #471 from aleksandrsvoboda/feat/bot-menu-rail"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.441",
       "t": "Multiple troughs"
-    },
-    {
-      "v": "2.103.440",
-      "t": "Add milk ranking to reset of animals"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "5d485f2c12ff4072673e7c4ef7730dc0901e7fdbc1ceff63ca63f55764b91b67",
-      "size": 89114361
+      "sha256": "7f417923fa6ba1a87b8276f701e3e4820a7c6427027a95da7302fbc6c1b02ff0",
+      "size": 89116289
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "094f36974572200442ca89f83e1e75a0f7399b4910b2422d7ed1bc0999dbd761",
+      "sha256": "104b9206798deef580f946a42d50fb4042129e6e4a9f50d0a1fecb1b245fab1d",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "a3461c571dea058b3784867b6189fb4eb338ae2c81db7991201101493f191866",
+      "sha256": "01334e68b3c2a8688ce5b30ca26c3d61eb1bcf5c22fca74de07f223573491961",
       "size": 4048,
       "apply": "last"
     }
