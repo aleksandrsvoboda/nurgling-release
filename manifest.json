@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.455",
-  "published": "2026-11-03T15:21:45Z",
-  "gitRev": "9edebc9cb66934de560a7b4459d3f5be57d40bab",
+  "version": "2.103.456",
+  "published": "2026-11-03T15:41:16Z",
+  "gitRev": "7a958a9b047b621fa5f464263495da7b01f1a9a4",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.456",
+      "t": "Map: keep one Segment object per id while it is in use"
+    },
     {
       "v": "2.103.455",
       "t": "Frame bridge: don't open the window minimized"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.437",
       "t": "Merge pull request #461 from aleksandrsvoboda/feat/plugin-map-hooks"
-    },
-    {
-      "v": "2.103.436",
-      "t": "Nurgling Architect 1.0.2: Measure tool and placement granularity"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "ea133d9f3e8892cf928231e2bf386f8ac76513e73b66650d2ac3c40ec7fe363a",
-      "size": 89088887
+      "sha256": "0f3267e0abdb95ae151c3ee5d138f2a27d2d6d563593acd1532cca70c5ad06fd",
+      "size": 89089246
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "92a05fdd9562d7eeb0cc23ac3eb671e5c540086c8cd6202429b7e6fb9cdf25d3",
+      "sha256": "2be71a3733042b56ca139ed86b310d24443c6fbc29907d4847bbc1af3a56efdc",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "7ff0c79143c63b74c0b95dfb06061d88fd65d5e13b23eedf60fb522a49940d51",
+      "sha256": "01e956e61eebc398e6bbbe7050d9c3a5de83496a652778168f9da4bdf2617663",
       "size": 4048,
       "apply": "last"
     }
