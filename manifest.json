@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.458",
-  "published": "2026-11-03T18:19:43Z",
-  "gitRev": "3470b09268876a6575416418ae105cc612ec1df0",
+  "version": "2.103.459",
+  "published": "2026-11-03T20:39:57Z",
+  "gitRev": "1757892243de57212d811e72bb83f3ed10053eba",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.459",
+      "t": "Merge pull request #471 from aleksandrsvoboda/feat/bot-menu-rail"
+    },
     {
       "v": "2.103.458",
       "t": "Keep auto-drink and the auto-mapper alive across a logout to the character list"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.440",
       "t": "Add milk ranking to reset of animals"
-    },
-    {
-      "v": "2.103.439",
-      "t": "Q farmer fix"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "9c7a0f7f34e8ef7cac17a5d19b28a065f08096afad100e13c38a4ace6e3aa55a",
-      "size": 89090050
+      "sha256": "5d485f2c12ff4072673e7c4ef7730dc0901e7fdbc1ceff63ca63f55764b91b67",
+      "size": 89114361
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "fee435333faf1a4717a2031ce0feb56b6fe777e2612cc77cdbdd8095679d0b04",
+      "sha256": "094f36974572200442ca89f83e1e75a0f7399b4910b2422d7ed1bc0999dbd761",
       "size": 21673678
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "7ba6c1f8f8a0d41ee4a562eaf06c8653cf159390d378396e5d00dce79157fec3",
+      "sha256": "a3461c571dea058b3784867b6189fb4eb338ae2c81db7991201101493f191866",
       "size": 4048,
       "apply": "last"
     }
