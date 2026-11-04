@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.466",
-  "published": "2026-11-04T18:32:38Z",
-  "gitRev": "e7c9821603252e92ccfb67967524a420654beb01",
+  "version": "2.103.467",
+  "published": "2026-11-04T19:00:59Z",
+  "gitRev": "238848cedb7c55673610c2ca870ad409a298cc8e",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.467",
+      "t": "Merge pull request #479 from aleksandrsvoboda/fix/waterfall-foam-shards"
+    },
     {
       "v": "2.103.466",
       "t": "Merge pull request #478 from aleksandrsvoboda/feat/quest-tracker-minimize"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.448",
       "t": "Deferred draw list: apply every state change each frame"
-    },
-    {
-      "v": "2.103.447",
-      "t": "Area labels: build on Java 17"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "6fabcd64eb1bebc180a73b4573518ae78a2d478fb314dd31e3f331d607c0218a",
-      "size": 89236474
+      "sha256": "0e2d9db27a7a4f5dc7474fa70f9741d5052b3cefb2e044941b42d0f4841b3d02",
+      "size": 89236951
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "81332e9df88196b141371b5bc4a2ed5d419e57cc6a0fdc466e6760ad1a328d5f",
-      "size": 21724888
+      "sha256": "541a7a208f63294dceaf7444600af9b3efa4302eb1896e67199c10d82208ea7d",
+      "size": 21724889
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "c97c71c217cfe89870dd005ecfa4cb87ef8da0de9d7318f62fcc068f2d343d40",
+      "sha256": "46392e93cc318a7be29b5499e98538f41785acfafa39be462dd9cba67f4181df",
       "size": 4048,
       "apply": "last"
     }
