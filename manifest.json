@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.462",
-  "published": "2026-11-04T14:39:33Z",
-  "gitRev": "187c11f8a620832c6dd482233fd45fe54726f602",
+  "version": "2.103.463",
+  "published": "2026-11-04T14:51:38Z",
+  "gitRev": "d6680edd5b3209ee2012a66ba56b066a28e926bf",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.463",
+      "t": "Fold bot menu after a run, zoom province overlay, Enter takes from stockpile"
+    },
     {
       "v": "2.103.462",
       "t": "Merge pull request #475 from aleksandrsvoboda/feat/lp-discovery-atlas"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.444",
       "t": "Frame bridge: honour the FPS limit"
-    },
-    {
-      "v": "2.103.443",
-      "t": "Merge pull request #464 from aleksandrsvoboda/perf/decoupled-render"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "17edebbb2b2f762c359fc7c271cac9b49b68a6ad4d22bf2900c9f03fb6c46b15",
-      "size": 89197131
+      "sha256": "4eb88a748888b5e2912bd1cb5d61cc10a3642894ff3251f82fed01730d9ffea1",
+      "size": 89197956
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "b474d647a58a39f95b3b2d623fb7f25afdb1c00871c6fcb3c5d209faec436c2d",
+      "sha256": "82e2ce7324b0174028a0fd6a45f7e19b1938158f1f9ad28297ef30662e9325d6",
       "size": 21694001
     },
     {
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "ebd278cde19811b1c8c909678fa4b09fec065add69d0e1d96122f1609d28c789",
+      "sha256": "7366c08350df522b6730f3becee6e64c1ab4bbf4c45303ee3081d050ec7989bb",
       "size": 4048,
       "apply": "last"
     }
