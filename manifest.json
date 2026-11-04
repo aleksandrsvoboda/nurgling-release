@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.464",
-  "published": "2026-11-04T17:14:27Z",
-  "gitRev": "bba34d47160896ca0dcd55688180f8c2fec14f0e",
+  "version": "2.103.465",
+  "published": "2026-11-04T18:27:08Z",
+  "gitRev": "a8bbeea5bd53c39b5aeed7630c84148ac2e96def",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.465",
+      "t": "Merge pull request #477 from aleksandrsvoboda/feat/drag-mode-placement"
+    },
     {
       "v": "2.103.464",
       "t": "Merge pull request #476 from aleksandrsvoboda/feat/ocean-explorer"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.446",
       "t": "Smooth renderer: no frame between a removal and its replacement"
-    },
-    {
-      "v": "2.103.445",
-      "t": "Frame bridge: wait for the GPU before sharing frames"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "5ca8244361dc894da5093c806e0d8da7dbba99d52ddb70d7202fe09b72b2d0dc",
-      "size": 89228203
+      "sha256": "869fc8ef57c7bef696fe184e1932fe35a8396cda558cb0a7e17069efd9e39475",
+      "size": 89229601
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "8f4c2428f7f4aee3fea3dcd366f087db02826a9776e65f3ce08d2a20d419e713",
-      "size": 21724888
+      "sha256": "0c98adcd3c7586b42a27fe80a904cf42682ac8cac51107f266924727e55d6618",
+      "size": 21724889
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "f85545a517b9bf43167b76bce2f63e3549fa006091898143ef38e8e96fc32949",
+      "sha256": "4879d388aad83c60dd1e484c97b0b2029ecca5618872a3aca743c2624114149f",
       "size": 4048,
       "apply": "last"
     }
