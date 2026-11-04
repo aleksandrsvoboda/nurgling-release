@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.465",
-  "published": "2026-11-04T18:27:08Z",
-  "gitRev": "a8bbeea5bd53c39b5aeed7630c84148ac2e96def",
+  "version": "2.103.466",
+  "published": "2026-11-04T18:32:38Z",
+  "gitRev": "e7c9821603252e92ccfb67967524a420654beb01",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.466",
+      "t": "Merge pull request #478 from aleksandrsvoboda/feat/quest-tracker-minimize"
+    },
     {
       "v": "2.103.465",
       "t": "Merge pull request #477 from aleksandrsvoboda/feat/drag-mode-placement"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.447",
       "t": "Area labels: build on Java 17"
-    },
-    {
-      "v": "2.103.446",
-      "t": "Smooth renderer: no frame between a removal and its replacement"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "869fc8ef57c7bef696fe184e1932fe35a8396cda558cb0a7e17069efd9e39475",
-      "size": 89229601
+      "sha256": "6fabcd64eb1bebc180a73b4573518ae78a2d478fb314dd31e3f331d607c0218a",
+      "size": 89236474
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "0c98adcd3c7586b42a27fe80a904cf42682ac8cac51107f266924727e55d6618",
-      "size": 21724889
+      "sha256": "81332e9df88196b141371b5bc4a2ed5d419e57cc6a0fdc466e6760ad1a328d5f",
+      "size": 21724888
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "4879d388aad83c60dd1e484c97b0b2029ecca5618872a3aca743c2624114149f",
+      "sha256": "c97c71c217cfe89870dd005ecfa4cb87ef8da0de9d7318f62fcc068f2d343d40",
       "size": 4048,
       "apply": "last"
     }
