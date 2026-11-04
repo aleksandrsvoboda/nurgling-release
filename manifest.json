@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.460",
-  "published": "2026-11-03T21:29:23Z",
-  "gitRev": "9baf661d7a5434f17dad17a53c7c19c96688db2c",
+  "version": "2.103.461",
+  "published": "2026-11-04T13:03:49Z",
+  "gitRev": "ea8ad0a100d31694ed8b2d06f574eda99a9ca676",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.461",
+      "t": "Merge pull request #474 from aleksandrsvoboda/feat/map-window-redesign"
+    },
     {
       "v": "2.103.460",
       "t": "Merge pull request #472 from aleksandrsvoboda/feat/rotate-bot-menu-and-history"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.442",
       "t": "Merge pull request #463 from aleksandrsvoboda/fix/smelter-return-to-smelters"
-    },
-    {
-      "v": "2.103.441",
-      "t": "Multiple troughs"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "7f417923fa6ba1a87b8276f701e3e4820a7c6427027a95da7302fbc6c1b02ff0",
-      "size": 89116289
+      "sha256": "2c9b4194612b2136b729c4ee6dcf9d96d686e19b06eb9b2d033e6ecc8e72a103",
+      "size": 89149298
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "104b9206798deef580f946a42d50fb4042129e6e4a9f50d0a1fecb1b245fab1d",
-      "size": 21673678
+      "sha256": "eef64674201772db1670541acbf4eb55c21bc1c0dadc47f606a3e0f26b552230",
+      "size": 21694001
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "01334e68b3c2a8688ce5b30ca26c3d61eb1bcf5c22fca74de07f223573491961",
+      "sha256": "42e4af3f5806c028c9349a4bdaa7bdc65d7088654b4ab9174a6deaf973a12a27",
       "size": 4048,
       "apply": "last"
     }
