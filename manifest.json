@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.463",
-  "published": "2026-11-04T14:51:38Z",
-  "gitRev": "d6680edd5b3209ee2012a66ba56b066a28e926bf",
+  "version": "2.103.464",
+  "published": "2026-11-04T17:14:27Z",
+  "gitRev": "bba34d47160896ca0dcd55688180f8c2fec14f0e",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.464",
+      "t": "Merge pull request #476 from aleksandrsvoboda/feat/ocean-explorer"
+    },
     {
       "v": "2.103.463",
       "t": "Fold bot menu after a run, zoom province overlay, Enter takes from stockpile"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.445",
       "t": "Frame bridge: wait for the GPU before sharing frames"
-    },
-    {
-      "v": "2.103.444",
-      "t": "Frame bridge: honour the FPS limit"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "4eb88a748888b5e2912bd1cb5d61cc10a3642894ff3251f82fed01730d9ffea1",
-      "size": 89197956
+      "sha256": "5ca8244361dc894da5093c806e0d8da7dbba99d52ddb70d7202fe09b72b2d0dc",
+      "size": 89228203
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "82e2ce7324b0174028a0fd6a45f7e19b1938158f1f9ad28297ef30662e9325d6",
-      "size": 21694001
+      "sha256": "8f4c2428f7f4aee3fea3dcd366f087db02826a9776e65f3ce08d2a20d419e713",
+      "size": 21724888
     },
     {
       "path": "nurgling-updater.jar",
@@ -404,7 +404,7 @@
     },
     {
       "path": "ver",
-      "sha256": "7366c08350df522b6730f3becee6e64c1ab4bbf4c45303ee3081d050ec7989bb",
+      "sha256": "f85545a517b9bf43167b76bce2f63e3549fa006091898143ef38e8e96fc32949",
       "size": 4048,
       "apply": "last"
     }
