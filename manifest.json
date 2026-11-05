@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.468",
-  "published": "2026-11-05T03:35:28Z",
-  "gitRev": "7eceaea6f6e3648684d795be0e744d974ed536d9",
+  "version": "2.103.469",
+  "published": "2026-11-05T21:04:22Z",
+  "gitRev": "e983025cbd40c4f89aa441404996994f86ae87e1",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.469",
+      "t": "Merge pull request #481 from aleksandrsvoboda/feat/web-ui"
+    },
     {
       "v": "2.103.468",
       "t": "Merge pull request #480 from aleksandrsvoboda/feat/render-cards"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.450",
       "t": "Merge pull request #466 from aleksandrsvoboda/feature/autodrink-threshold"
-    },
-    {
-      "v": "2.103.449",
-      "t": "Merge pull request #465 from aleksandrsvoboda/fix/shared-mapfile"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "12069c1a2f9d2f928823f8c8d865b88399ea975e3eae26b120d5b0f7295a77e0",
-      "size": 89263547
+      "sha256": "4a316dab7c9ad473f8b0bbe648070aff64623c03d462bccd22d79c5382c9aac5",
+      "size": 89372861
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "505674aaa662672d1df5588cad4e44c3423d4353318137ba5925f94cfe252e4a",
-      "size": 21724888
+      "sha256": "180a73801ee7eba99fb0e596255c30c1089ba2be034653e97ad110ea1ba9997e",
+      "size": 21724889
     },
     {
       "path": "nurgling-updater.jar",
@@ -403,9 +403,26 @@
       "apply": "deferred"
     },
     {
+      "path": "webhost.bat",
+      "sha256": "65eaf52edf83eae3b874eb7c3f7af115559a1d78a480de33d36d5099fb5a8b9f",
+      "size": 877
+    },
+    {
+      "path": "webhost.command",
+      "sha256": "faecca2d15a9521803ff6e975b145adf5e040cc23cf30eca53df45ea7c1d4710",
+      "size": 158,
+      "exec": true
+    },
+    {
+      "path": "webhost.sh",
+      "sha256": "18a66d8e5b89b4596c5d8abc41e39537a2fdda81eef8a6705e108828d611fa5c",
+      "size": 752,
+      "exec": true
+    },
+    {
       "path": "ver",
-      "sha256": "31c3aa9bb808fa06113723479de587e680c71d108ae8e4086a005b10d1a7b375",
-      "size": 4048,
+      "sha256": "9c7191b3c2c5ef418207fe1760362ae2d68b48641e5e71a3b0805785c0b6f296",
+      "size": 4282,
       "apply": "last"
     }
   ],
