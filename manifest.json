@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.470",
-  "published": "2026-11-05T21:38:20Z",
-  "gitRev": "bef613283d1604b2572fafd632aef3e4ccde6e71",
+  "version": "2.103.471",
+  "published": "2026-11-10T22:32:18Z",
+  "gitRev": "b0e7c8672b12daf17df2f496fcb3b218cba34c76",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.471",
+      "t": "Merge pull request #483 from aleksandrsvoboda/feat/river-explorer"
+    },
     {
       "v": "2.103.470",
       "t": "Merge pull request #482 from aleksandrsvoboda/feat/web-ui-phone"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.452",
       "t": "Merge pull request #468 from aleksandrsvoboda/fix/areamover-dest-full-success"
-    },
-    {
-      "v": "2.103.451",
-      "t": "Merge pull request #467 from aleksandrsvoboda/feature/login-online-badge"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "4924734210ca9adb2bf3bddb6d750ebcce6ff6957390a4e4115eb10b6b83e5aa",
-      "size": 89374742
+      "sha256": "e4c73467b8c50989896a3490e506d8b9a727be6ae1ea401117ff75351524cda3",
+      "size": 89469007
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "543765a8206f023755b15c89a4c81a50f5185210ef136447481ed2be3a18bc7b",
-      "size": 21724888
+      "sha256": "41af0ad5cb75b74b6430c613ce7fa0315689b28d3ea15b636eeb3c9de3aba9c4",
+      "size": 21731390
     },
     {
       "path": "nurgling-updater.jar",
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "1adcbc6bd6af22f31857c2a08db6f721dd2ca0668ad060e1c3a4fa4c4bc2f55c",
+      "sha256": "0f26027a96572272be89e063652979796387f48d65637abe9c31b6e892aac92a",
       "size": 4282,
       "apply": "last"
     }
