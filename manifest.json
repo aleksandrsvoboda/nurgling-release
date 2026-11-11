@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.474",
-  "published": "2026-11-11T03:22:57Z",
-  "gitRev": "a96c0702f353547578957c4a3fab3e0cd9c68867",
+  "version": "2.103.475",
+  "published": "2026-11-11T15:17:22Z",
+  "gitRev": "25f993e381747d2732577191c6626608891cd12b",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.475",
+      "t": "Merge pull request #485 from aleksandrsvoboda/fix/milk-multiple-cisterns"
+    },
     {
       "v": "2.103.474",
       "t": "Route Walker: take the route off the maps when closed or done"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.456",
       "t": "Map: keep one Segment object per id while it is in use"
-    },
-    {
-      "v": "2.103.455",
-      "t": "Frame bridge: don't open the window minimized"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "779320f53fd8e4c027c4d70b6a25e502a9dcf9875246b5ede1c9d55ac198668e",
-      "size": 89475534
+      "sha256": "591bc03caec629b32291a7a29d9ad88060bab0a6b96894a2e04acf842e6458f2",
+      "size": 89475040
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "7fe0d9439730506a32886c0302eae4c96d4f552994bf8e4c319a4442ba5fab33",
+      "sha256": "0c472829a74cfebc6c96d6f6a0cad545283bc0c94b3a65802ed37b6b6a61d339",
       "size": 21731390
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "769b998976240200aec658380b784cdcb61bcf089d93f4b656fb0261722c078f",
+      "sha256": "c021fe5b8f2d2723ed919f763684a37119f9a2fe4bebff1166d8d22990726a32",
       "size": 4282,
       "apply": "last"
     }
