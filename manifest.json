@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.476",
-  "published": "2026-11-11T15:33:14Z",
-  "gitRev": "08d5a83e6931245e8a7725f3c587844f9e836112",
+  "version": "2.103.477",
+  "published": "2026-11-11T17:13:17Z",
+  "gitRev": "12d96c4a25ee03ecc206b2faa8e533b37fd9499d",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.477",
+      "t": "Merge pull request #487 from aleksandrsvoboda/perf/shared-chunknav-background-terrain"
+    },
     {
       "v": "2.103.476",
       "t": "Merge pull request #486 from aleksandrsvoboda/feat/recipe-gilding-slots"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.458",
       "t": "Keep auto-drink and the auto-mapper alive across a logout to the character list"
-    },
-    {
-      "v": "2.103.457",
-      "t": "Quest tracker: let plugins add toolbar buttons"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "a52c3201d3debf37af1557cc0026513266e9e74c555dda9900ae467a2a81371f",
-      "size": 89475327
+      "sha256": "237b99167b960c8cc97c186e541cac4591c6353a94b7218b8824d4b1f9b0f0c7",
+      "size": 89478837
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "024cb6649a4898a2cdd4237f689d4a4d0ba09cf3611826609a817dcc0a24edb6",
+      "sha256": "69adf57be87e81b490472101b56783d4141d6221ad803e809450fb91dc32faa2",
       "size": 21731390
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "65f0ed32f637f3e47e40e51203ea5ae6f9e9f4b05be15b4705448b68159ce7bb",
+      "sha256": "c190865a02d8ccc0abaa3ce4135a6e30492f4cf1e9c2f98a3b62c3189025b931",
       "size": 4282,
       "apply": "last"
     }
