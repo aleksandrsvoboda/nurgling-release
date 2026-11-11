@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.478",
-  "published": "2026-11-11T17:56:34Z",
-  "gitRev": "b970aa34f5f85d56a7763032562bf8e6fd2a3f2d",
+  "version": "2.103.479",
+  "published": "2026-11-11T23:37:22Z",
+  "gitRev": "67f930ffcb5c00ca70e964e33abb248de61a8de9",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.479",
+      "t": "Merge pull request #489 from aleksandrsvoboda/fix/dead-gameui-leaks"
+    },
     {
       "v": "2.103.478",
       "t": "Merge pull request #488 from aleksandrsvoboda/fix/gtick-threadlocal-render-leak"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.460",
       "t": "Merge pull request #472 from aleksandrsvoboda/feat/rotate-bot-menu-and-history"
-    },
-    {
-      "v": "2.103.459",
-      "t": "Merge pull request #471 from aleksandrsvoboda/feat/bot-menu-rail"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "8ec5895b30a7c2b57318f019c153c27a7e4501b724e93da6c6694765f82bbc10",
-      "size": 89478886
+      "sha256": "2924d2f569857109ebf9522411b67a11d6ae9859964a8447c8829f0aa40e3584",
+      "size": 89479555
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "0543daf6b73b0cd1407638de07073a73592c913a1af6291ee21cfc0336048134",
+      "sha256": "e7395a5f884bcc9a30ed72f15dd8ba4a2292e0db951d944994b1415c93262c4f",
       "size": 21731390
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "f0be66fbf1b083edb9235749121a4fa7e0bd991fb496253615fcdfebac9460e7",
+      "sha256": "61bdd6ee1632a3e9aa6735221a6d4795a91b41eb90595c42a475e9ee40b6a472",
       "size": 4282,
       "apply": "last"
     }
