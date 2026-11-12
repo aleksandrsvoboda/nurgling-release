@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.483",
-  "published": "2026-11-12T14:37:46Z",
-  "gitRev": "be84c5cda546821af1bdb24f17c4f353d07553da",
+  "version": "2.103.484",
+  "published": "2026-11-12T14:49:55Z",
+  "gitRev": "c554ee0907833091c7c19244820abf490e704e51",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.484",
+      "t": "Merge pull request #494 from aleksandrsvoboda/feat/fish-search-gear-icons"
+    },
     {
       "v": "2.103.483",
       "t": "Merge pull request #493 from aleksandrsvoboda/fix/craft-atlas-fuel-quality"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.465",
       "t": "Merge pull request #477 from aleksandrsvoboda/feat/drag-mode-placement"
-    },
-    {
-      "v": "2.103.464",
-      "t": "Merge pull request #476 from aleksandrsvoboda/feat/ocean-explorer"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "15f7619c4e4b1cced5e7190fa5c7bacba133fa1a81fd607026082d0cfc7e4c25",
-      "size": 89492319
+      "sha256": "282b27c564176c827e5f6eda855aef8c7923c227b070728a8f8f8fe9a7273077",
+      "size": 89494811
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "38b9bae331235b47eebe149e0d1c6d92805d9cf3858dcf8d6734b35c0d4e342d",
+      "sha256": "9b24702709536acd82c4b0f08cc7ebdae532a9937bbc4d5d64fd05c23058477f",
       "size": 21736691
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "850ba9d1291e0798ec5a8ab3966e7ebd50c53cd51f0e054e16f1424ac8cca512",
+      "sha256": "f8b973d78873223adc926a6d51d9a3a54ae8d815ef5b8bc8f1eb71e3ab9464c8",
       "size": 4282,
       "apply": "last"
     }
