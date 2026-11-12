@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.480",
-  "published": "2026-11-12T03:24:29Z",
-  "gitRev": "a58ed9efa67a771531e4c07b3d09e9edc700af32",
+  "version": "2.103.481",
+  "published": "2026-11-12T13:50:28Z",
+  "gitRev": "6b63cdd972839facb4d6a2b5b1ac08b0120193bf",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.481",
+      "t": "Merge pull request #491 from aleksandrsvoboda/feat/champignon-farmer"
+    },
     {
       "v": "2.103.480",
       "t": "Merge pull request #490 from aleksandrsvoboda/feat/quality-farmer-partial-harvest"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.462",
       "t": "Merge pull request #475 from aleksandrsvoboda/feat/lp-discovery-atlas"
-    },
-    {
-      "v": "2.103.461",
-      "t": "Merge pull request #474 from aleksandrsvoboda/feat/map-window-redesign"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "13646ebd2f0f8861ce4f22152d4873788275a915b97b444cd858c66e463077e7",
-      "size": 89478200
+      "sha256": "aea644932115ec13acd8873c0a83c72d500d3495cd4bd122d73c867002eed6ad",
+      "size": 89487648
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "f2dcf513b5f755121a8ccc103f4e6c7565109d7367a6e945c79cde6263357760",
-      "size": 21731390
+      "sha256": "d9f6d4a9a649924d7ac9170936afd5e701e3fc3a467e1353ce573b9f1a829a4d",
+      "size": 21737408
     },
     {
       "path": "nurgling-updater.jar",
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "86aeac9f6d45a2e87cd8d5c1a2835e1db252c4ba7530f4590fc049c55189c3c1",
+      "sha256": "149080f07c9aee1f79fb89bfff45b1d9e9a8445e05d6dcaeeb9671539a2ea6dc",
       "size": 4282,
       "apply": "last"
     }
