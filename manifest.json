@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.486",
-  "published": "2026-11-13T01:18:03Z",
-  "gitRev": "bce21747822dbde7ca9f1bdd917b161d0fb3daf5",
+  "version": "2.103.487",
+  "published": "2026-11-13T16:52:17Z",
+  "gitRev": "0811ed4eb3d60fc3adbcae3749b70296b43e9344",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.487",
+      "t": "Merge pull request #498 from aleksandrsvoboda/feat/boat-fisher"
+    },
     {
       "v": "2.103.486",
       "t": "Merge pull request #497 from aleksandrsvoboda/feat/squad-leader"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.468",
       "t": "Merge pull request #480 from aleksandrsvoboda/feat/render-cards"
-    },
-    {
-      "v": "2.103.467",
-      "t": "Merge pull request #479 from aleksandrsvoboda/fix/waterfall-foam-shards"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "644c7e7c21f0f908bdd090f09006b29f553d305628b911fd53b2aa1d72eea60a",
-      "size": 89691713
+      "sha256": "209834b5db3b7e8610f20afc0472ff7b2b95923a294d9ff7113983f12d698a38",
+      "size": 89733865
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "61e4c6c6cae447af9d083bf67d0eb8801c4a063c8fdb7f19ae4e470e9b533eee",
-      "size": 21737991
+      "sha256": "a3e91d5152bfb5edc1ca447c0f9988ac1442ee2d72c51cfed5d010ff5831ada6",
+      "size": 21742152
     },
     {
       "path": "nurgling-updater.jar",
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "e478c5e996ef07b7c0c3947c4219ba431abec346e682e65af3782780d7c945e8",
+      "sha256": "1d70d7b0e3aea8b7229d7570e6ea0cb17370cd9cf8f8b72f3bce27225c402e87",
       "size": 4282,
       "apply": "last"
     }
