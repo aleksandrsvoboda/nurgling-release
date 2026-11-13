@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.487",
-  "published": "2026-11-13T16:52:17Z",
-  "gitRev": "0811ed4eb3d60fc3adbcae3749b70296b43e9344",
+  "version": "2.103.488",
+  "published": "2026-11-13T23:48:14Z",
+  "gitRev": "db81069744c6fe3438bd90470a89a1fc68ec2ab5",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.488",
+      "t": "Merge pull request #499 from aleksandrsvoboda/feat/fish-nodes"
+    },
     {
       "v": "2.103.487",
       "t": "Merge pull request #498 from aleksandrsvoboda/feat/boat-fisher"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.469",
       "t": "Merge pull request #481 from aleksandrsvoboda/feat/web-ui"
-    },
-    {
-      "v": "2.103.468",
-      "t": "Merge pull request #480 from aleksandrsvoboda/feat/render-cards"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "209834b5db3b7e8610f20afc0472ff7b2b95923a294d9ff7113983f12d698a38",
-      "size": 89733865
+      "sha256": "3a151a15abf55e468c1629089079058eda2eacfb1d6b36dab4ed1cd7eec896ee",
+      "size": 89748208
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "a3e91d5152bfb5edc1ca447c0f9988ac1442ee2d72c51cfed5d010ff5831ada6",
+      "sha256": "ec4bc357cf3abdcbc1907fbcf612fcd5b340c3db9e9b299ef5760fc1b4bfe399",
       "size": 21742152
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "1d70d7b0e3aea8b7229d7570e6ea0cb17370cd9cf8f8b72f3bce27225c402e87",
+      "sha256": "be0962b27cded093c77a74693bfb981d2b873552adf1a7bfa689d449da40387a",
       "size": 4282,
       "apply": "last"
     }
