@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.489",
-  "published": "2026-11-15T03:55:18Z",
-  "gitRev": "7d802981dfb1cbd722061b0488704a358068ac8d",
+  "version": "2.103.490",
+  "published": "2026-11-15T04:16:07Z",
+  "gitRev": "e836d3b7b427b8fced4c92c3cb0026a642dcf5e0",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.490",
+      "t": "Merge pull request #501 from aleksandrsvoboda/fix/craft-atlas-formula-bindings"
+    },
     {
       "v": "2.103.489",
       "t": "Merge pull request #500 from aleksandrsvoboda/feat/fishing-kit"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.471",
       "t": "Merge pull request #483 from aleksandrsvoboda/feat/river-explorer"
-    },
-    {
-      "v": "2.103.470",
-      "t": "Merge pull request #482 from aleksandrsvoboda/feat/web-ui-phone"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "2ee725c28378656eb439a0930209f62e5ac08efec4bc90721459e47f92cccfc0",
-      "size": 89776688
+      "sha256": "3f0d6e8c1082b02002513a269c95199a974969a859eac1c40643b21457956254",
+      "size": 89777569
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "c09d36f047a499cbe7c1e5508f79b86660a10b48e94ff6e6b7ad816c40cb5c4c",
+      "sha256": "31d5346c8a1f6e2f3ae1fd6999193db6ffe0f9881b50a0207a6fa3341e2f2c93",
       "size": 21742152
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "6667d6954aa11509b0d464c590d24d13a558d60912cea9ef9a5706486f5b4943",
+      "sha256": "ac4676793fd463e664dce1d6e831ed5d8f91e9c1ce472ae08c6a6236f59c11fa",
       "size": 4282,
       "apply": "last"
     }
