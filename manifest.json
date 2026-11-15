@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.488",
-  "published": "2026-11-13T23:48:14Z",
-  "gitRev": "db81069744c6fe3438bd90470a89a1fc68ec2ab5",
+  "version": "2.103.489",
+  "published": "2026-11-15T03:55:18Z",
+  "gitRev": "7d802981dfb1cbd722061b0488704a358068ac8d",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.489",
+      "t": "Merge pull request #500 from aleksandrsvoboda/feat/fishing-kit"
+    },
     {
       "v": "2.103.488",
       "t": "Merge pull request #499 from aleksandrsvoboda/feat/fish-nodes"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.470",
       "t": "Merge pull request #482 from aleksandrsvoboda/feat/web-ui-phone"
-    },
-    {
-      "v": "2.103.469",
-      "t": "Merge pull request #481 from aleksandrsvoboda/feat/web-ui"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "3a151a15abf55e468c1629089079058eda2eacfb1d6b36dab4ed1cd7eec896ee",
-      "size": 89748208
+      "sha256": "2ee725c28378656eb439a0930209f62e5ac08efec4bc90721459e47f92cccfc0",
+      "size": 89776688
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "ec4bc357cf3abdcbc1907fbcf612fcd5b340c3db9e9b299ef5760fc1b4bfe399",
+      "sha256": "c09d36f047a499cbe7c1e5508f79b86660a10b48e94ff6e6b7ad816c40cb5c4c",
       "size": 21742152
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "be0962b27cded093c77a74693bfb981d2b873552adf1a7bfa689d449da40387a",
+      "sha256": "6667d6954aa11509b0d464c590d24d13a558d60912cea9ef9a5706486f5b4943",
       "size": 4282,
       "apply": "last"
     }
