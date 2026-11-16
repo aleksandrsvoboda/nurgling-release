@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.495",
-  "published": "2026-11-16T13:11:57Z",
-  "gitRev": "0c6abcbaa6ac6959c5989b842675f2720950f002",
+  "version": "2.103.496",
+  "published": "2026-11-16T13:54:29Z",
+  "gitRev": "cfaf2a60a7456e8ec1ea694447ee12bd99667496",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.496",
+      "t": "Merge pull request #508 from aleksandrsvoboda/fix/greenhouse-tent-portals"
+    },
     {
       "v": "2.103.495",
       "t": "Merge pull request #507 from aleksandrsvoboda/fix/roadsign-tag-overlap"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.477",
       "t": "Merge pull request #487 from aleksandrsvoboda/perf/shared-chunknav-background-terrain"
-    },
-    {
-      "v": "2.103.476",
-      "t": "Merge pull request #486 from aleksandrsvoboda/feat/recipe-gilding-slots"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "5f91f5a8dfb3954786de8c700fd6f16bacfbb70bba45c3da9b27b6f586d640ed",
-      "size": 89811338
+      "sha256": "d71e1d7a11e42a42a330e32da16279c39110e31903917e320fc3335205327211",
+      "size": 89811714
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "e930aa0cbcfc76466b26ef1119d5d0a95b7ad0a3481ff5ef3a2d55dc564a180c",
+      "sha256": "362139780f43206e8b82d173d74317f347e76568b9943d540a4111e1ad393d65",
       "size": 21742152
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "a11f2c1196d3eba462475458831d606736243303e2cc3239b69fd18b937691c5",
+      "sha256": "d2f29fc50dbe02f98b98b6c1a657cc2a2f6218352d580639c821733bf84b10d1",
       "size": 4282,
       "apply": "last"
     }
