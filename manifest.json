@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.494",
-  "published": "2026-11-16T13:02:33Z",
-  "gitRev": "44540084e49fb6e3fdfa4a8f70524e111766e91d",
+  "version": "2.103.495",
+  "published": "2026-11-16T13:11:57Z",
+  "gitRev": "0c6abcbaa6ac6959c5989b842675f2720950f002",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.495",
+      "t": "Merge pull request #507 from aleksandrsvoboda/fix/roadsign-tag-overlap"
+    },
     {
       "v": "2.103.494",
       "t": "Merge pull request #506 from aleksandrsvoboda/feat/forager-global-settings"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.476",
       "t": "Merge pull request #486 from aleksandrsvoboda/feat/recipe-gilding-slots"
-    },
-    {
-      "v": "2.103.475",
-      "t": "Merge pull request #485 from aleksandrsvoboda/fix/milk-multiple-cisterns"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "e791ca12a7920a8269827abda7dbca98e7683281e382af8cea65ee2c34f51c90",
-      "size": 89811183
+      "sha256": "5f91f5a8dfb3954786de8c700fd6f16bacfbb70bba45c3da9b27b6f586d640ed",
+      "size": 89811338
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "d51f0de4c4c917f917ea8951546436b854ec5a39177189159fac339af3a419eb",
+      "sha256": "e930aa0cbcfc76466b26ef1119d5d0a95b7ad0a3481ff5ef3a2d55dc564a180c",
       "size": 21742152
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "cb6388086e85f5322ec5e798eff7e5ffacee7a8d812b07b2515d9b54216c895e",
+      "sha256": "a11f2c1196d3eba462475458831d606736243303e2cc3239b69fd18b937691c5",
       "size": 4282,
       "apply": "last"
     }
