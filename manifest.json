@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.499",
-  "published": "2026-11-16T19:13:46Z",
-  "gitRev": "58c86e7a06e0f0b990208463546a11c378132a2a",
+  "version": "2.103.500",
+  "published": "2026-11-16T19:49:22Z",
+  "gitRev": "c1a40bfefdc3815635987626e19b7d9f36fb74e2",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.500",
+      "t": "Merge pull request #510 from aleksandrsvoboda/feat/kin-online-sound-toggle"
+    },
     {
       "v": "2.103.499",
       "t": "Global navigation: keep side-by-side greenhouses, tents and huts apart"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.481",
       "t": "Merge pull request #491 from aleksandrsvoboda/feat/champignon-farmer"
-    },
-    {
-      "v": "2.103.480",
-      "t": "Merge pull request #490 from aleksandrsvoboda/feat/quality-farmer-partial-harvest"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "ce8f664109a62219fc4e825fabc44318bbb3dc197322ff4ab639a669b4c31080",
-      "size": 89872589
+      "sha256": "3958f52c3e0b4d77ed12ab2a0b625aa83b9aae3ed78fee777a1b983818e6240c",
+      "size": 89873934
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "03ef0d1c7961ea66fa32bff42c25d69a1b7d8697b3fb555fcc604ecfef6fac15",
+      "sha256": "a77990bce345774937e8c4815f03e4082a1f84bb78759a24788751cb185da27d",
       "size": 21748794
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "fa6a456533adbfbf1827d19b20a293aa30ce392cdf34d654bac44fae72db9c39",
+      "sha256": "2255197f851be3530d43af860e541696a9c5bd04f2dd9d81a08b2a2a366ab972",
       "size": 4282,
       "apply": "last"
     }
