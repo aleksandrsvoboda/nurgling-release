@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.498",
-  "published": "2026-11-16T17:54:28Z",
-  "gitRev": "ef72089ad0f0a9cd3038a54f082467f14020a961",
+  "version": "2.103.499",
+  "published": "2026-11-16T19:13:46Z",
+  "gitRev": "58c86e7a06e0f0b990208463546a11c378132a2a",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.499",
+      "t": "Global navigation: keep side-by-side greenhouses, tents and huts apart"
+    },
     {
       "v": "2.103.498",
       "t": "Leveling plans: show each plan's border on the ground in the world"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.480",
       "t": "Merge pull request #490 from aleksandrsvoboda/feat/quality-farmer-partial-harvest"
-    },
-    {
-      "v": "2.103.479",
-      "t": "Merge pull request #489 from aleksandrsvoboda/fix/dead-gameui-leaks"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "a4cd5eea63955b3ed7e9b66108b7e86da74a7125563f31bc3f3fb0039a0ec99b",
-      "size": 89872441
+      "sha256": "ce8f664109a62219fc4e825fabc44318bbb3dc197322ff4ab639a669b4c31080",
+      "size": 89872589
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "6f8d573024bf0dbcb06880d20fcf6958e429ecaf41ee9b31dcdaa890fcf6f350",
+      "sha256": "03ef0d1c7961ea66fa32bff42c25d69a1b7d8697b3fb555fcc604ecfef6fac15",
       "size": 21748794
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "8b75ae7e3b8b2c5e333ec38adba557bcedace653245002c181b3841ceb7650cc",
+      "sha256": "fa6a456533adbfbf1827d19b20a293aa30ce392cdf34d654bac44fae72db9c39",
       "size": 4282,
       "apply": "last"
     }
