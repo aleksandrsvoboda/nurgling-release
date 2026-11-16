@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.492",
-  "published": "2026-11-15T19:09:31Z",
-  "gitRev": "e4f6aae679f4eb2785cbe581d53548e8c7c4ba5c",
+  "version": "2.103.493",
+  "published": "2026-11-16T01:29:02Z",
+  "gitRev": "f77f0a31db5c264615c085c226c7efd13d151204",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.493",
+      "t": "Merge pull request #505 from aleksandrsvoboda/feat/radius-hotkeys"
+    },
     {
       "v": "2.103.492",
       "t": "Merge pull request #503 from aleksandrsvoboda/feat/area-nav-edge"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.474",
       "t": "Route Walker: take the route off the maps when closed or done"
-    },
-    {
-      "v": "2.103.473",
-      "t": "River Explorer: drop the reeds after clearing them"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "53c884753e04560f7662011644b2b707e255f99bd288cd8af349edf7ba3c6b3e",
-      "size": 89808816
+      "sha256": "2f9ce62254e63de802c14b06e652958543de908b137f6acbce02659671241c25",
+      "size": 89809524
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "5d291e2ad77aee488b24c00fbf2af3d73a4d939bf28b2b48c262f2dc009ed779",
+      "sha256": "8e665f2f52163d3cbcea3a866dea5ea2d3ed4e46cc0dab75f3c160df1ce86912",
       "size": 21742152
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "b7957037de95e4d70b1523ab029dde5c30374ef2521459c3d136477b500a36ca",
+      "sha256": "ef1e75ca1434a06c6824563f241b3a08793025cfe1b94d4bd0bbc66d59ee1905",
       "size": 4282,
       "apply": "last"
     }
