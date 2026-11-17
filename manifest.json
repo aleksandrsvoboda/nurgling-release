@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.505",
-  "published": "2026-11-17T18:57:17Z",
-  "gitRev": "ac3f94e89e0efd75e5bc1d15b051b01d4026d59a",
+  "version": "2.103.506",
+  "published": "2026-11-17T21:05:55Z",
+  "gitRev": "51be782a13f3c84b612037b31ccf44b2d0138bbc",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.506",
+      "t": "Merge pull request #517 from aleksandrsvoboda/feat/login-plugin-hooks"
+    },
     {
       "v": "2.103.505",
       "t": "Merge pull request #516 from aleksandrsvoboda/feat/plague-skin"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.487",
       "t": "Merge pull request #498 from aleksandrsvoboda/feat/boat-fisher"
-    },
-    {
-      "v": "2.103.486",
-      "t": "Merge pull request #497 from aleksandrsvoboda/feat/squad-leader"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "b5a11b2aadb3befb3bfd53dd9377077ae20365b7613ab57669ff780baf17fc95",
-      "size": 89962328
+      "sha256": "292b24c53ebe82600ab65cc0bf306e762f5cf71e37974da4a9ca48cde29ef1dc",
+      "size": 89964048
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "3f362af1e6e5f722d1eec1766903f7d491d4520100c333f8c0936510bf6eade9",
+      "sha256": "0b532003bf025189e98ca8254b7aae4446b9ed7f6dba1b6e689c91e16a1dd8fa",
       "size": 28011891
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "fcbf26bbe544a5ed15867cd5c2dd7d31d274f33c163d209946cabb1f244766be",
+      "sha256": "e68ce8637d49595e576ecb71dc31cdf56d88646cf4e66a5dfd5a4bf584224bd9",
       "size": 4282,
       "apply": "last"
     }
