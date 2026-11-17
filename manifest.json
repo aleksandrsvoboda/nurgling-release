@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.506",
-  "published": "2026-11-17T21:05:55Z",
-  "gitRev": "51be782a13f3c84b612037b31ccf44b2d0138bbc",
+  "version": "2.103.507",
+  "published": "2026-11-17T21:42:46Z",
+  "gitRev": "8035fa925b7e92d71698c2ec6bd92bb427a0ee0a",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.507",
+      "t": "Merge pull request #518 from aleksandrsvoboda/feat/oven-ash-bot"
+    },
     {
       "v": "2.103.506",
       "t": "Merge pull request #517 from aleksandrsvoboda/feat/login-plugin-hooks"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.488",
       "t": "Merge pull request #499 from aleksandrsvoboda/feat/fish-nodes"
-    },
-    {
-      "v": "2.103.487",
-      "t": "Merge pull request #498 from aleksandrsvoboda/feat/boat-fisher"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "292b24c53ebe82600ab65cc0bf306e762f5cf71e37974da4a9ca48cde29ef1dc",
-      "size": 89964048
+      "sha256": "deb53ba6e43038aea01fa805a985b63a16dc3917cfe122868a841c87c81fa6c6",
+      "size": 89967277
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "0b532003bf025189e98ca8254b7aae4446b9ed7f6dba1b6e689c91e16a1dd8fa",
-      "size": 28011891
+      "sha256": "92bb576d60f02bb6a41da82d340d19f5029c79aa61b0b95bdde62427298542c4",
+      "size": 28017347
     },
     {
       "path": "nurgling-updater.jar",
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "e68ce8637d49595e576ecb71dc31cdf56d88646cf4e66a5dfd5a4bf584224bd9",
+      "sha256": "1b775bd3d6e14753a3d14acbd5211f173f4ea294090de81d779a24cddd5aa28d",
       "size": 4282,
       "apply": "last"
     }
