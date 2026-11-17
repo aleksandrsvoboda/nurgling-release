@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.502",
-  "published": "2026-11-16T22:54:00Z",
-  "gitRev": "509d182fbd3d94a2dfc9c17e5839f1bae99fdaf6",
+  "version": "2.103.503",
+  "published": "2026-11-17T00:17:26Z",
+  "gitRev": "3f5ddf8e30699653a3bfb08b49cea9753e12b941",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.503",
+      "t": "Merge pull request #513 from aleksandrsvoboda/fix/large-fields-pumpkin-in-hand"
+    },
     {
       "v": "2.103.502",
       "t": "Merge pull request #512 from aleksandrsvoboda/fix/large-fields-seeds-before-straw"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.484",
       "t": "Merge pull request #494 from aleksandrsvoboda/feat/fish-search-gear-icons"
-    },
-    {
-      "v": "2.103.483",
-      "t": "Merge pull request #493 from aleksandrsvoboda/fix/craft-atlas-fuel-quality"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "4d0aeb5fe29298e7199e0548115e28b54fed0b793d067c477ee0e64352fd5476",
-      "size": 89919051
+      "sha256": "a0c544d4922d4449c280d32d119a6e5f7ec0a5b42ae74fb6db875ab8fba0074a",
+      "size": 89919449
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "c592225a49d1392228b0fdb00434bf57d4700fd1f3a0516060e6bbec3f07f284",
+      "sha256": "ca311168112a352103a7f295972e4fe9a2c50cbf5564999ec37e562934c77794",
       "size": 21748794
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "eabbc80362a4c469c41549eceb16fe751bc3fe0d04d7932b97cb498e1aaf2e78",
+      "sha256": "a4fc19a78f8804ec97f2a1c91a6803285fb6ab35940a7eea62afa4af08f8e9be",
       "size": 4282,
       "apply": "last"
     }
