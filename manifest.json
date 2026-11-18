@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.511",
-  "published": "2026-11-18T02:41:18Z",
-  "gitRev": "6d38d9df1e7653ed37fb406b7e8fd5131b3ebafc",
+  "version": "2.103.512",
+  "published": "2026-11-18T16:57:25Z",
+  "gitRev": "ec15ef763898a1c0391e95ac0ee6ef537da37322",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.512",
+      "t": "Merge pull request #523 from aleksandrsvoboda/feat/commander-phase0"
+    },
     {
       "v": "2.103.511",
       "t": "Merge pull request #522 from aleksandrsvoboda/feat/blood-stern-spice"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.493",
       "t": "Merge pull request #505 from aleksandrsvoboda/feat/radius-hotkeys"
-    },
-    {
-      "v": "2.103.492",
-      "t": "Merge pull request #503 from aleksandrsvoboda/feat/area-nav-edge"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "e4fa1c34ed536520bc4928ed59f39e5b439d40236f7637485cf5893c97314d9b",
-      "size": 90031884
+      "sha256": "89f0264ed00e8c5b21b714293e863bdce2281a099d7907a7c4e9901e30244c52",
+      "size": 90220862
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "d45a75f84fb7a219181937b7c9763cb12e25e0ba30bc824a6dcc4b33ac417ad1",
+      "sha256": "28c7e150ad2f1b96c73107ff7778e17f300019568fc2aefb32dd9572306b76c2",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "4172f75756637877e1dc1dac02129f8e0ca6e7d0c7bfe462da547b28a7fa7805",
+      "sha256": "2a67f3691b3ba3f249adbdf9a684cfc01009f05a10c44b3c31218ef0b30bbb3e",
       "size": 4282,
       "apply": "last"
     }
