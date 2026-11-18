@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.508",
-  "published": "2026-11-18T00:07:53Z",
-  "gitRev": "b37800063386689ff3fe75315ca568b22601e5f5",
+  "version": "2.103.509",
+  "published": "2026-11-18T00:55:29Z",
+  "gitRev": "eff4f95db57e04d2fb4a24d13af4ac709f88cc8e",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.509",
+      "t": "Merge pull request #520 from aleksandrsvoboda/feat/multi-login"
+    },
     {
       "v": "2.103.508",
       "t": "Merge pull request #519 from aleksandrsvoboda/feat/squad-milestone-travel"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.490",
       "t": "Merge pull request #501 from aleksandrsvoboda/fix/craft-atlas-formula-bindings"
-    },
-    {
-      "v": "2.103.489",
-      "t": "Merge pull request #500 from aleksandrsvoboda/feat/fishing-kit"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "5afdc83788278710e780ed62b2c6fd13a09e75b21042510389a36daac33b0c91",
-      "size": 89983337
+      "sha256": "13b07dca66d500fec07ba4313566368e63704970b18ff5c2aa2b5ee99e2dac84",
+      "size": 90029579
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "9ce96dfe77a5b3e93f0b7e7f1042caa49152b3d354a44e9caa2aa76718d3061f",
+      "sha256": "e5a8df75e1b0fc99888169fdabb721062cec2f69dbdaa06f09081d8cc3092606",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "47b2b82d27384e9e903814e019fa440736a81d7fc15ce06180cf629ee96af749",
+      "sha256": "7dd3f080da3f418e10ea6ebd75efa545e1f87860dd82474de8c29caf44b8ee8b",
       "size": 4282,
       "apply": "last"
     }
