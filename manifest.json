@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.507",
-  "published": "2026-11-17T21:42:46Z",
-  "gitRev": "8035fa925b7e92d71698c2ec6bd92bb427a0ee0a",
+  "version": "2.103.508",
+  "published": "2026-11-18T00:07:53Z",
+  "gitRev": "b37800063386689ff3fe75315ca568b22601e5f5",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.508",
+      "t": "Merge pull request #519 from aleksandrsvoboda/feat/squad-milestone-travel"
+    },
     {
       "v": "2.103.507",
       "t": "Merge pull request #518 from aleksandrsvoboda/feat/oven-ash-bot"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.489",
       "t": "Merge pull request #500 from aleksandrsvoboda/feat/fishing-kit"
-    },
-    {
-      "v": "2.103.488",
-      "t": "Merge pull request #499 from aleksandrsvoboda/feat/fish-nodes"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "deb53ba6e43038aea01fa805a985b63a16dc3917cfe122868a841c87c81fa6c6",
-      "size": 89967277
+      "sha256": "5afdc83788278710e780ed62b2c6fd13a09e75b21042510389a36daac33b0c91",
+      "size": 89983337
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "92bb576d60f02bb6a41da82d340d19f5029c79aa61b0b95bdde62427298542c4",
+      "sha256": "9ce96dfe77a5b3e93f0b7e7f1042caa49152b3d354a44e9caa2aa76718d3061f",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "1b775bd3d6e14753a3d14acbd5211f173f4ea294090de81d779a24cddd5aa28d",
+      "sha256": "47b2b82d27384e9e903814e019fa440736a81d7fc15ce06180cf629ee96af749",
       "size": 4282,
       "apply": "last"
     }
