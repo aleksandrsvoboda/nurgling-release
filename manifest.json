@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.515",
-  "published": "2026-11-24T16:14:48Z",
-  "gitRev": "ada1fe008d4e30a1ee4d8a69dd6db1000e7adcdd",
+  "version": "2.103.516",
+  "published": "2026-11-24T19:03:42Z",
+  "gitRev": "c7e3a19a0656c1a61daffe6ba0aa937df7d66e8b",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.516",
+      "t": "Merge pull request #528 from aleksandrsvoboda/feat/lantern-stand-lighting"
+    },
     {
       "v": "2.103.515",
       "t": "Merge pull request #526 from aleksandrsvoboda/fix/background-session-placing"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.497",
       "t": "Merge pull request #509 from aleksandrsvoboda/feat/leveling-planner"
-    },
-    {
-      "v": "2.103.496",
-      "t": "Merge pull request #508 from aleksandrsvoboda/fix/greenhouse-tent-portals"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "7c0a108dcf6d5eff6fa1142e429aeced4f9953999604952f5b1628a8ae73082f",
-      "size": 90221004
+      "sha256": "9775e787bb171ecddcc24f825bfb1088377ab61084d77602141e9ea736a353eb",
+      "size": 90229167
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "3272011ea3fe4d2ec03d7d7fa5f424612c7791edce20cc52bd7e89a9312b0a60",
+      "sha256": "e79f6e0eb04cb980962270daa3539b37e9e2281b492f670822a52994d5f40987",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "0da4c5784174ad9c214753adc48cebccf27ceeff6e909737370390dc585d82d5",
+      "sha256": "cc9ddc3fb7e9b4303d08dfcfa89ea2b42dcbd8c3a6a5832e79726e9a5eab306c",
       "size": 4282,
       "apply": "last"
     }
