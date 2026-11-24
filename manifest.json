@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.513",
-  "published": "2026-11-19T04:09:29Z",
-  "gitRev": "d84b8f39b8e4c24edc2c01cb885911d93290904e",
+  "version": "2.103.514",
+  "published": "2026-11-24T15:44:13Z",
+  "gitRev": "ca222af3e61c42f7a818bdb200b42c0339404eb1",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.514",
+      "t": "Merge pull request #525 from aleksandrsvoboda/chore/remove-colony"
+    },
     {
       "v": "2.103.513",
       "t": "Merge pull request #524 from aleksandrsvoboda/feat/colony-phase0"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.495",
       "t": "Merge pull request #507 from aleksandrsvoboda/fix/roadsign-tag-overlap"
-    },
-    {
-      "v": "2.103.494",
-      "t": "Merge pull request #506 from aleksandrsvoboda/feat/forager-global-settings"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "b00708d21a2194df5cfd7cb14b1699943392314e6c791666675100593dbe987a",
-      "size": 90338937
+      "sha256": "38c51bf77cee8c47b495443ced6f178a9d097ba1d1264d92b2cf49e564eb06b1",
+      "size": 90221016
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "239705f810409fbd606746ab09c8ecc502e281d79d7b9a8839aefd2f40fd89bb",
+      "sha256": "404ef45bc870e7302102428aef3c40325305edac779677207151cf40e8107dda",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "355677eaaa7c3c1dce12f8ff882d2e860d26a258d96c51ad7b4a59c534944a69",
+      "sha256": "8f1d0647fe89b274b939f03732c010a5eab11a3b20b88ed7f952e8eae716f2d5",
       "size": 4282,
       "apply": "last"
     }
