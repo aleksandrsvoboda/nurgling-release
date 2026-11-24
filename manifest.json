@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.518",
-  "published": "2026-11-24T21:20:13Z",
-  "gitRev": "fc2998ff7fc961bc4ed06581f5e07f656af1f006",
+  "version": "2.103.519",
+  "published": "2026-11-24T23:09:13Z",
+  "gitRev": "177fe1a41843032f900c0dc3b3e8a78d070d23cc",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.519",
+      "t": "Merge pull request #531 from aleksandrsvoboda/feat/autocraft-mixed-inputs"
+    },
     {
       "v": "2.103.518",
       "t": "Merge pull request #530 from aleksandrsvoboda/fix/pathfinder-pocket-start"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.500",
       "t": "Merge pull request #510 from aleksandrsvoboda/feat/kin-online-sound-toggle"
-    },
-    {
-      "v": "2.103.499",
-      "t": "Global navigation: keep side-by-side greenhouses, tents and huts apart"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "10a47c98b8be9348799f4225db1a3e1e9bec60fdd3f975ef2d3337c01cde6d3a",
-      "size": 90229520
+      "sha256": "e6604406b93e7791fe8407a51fe144c9ac178c93a96b703deac2186e7df59080",
+      "size": 90242057
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "4be09db7cbcb3ce8c6d568cad19b8343d7afaaa5562ebaa7d5186d2ee0d78074",
+      "sha256": "121fa13af8cbaba9ce5c66df59f4256a91e8b59a1e0df9828ee8cf8c0b6ac4ad",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "aff0c61bd87d604e9f763fb6e299c4c2df7397c31f0a67eb8cac0e4a4294adff",
+      "sha256": "364986c0a33c2a9306aed1b9128026eb2a9f7231251fa03ef106269a4fb3971c",
       "size": 4282,
       "apply": "last"
     }
