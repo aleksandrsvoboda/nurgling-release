@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.520",
-  "published": "2026-11-24T23:17:37Z",
-  "gitRev": "7f59477822741b671578003eb45578db0ee74a5c",
+  "version": "2.103.521",
+  "published": "2026-11-24T23:20:14Z",
+  "gitRev": "dc9056465728eb80f9c3a863e0f7246aa5f27972",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.521",
+      "t": "Merge pull request #527 from aleksandrsvoboda/fix/inspect-hover-offset"
+    },
     {
       "v": "2.103.520",
       "t": "Merge pull request #532 from aleksandrsvoboda/fix/ctrl-snap-offcentre-footprint"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.502",
       "t": "Merge pull request #512 from aleksandrsvoboda/fix/large-fields-seeds-before-straw"
-    },
-    {
-      "v": "2.103.501",
-      "t": "Merge pull request #511 from aleksandrsvoboda/feat/large-field-farmers"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "2dcaf9fbd85b97b5a9e00c986231fade7cf041055982c998c07e85e9a55b75ce",
-      "size": 90242009
+      "sha256": "ed30beb6a3cc04737d421d224f7fb59cd70937a9fcb4134d96abb7bcf973e71a",
+      "size": 90242090
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "85921476cda352e59e89576ae712a0d95d5b72f9a710a0599d7165e86a26a4b5",
+      "sha256": "3e74bd555007d65b948f9f5c4cc8b622a42392083f51fbb4c76ecd8b324c3cde",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "1ccd903cc7427a1b66bb2d468fba6f3f2c4ddd5638d188cf6c9c1b296033a3c5",
+      "sha256": "3c4fc39e0b5a36782ae732930e36bcc24f21372d65918c8463576fbcb0260054",
       "size": 4282,
       "apply": "last"
     }
