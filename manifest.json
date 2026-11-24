@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.514",
-  "published": "2026-11-24T15:44:13Z",
-  "gitRev": "ca222af3e61c42f7a818bdb200b42c0339404eb1",
+  "version": "2.103.515",
+  "published": "2026-11-24T16:14:48Z",
+  "gitRev": "ada1fe008d4e30a1ee4d8a69dd6db1000e7adcdd",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.515",
+      "t": "Merge pull request #526 from aleksandrsvoboda/fix/background-session-placing"
+    },
     {
       "v": "2.103.514",
       "t": "Merge pull request #525 from aleksandrsvoboda/chore/remove-colony"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.496",
       "t": "Merge pull request #508 from aleksandrsvoboda/fix/greenhouse-tent-portals"
-    },
-    {
-      "v": "2.103.495",
-      "t": "Merge pull request #507 from aleksandrsvoboda/fix/roadsign-tag-overlap"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "38c51bf77cee8c47b495443ced6f178a9d097ba1d1264d92b2cf49e564eb06b1",
-      "size": 90221016
+      "sha256": "7c0a108dcf6d5eff6fa1142e429aeced4f9953999604952f5b1628a8ae73082f",
+      "size": 90221004
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "404ef45bc870e7302102428aef3c40325305edac779677207151cf40e8107dda",
+      "sha256": "3272011ea3fe4d2ec03d7d7fa5f424612c7791edce20cc52bd7e89a9312b0a60",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "8f1d0647fe89b274b939f03732c010a5eab11a3b20b88ed7f952e8eae716f2d5",
+      "sha256": "0da4c5784174ad9c214753adc48cebccf27ceeff6e909737370390dc585d82d5",
       "size": 4282,
       "apply": "last"
     }
