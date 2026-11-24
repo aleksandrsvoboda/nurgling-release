@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.517",
-  "published": "2026-11-24T19:13:57Z",
-  "gitRev": "9e9432806c428736d549ce91129b974f12b08233",
+  "version": "2.103.518",
+  "published": "2026-11-24T21:20:13Z",
+  "gitRev": "fc2998ff7fc961bc4ed06581f5e07f656af1f006",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.518",
+      "t": "Merge pull request #530 from aleksandrsvoboda/fix/pathfinder-pocket-start"
+    },
     {
       "v": "2.103.517",
       "t": "Merge pull request #529 from aleksandrsvoboda/fix/charsel-tab-row-jump"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.499",
       "t": "Global navigation: keep side-by-side greenhouses, tents and huts apart"
-    },
-    {
-      "v": "2.103.498",
-      "t": "Leveling plans: show each plan's border on the ground in the world"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "b3e2e4fd8dd6fdab4f488062193d47d90db5c81eeb11a2131bed6f0b1679825e",
-      "size": 90229151
+      "sha256": "10a47c98b8be9348799f4225db1a3e1e9bec60fdd3f975ef2d3337c01cde6d3a",
+      "size": 90229520
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "6664810aaf4e8a1f5148e706f87028fd273a7df625a68ff84515505cc1a1a3c6",
+      "sha256": "4be09db7cbcb3ce8c6d568cad19b8343d7afaaa5562ebaa7d5186d2ee0d78074",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "0fe83282dd4cbaa27e2cb5cd156535551d90b18a6b172cba19298124ac4f4c93",
+      "sha256": "aff0c61bd87d604e9f763fb6e299c4c2df7397c31f0a67eb8cac0e4a4294adff",
       "size": 4282,
       "apply": "last"
     }
