@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.525",
-  "published": "2026-11-25T16:34:57Z",
-  "gitRev": "ed07141d47fa590472281aec47b5a0b50474b5d2",
+  "version": "2.103.526",
+  "published": "2026-11-25T16:56:21Z",
+  "gitRev": "9cf8ae842425ed4618d6e38204f5c5f31040849d",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.526",
+      "t": "Merge pull request #537 from aleksandrsvoboda/feat/charsel-idle-pose"
+    },
     {
       "v": "2.103.525",
       "t": "Merge pull request #536 from aleksandrsvoboda/fix/lift-retry"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.507",
       "t": "Merge pull request #518 from aleksandrsvoboda/feat/oven-ash-bot"
-    },
-    {
-      "v": "2.103.506",
-      "t": "Merge pull request #517 from aleksandrsvoboda/feat/login-plugin-hooks"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "57d27544d9f8a24fa4cfe60966763c582293c5b5105bbfb3ee543d91fa762044",
-      "size": 90308842
+      "sha256": "c8daba95b8a5d6d88dfd4471be0c10cf41648183e83f2bd65db336da64e4b23c",
+      "size": 90309060
     },
     {
       "path": "haven-config.properties",
@@ -341,8 +341,8 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "9b60c41aad1019bc612947f5ff7a1ad0aa83b778f0ce9df8ed944dd262146ae0",
-      "size": 28017347
+      "sha256": "d0214f4a775e7dad503d30a918846d14b6bb6bde595eef2c16d0c89b2d893ca8",
+      "size": 28017348
     },
     {
       "path": "nurgling-updater.jar",
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "eef132035bc6d243d4240075f9f4fdf70cffcc130cab2db55cc8a2d97101938c",
+      "sha256": "42705e2b8be9f1166f06d9d3a23e54f957d572b2fb0b91dc4fbffafd894ea78d",
       "size": 4282,
       "apply": "last"
     }
