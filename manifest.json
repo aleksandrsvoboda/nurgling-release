@@ -1,11 +1,15 @@
 {
   "schema": 1,
-  "version": "2.103.524",
-  "published": "2026-11-25T16:13:49Z",
-  "gitRev": "4d5f59b433bed387362145edb2685ec898c982f3",
+  "version": "2.103.525",
+  "published": "2026-11-25T16:34:57Z",
+  "gitRev": "ed07141d47fa590472281aec47b5a0b50474b5d2",
   "updater": "1.3.0",
   "minUpdater": "1.0.0",
   "notes": [
+    {
+      "v": "2.103.525",
+      "t": "Merge pull request #536 from aleksandrsvoboda/fix/lift-retry"
+    },
     {
       "v": "2.103.524",
       "t": "Merge pull request #535 from aleksandrsvoboda/feat/horse-riding"
@@ -81,10 +85,6 @@
     {
       "v": "2.103.506",
       "t": "Merge pull request #517 from aleksandrsvoboda/feat/login-plugin-hooks"
-    },
-    {
-      "v": "2.103.505",
-      "t": "Merge pull request #516 from aleksandrsvoboda/feat/plague-skin"
     }
   ],
   "launch": {
@@ -233,8 +233,8 @@
     },
     {
       "path": "hafen.jar",
-      "sha256": "2c7e178fd62de597492334606ce7f2a4816b4996fe71d2b813551414260a14c2",
-      "size": 90306225
+      "sha256": "57d27544d9f8a24fa4cfe60966763c582293c5b5105bbfb3ee543d91fa762044",
+      "size": 90308842
     },
     {
       "path": "haven-config.properties",
@@ -341,7 +341,7 @@
     },
     {
       "path": "nurgling-res.jar",
-      "sha256": "e4c974daecf51481238d12e59b42f08fee05833dc3021c8696d63ee295d30f6a",
+      "sha256": "9b60c41aad1019bc612947f5ff7a1ad0aa83b778f0ce9df8ed944dd262146ae0",
       "size": 28017347
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "path": "ver",
-      "sha256": "51762c95ad79b839f791e0b1dbc6236649218d44d2ddd788a7ca7e1dfd51740f",
+      "sha256": "eef132035bc6d243d4240075f9f4fdf70cffcc130cab2db55cc8a2d97101938c",
       "size": 4282,
       "apply": "last"
     }
